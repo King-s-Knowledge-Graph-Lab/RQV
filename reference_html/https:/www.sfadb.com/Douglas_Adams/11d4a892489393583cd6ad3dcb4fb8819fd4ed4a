@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<title>sfadb : Douglas Adams Awards</title>
+
+
+<link rel="stylesheet" type="text/css" href="../00sfadb.css">
+<link rel="stylesheet" type="text/css" href="../00sfadbnames.css">
+<meta name="keywords" content="locus, magazine, science fiction, fantasy, horror, award, awards">
+<meta name="creator" content="online@locusmag.com">
+<meta name="owner" content="online@locusmag.com">
+<link rel="stylesheet" type="text/css" href="../tabcontent.css" />
+<link rel="stylesheet" type="text/css" href="../namepagetabs.css" />
+<link rel="stylesheet" type="text/css" href="../tabcontentawards.css" />
+<link rel="stylesheet" type="text/css" href="../ddsmoothmenu.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="../ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* http://www.dynamicdrive.com/dynamicindex1/ddsmoothmenu.htm
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "smoothmenu1", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+
+
+</script>
+</head>
+<body>
+
+<div class="menu">
+<div id="wrap2">
+<div class="menuposition">
+<div id="smoothmenu1" class="ddsmoothmenu">
+<ul>
+<li class="mm"><a href="#">Names</a>
+  <ul>
+  <li class="mm"><div class="menuhdr">&#0151; Authors, Nominees, Judges &#0151;</li>
+  <li class="mm"><table class="mmaw" width="500">
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_Aa-Am"><div class="menutd">A-Am</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_An-Ar"><div class="menutd">An-Ar</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_As-Az"><div class="menutd">As-Az</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ba"><div class="menutd">Ba</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Be"><div class="menutd">Be</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Bi-Bo"><div class="menutd">Bi-Bo</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Br"><div class="menutd">Br</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Bu-By"><div class="menutd">Bu-By</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ca-Ce"><div class="menutd">Ca-Ce</div></a></td>
+  </tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_Ch-Cl"><div class="menutd">Ch-Cl</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Co"><div class="menutd">Co</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Cr-Cz"><div class="menutd">Cr-Cz</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Da"><div class="menutd">Da</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_De"><div class="menutd">De</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Di-Do"><div class="menutd">Di-Do</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Dr-Dz"><div class="menutd">Dr-Dz</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_E"><div class="menutd">E</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Fa-Fl"><div class="menutd">Fa-Fl</div></a></td>
+  </tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_Fo-Fu"><div class="menutd">Fo-Fu</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ga-Gi"><div class="menutd">Ga-Gi</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Gl-Go"><div class="menutd">Gl-Go</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Gr-Gw"><div class="menutd">Gr-Gw</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ha-Han"><div class="menutd">H-Han</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Har-Haz"><div class="menutd">Har-Haz</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_He-Hl"><div class="menutd">He-Hl</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ho-Hr"><div class="menutd">Ho-Hr</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Hu-Hy"><div class="menutd">Hu-Hy</div></a></td>
+  </tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_I"><div class="menutd">I</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ja-Ji"><div class="menutd">Ja-Ji</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Jo-Ju"><div class="menutd">Jo-Ju</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ka-Ke"><div class="menutd">Ka-Ke</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Kh-Km"><div class="menutd">Kh-Km</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Kn-Ky"><div class="menutd">Kn-Ky</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_La"><div class="menutd">La</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Le-Ll"><div class="menutd">Le-Ll</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Lo-Ly"><div class="menutd">Lo-Ly</div></a></td>
+  </tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_M-Map"><div class="menutd">M-Map</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Mar-May"><div class="menutd">Mar-May</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Mc"><div class="menutd">Mc</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Me-Mi"><div class="menutd">Me-Mi</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Mo"><div class="menutd">Mo</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Mu-My"><div class="menutd">Mu-My</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_N"><div class="menutd">N</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_O"><div class="menutd">O</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Pa"><div class="menutd">Pa</div></a></td>
+  </tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_Pe-Pf"><div class="menutd">Pe-Pf</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ph-Py"><div class="menutd">Ph-Py</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Q-Ri"><div class="menutd">Q-Ri</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ro"><div class="menutd">Ro</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ru-Rz"><div class="menutd">Ru-Rz</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Sa"><div class="menutd">Sa</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Sc-Sf"><div class="menutd">Sc-Sf</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Sh-Sl"><div class="menutd">Sh-Sl</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Sm-Sq"><div class="menutd">Sm-Sq</div></a></td>
+  </tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_St"><div class="menutd">St</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Su-Sz"><div class="menutd">Su-Sz</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Ta-Te"><div class="menutd">Ta-Te</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Th-To"><div class="menutd">Th-To</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Tr-Ty"><div class="menutd">Tr-Ty</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_U-V"><div class="menutd">U-V</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Wa"><div class="menutd">Wa</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_We"><div class="menutd">We</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_Wh-Wl"><div class="menutd">Wh-Wl</div></a></td>
+  </tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/Names_Wo-Wy"><div class="menutd">Wo-Wy</div></a></td>
+  <td><a href="http://www.sfadb.com/Names_X-Z"><div class="menutd">X-Z</div></a></td>
+  </tr>
+  </table>
+  </li>
+  </ul>
+</li>
+<li class="mm"><a href="http://www.sfadb.com/Awards_Directory">Awards</a>
+  <ul>
+  <li class="mm"><div class="menuhdr">&#0151; Awards Listings and Indexes &#0151;</div></li>
+  <li class="mm">
+<table class="mmaw" width="550"><tr>
+<td><a href="http://www.sfadb.com/Science_Fiction_Hall_of_Fame"><div class="menutd">&#0151; SF Hall of Fame &#0151;</div></a></td>
+<td><a href="http://www.sfadb.com/SFWA_Grand_Master_Award"><div class="menutd">&#0151; SFWA Grand Master &#0151;</div></a></td></tr></table>
+<table class="mmaw" width="550">
+<tr>
+<td>&nbsp;</td>
+<td><a href="http://www.sfadb.com/Hugo_Awards"><div class="menutdl">Hugo</div></a></td>
+<td><a href="http://www.sfadb.com/World_Fantasy_Awards"><div class="menutdl">World&nbsp;Fantasy</div></a></td>
+<td><a href="http://www.sfadb.com/John_W_Campbell_Memorial_Award"><div class="menutdl">Campbell Memorial</div></a></td>
+<td><a href="http://www.sfadb.com/Philip_K_Dick_Award"><div class="menutdl">Philip K. Dick</div></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href="http://www.sfadb.com/Nebula_Awards"><div class="menutdl">Nebula</div></a></td>
+<td><a href="http://www.sfadb.com/Bram_Stoker_Awards"><div class="menutdl">Bram Stoker</div></a></td>
+<td><a href="http://www.sfadb.com/Chesley_Awards"><div class="menutdl">Chesley</div></a></td>
+<td><a href="http://www.sfadb.com/Shirley_Jackson_Awards"><div class="menutdl">Shirley Jackson</div></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href="http://www.sfadb.com/Andre_Norton_Award"><div class="menutdl">&nbsp;&nbsp;Andre Norton</div></a></td>
+<td><a href="http://www.sfadb.com/British_Fantasy_Awards"><div class="menutdl">British Fantasy</div></a></td>
+<td><a href="http://www.sfadb.com/Arthur_C_Clarke_Award"><div class="menutdl">Arthur C. Clarke</div></a></td>
+<td><a href="http://www.sfadb.com/Theodore_Sturgeon_Memorial_Award"><div class="menutdl">Theodore <b>Sturgeon</b></div></a></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href="http://www.sfadb.com/Ray_Bradbury_Award"><div class="menutdl">&nbsp;&nbsp;Ray Bradbury</div></a></td>
+<td><a href="http://www.sfadb.com/British_SF_Association_Awards"><div class="menutdl">British SF</div></a></td>
+<td><a href="http://www.sfadb.com/International_Fantasy_Awards"><div class="menutdl">International Fantasy Award</div></a></td>
+<td><a href="http://www.sfadb.com/James_Tiptree_Jr_Memorial_Award"><div class="menutdl">James <b>Tiptree</b> Jr</div></a></td>
+<td>&nbsp;</td>
+</tr>
+</table>
+
+
+
+
+
+<table class="mmaw" width="550"><tr>
+<td><a href="http://www.sfadb.com/Locus_Awards"><div class="menutd">&#0151; Locus Poll and Awards &#0151;</div></a></td>
+</tr></table>
+<table class="mmaw" width="550"><tr>
+<td>&nbsp;</td>
+<td><a href="http://www.sfadb.com/Aurealis_Awards"><div class="menutdl">Aurealis</div></a></td>
+<td><a href="http://www.sfadb.com/Aurora_Awards"><div class="menutdl">Aurora</div></a></td>
+<td><a href="http://www.sfadb.com/Ditmar_Awards"><div class="menutdl">Ditmar</div></a></td>
+<td><a href="http://www.sfadb.com/Endeavour_Award"><div class="menutdl">Endeavour</div></a></td>
+<td><a href="http://www.sfadb.com/The_Kitschies"><div class="menutdl">Kitschies</div></a></td><td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href="http://www.sfadb.com/Mythopoeic_Awards"><div class="menutdl">Mythopoeic</div></a></td>
+<td><a href="http://www.sfadb.com/Prometheus_Awards"><div class="menutdl">Prometheus</div></a></td>
+<td><a href="http://www.sfadb.com/Sidewise_Awards"><div class="menutdl">Sidewise</div></a></td>
+<td><a href="http://www.sfadb.com/Spectru5_Awards"><div class="menutdl">Spectrum</div></a></td>
+<td><a href="http://www.sfadb.com/Sunburst_Award"><div class="menutdl">Sunburst</div></a></td>
+<td>&nbsp;</td>
+</tr></table>
+
+
+
+<table class="mmaw" width="550"><tr>
+<td><a href="http://www.sfadb.com/Awards_Directory"><div class="menutd">&#0151; &#0151; <b><i>complete Awards Directory</i></b> &#0151; &#0151;</div></a></td>
+</tr></table>
+
+
+
+</li>
+  </ul>
+</li>
+<li class="mm"><a href="http://www.sfadb.com/Citations_Directory">Citations</a>
+  <ul>
+  <li class="mm"><div class="menuhdr">&#0151; Citations Directory &#0151;</div></li>
+  <li class="mm"><table class="mmaw" width="200">
+  <tr><td>&nbsp;</td></tr></table>
+  </li>
+  </ul>
+</li>
+<li class="mm"><a href="http://www.sfadb.com/Anthologies_Directory">Anthologies</a>
+  <ul>
+  <li class="mm"><div class="menuhdr">&#0151; Anthologies Directory &#0151;</div></li>
+  <li class="mm"><table class="mmaw" width="200">
+  <tr><td>&nbsp;</td></tr></table>
+  </li>
+  </ul>
+</li>
+<li class="mm"><a href="http://www.sfadb.com/ShfScoringMethodology">Rankings</a>
+  <ul>
+  <li class="mm"><table class="mmaw" width="200">
+  <tr>
+  <td><a href="http://www.sfadb.com/ShfScoringMethodology"><div class="menutd">Intro & Scoring Methodology</div></a></td></tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/TopShortStories"><div class="menutd">Short Stories</div></a></td></tr>
+  <tr><td><a href="http://www.sfadb.com/TopNovelettes"><div class="menutd">Novelettes</div></a></td></tr>
+  <tr><td><a href="http://www.sfadb.com/TopNovellas"><div class="menutd">Novellas</div></a></td></tr>
+  </table>
+  </li>
+  </ul>
+</li>
+
+<li class="mm"><a href="http://www.sfadb.com/Timeline">Timeline</a>
+</li>
+<li class="mm"><a href="#">More</a>
+  <ul>
+  <li class="mm"><table class="mmaw" width="200">
+  <tr>
+  <td><a href="http://www.sfadb.com/Introduction"><div class="menutd">Introduction</div></a></td></tr>
+  <tr>
+  <td><a href="http://www.sfadb.com/FAQs_and_Stats_Directory"><div class="menutd">FAQS & Stats</div></a></td></tr>
+  <tr><td><a href="http://www.sfadb.com/PublishersIndex"><div class="menutd">Awards Results by Publisher</div></a></td></tr>
+  <tr><td><a href="http://www.sfadb.com/PeriodicalsIndex"><div class="menutd">Awards Results by Periodical</div></a></td></tr>
+  </table>
+  </li>
+  </ul>
+</li>
+<!--
+
+<li class="mm"><a href="http://www.sfadb.com/FAQs_and_Stats_Directory">FAQs&Stats</a>
+  <ul>
+  <li class="mm"><div class="menuhdr">&#0151; FAQs & Stats Directory &#0151;</div></li>
+  <li class="mm"><table class="mmaw" width="200">
+  <tr><td>&nbsp;</td></tr></table>
+  </li>
+  </ul>
+</li>
+-->
+
+</ul>
+<br style="clear: left" />
+</div>
+
+
+
+
+
+
+</div></div></div>
+
+
+
+<div id="wrap">
+
+<div class="floatleft">
+<a href="../">
+<img src="../graphics/sfadblogo_175x42.jpg" width="175" height="42" border="0"></a></div>
+
+<div class="pagetitle">
+Douglas Adams
+</div> <!-- pagetitle -->
+
+<br clear="all">
+
+<!-- open left pane -->
+<div class="floatleft"><div class="leftpane">
+
+
+
+<br>
+science fiction awards database
+<br>
+
+<br>
+<a href="David_Adams"><&#0151;</a>
+&nbsp;&nbsp;&nbsp;
+<a href="Names_Aa-Am">&uarr;</a>
+&nbsp;&nbsp;&nbsp;
+<a href="G_Derek_Adams">&#0151;></a>
+<br>
+
+</div> <!-- leftpane -->
+</div> <!-- floatleft -->
+
+<div class="floatright"><div class="pagemain">
+
+<ul id="namepagetabs" class="namepagetabs">
+<li class="awards"><a href="#" class="selected">Awards</a></li>
+<li class="citations"><a href="Douglas_Adams_Citations">Citations</a></li>
+<li class="titles"><a href="Douglas_Adams_Titles">Titles</a></li>
+<li class="chrono"><a href="Douglas_Adams_Chronology">Chronology</a></li>
+</ul>
+<div class="contentblock">
+ 
+<div class="summarybox">
+</div>
+ 
+<div class="summarybox">
+<h2>Awards Summary</h2>
+<p>Career and Special Awards: 1</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Other Awards: 2</p>
+<p>Total Number of Award Wins and Nominations: 5</p>
+</div>
+ 
+ 
+ 
+<div class="awardlistingsectionheader">&#0151; Career and Special Awards &#0151; </div>
+ 
+<div class="entryblock2"><div class="titleleft"><a href="Science_Fiction_Hall_of_Fame">Science Fiction Hall of Fame</a> &#0151; <i>selected by <a href="http://www.empsfm.org/">Science Fiction Museum</a> and advisors</i></div>
+ 
+<div class="dateleftindent"><a href="Science_Fiction_Hall_of_Fame_2017">2017</a>: </div>
+<div class="titlemid">  
+ &#0151; creator &#0151; <span class="win">winner</span></div><br clear="all">
+ 
+</div>
+ 
+<div class="awardlistingsectionheader">&#0151; Locus Awards and Poll &#0151; </div>
+ 
+<div class="entryblock2"><div class="titleleft"><a href="Locus_Awards">Locus Awards</a> &#0151; <i>for SF/F/H works, polled by readers of Locus Magazine</i></div>
+ 
+<div class="winnomtotalsindent"> (1 nomination)</div><br>
+ 
+<div class="dateleftindent"><a href="Locus_Awards_1983">1983</a>: </div>
+<div class="titlemid"><b>Life, the Universe and Everything</b>   (Harmony)
+ &#0151; sf novel &#0151; 10th place</div><br clear="all">
+ 
+</div>
+ 
+<div class="awardlistingsectionheader">&#0151; Other Awards &#0151; </div>
+ 
+<div class="entryblock2"><div class="titleleft"><a href="Ditmar_Awards">Ditmar Awards</a> &#0151; <i>for Australian SF/F, voted by members of Australian National SF Convention</i></div>
+ 
+<div class="winnomtotalsindent"> (2 nominations; 2 wins)</div><br>
+ 
+<div class="dateleftindent"><a href="Ditmar_Awards_1980">1980</a>: </div>
+<div class="titlemid"><b>The Hitchhiker's Guide to the Galaxy</b>  
+ &#0151; international fiction &#0151; <span class="win">winner</span></div><br clear="all">
+ 
+<div class="dateleftindent"><a href="Ditmar_Awards_1980">1980</a>: </div>
+<div class="titlemid">  
+ &#0151; Pat Terry Award &#0151; <span class="win">winner</span></div><br clear="all">
+ 
+</div>
+ 
+<div class="entryblock2"><div class="titleleft"><a href="Interzone_Readers_Poll">Interzone Readers Poll</a> &#0151; <i>for stories published in Interzone magazine, polled by readers</i></div>
+ 
+<div class="winnomtotalsindent"> (1 nomination)</div><br>
+ 
+<div class="dateleftindent"><a href="Interzone_Readers_Poll_1989">1989</a>: </div>
+<div class="titlemid">  
+ &#0151; all-time best sf author &#0151; 22nd place (tie)</div><br clear="all">
+ 
+</div><br clear="all">
+ 
+</div> <!-- contentblock -->
+ 
+
+
+</div> <!-- pagemain -->
+</div> <!-- floatright -->
+<br clear="all">
+
+
+
+<div class="copyrightblock">
+
+Copyright 2012 - 2024 by Mark R. Kelly and the <a class="white" href="http://www.lsff.net/">Locus Science Fiction Foundation</a>. All rights reserved.
+</div> <!-- copyrightblock -->
+
+<div class="timestampblock">
+
+This page last updated Wednesday 2 Feb 2022 at 10:57 PT
+
+
+</div> <!-- timestampblock -->
+
+<br clear="all">
+</div> <!-- wrap -->
+</body></html>

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>datos.bne.es</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <meta name="keywords" content="Biblioteca Nacional de España, Linked Data, Datos enlazados, Open Data, Datos abiertos, cultura, cultura heritage, patrimonio cultural, libros, digitalizaciones, videos, mapas">
+    <meta name="description" content="El portal de datos de la Biblioteca Nacional de España">
+    <link href="/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <meta property="og:title" content="Adams, Douglas (1952-2001)">
+    <meta property="og:image" content="http://commons.wikimedia.org/wiki/Special:FilePath/Douglas_adams_portrait_cropped.jpg?width=300">
+    <meta property="og:description" content="Descubre Adams, Douglas (1952-2001), en el portal de datos abiertos y enlazados de la Biblioteca Nacional de España">
+    <meta property="og:url">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="datos.bne.es">
+    <!--link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")-->
+    <!--link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css")-->
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap-yeti.css">
+    <link rel="stylesheet" href="/css/site.css">
+    <!-- modernizr-->
+    <script type="text/javascript" src="/lib/modernizr.min.js"></script>
+    <!-- jquery-->
+    <script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+      });
+      
+    </script>
+    <style>
+      .tooltip-inner{
+      
+        max-width:600px;
+        
+      }
+      
+    </style>
+    <!--script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js") -->
+    <!--script(src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js")-->
+    
+    <!--if lt IE 9script(src='http://html5shim.googlecode.com/svn/trunk/html5.js')
+    -->
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-20111465-1']);
+      _gaq.push(['_setDomainName', '.bne.es']);
+      _gaq.push(['_setAllowHash', false]);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+      
+    </script>
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], 
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); 
+      })(window,document,'script','dataLayer','GTM-58SJH98');
+      
+    </script>
+    <script>
+      $(function() {
+        $('.ancla').on('click', function(e){
+          e.preventDefault();
+          var strAncla = '#' + $(this).data('ancla');
+          $('html,body').animate({scrollTop: $(strAncla).offset().top}, 2000);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) --> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-58SJH98" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav role="navigation" class="navbar navbar-default">
+      <div class="container">
+        <div id="inicio">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#bne-navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            <div class="logo"><a href="/" class="navbar-brand top"></a></div>
+          </div>
+          <div id="bne-navbar-collapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/">Inicio</a></li>
+              <li><a href="/avanzada">Búsquedas avanzadas</a></li>
+              <li><a href="/marcas">Búsqueda de antiguos poseedores  </a></li>
+              <li><a href="https://www.bne.es/sites/default/files/repositorio-archivos/ayuda-datos-enlazados.pdf" target="_blank">Ayuda</a></li>
+            </ul><a id="logo" href="/" class="pull-right hidden-sm hidden-xs"><img src="/img/logoBNEpositivo.jpg" style="width: 80px" alt="Biblioteca Nacional de España"></a>
+          </div>
+          <div class="aviso-sincro">
+            <p>
+              "Datos.bne no es un reflejo en tiempo real del catálogo oficial de la BNE, sino que se actualiza periódicamente mediante procesos de carga y transformación de datos"
+               
+            </p>
+            <p>       Se recomienda el uso de Mozilla Firefox para la navegación en este buscador </p>
+            <p style="font-weight: bold">
+               
+              Fecha de actualización de datos: 29/02/2024 
+            </p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="content">
+      <div class="container">
+        <section id="search-container" class="row-fluid">
+          <!-- if filter enabled keep it like a search filter until disabled-->
+          <!-- this variable is set for typeahead javascript in the foot.jade file-->
+          <form id="main-search" role="search" action="/principalfind" method="get">
+            <div class="search-wrapper">
+              <h1></h1>
+              <input id="s" name="s" type="text" placeholder="Buscar una persona, grupo, entidad, el título de una obra o un tema. Ej.: Leonardo da Vinci, ONU, Grapes of Wrath, Aztecas" tabindex="1" class="search-term form-control input-lg search-input">
+              <input type="hidden" name="type" id="type_search">
+              <input type="submit" value="" class="hidden-xs search-btn pull-right">
+            </div>
+          </form>
+        </section>
+      </div>
+      <header class="container">
+        <div class="page-header">
+          <h3>Adams, Douglas (1952-2001)</h3>
+          <div class="title-chevron">
+            <div class="chevron-nav">
+            </div>
+            <!--unless !author.P3066-->
+            <!--	a.facets.filter(href='/find/resultados/?s='+author.P3066+'&type=C1003')-->
+          </div>
+        </div>
+      </header>
+      <!--div-->
+      <!--	= editionstypes-->
+      <!--div	-->
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8">
+            <!-- Sometimes we have duplicated abstracts-->
+            <!--	- var comment = author.P3067.replace('@es', '')-->
+            <div class="bio">
+              <p>
+                 
+                Douglas Noël Adams (Cambridge, Inglaterra; 11 de marzo de 1952-Santa Bárbara, California, Estados Unidos; 11 de mayo de 2001) fue un escritor y guionista radiofónico inglés, famoso principalmente por su serie La guía del autoestopista galáctico. En el momento de su muerte la serie había vendido más de quince millones de ejemplares.​ También era conocido por sus iniciales DNA, o —debido a su firma ilegible— como Bop Ad o Bob.
+              </p>
+              <footer>Información extraída de <a href="[object Object]">Wikipedia</a>
+              </footer>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4"><img src="http://commons.wikimedia.org/wiki/Special:FilePath/Douglas_adams_portrait_cropped.jpg?width=300" alt="Adams, Douglas (1952-2001)" class="img-thumbnail author img-responsive center-block">
+          </div>
+        </div>
+        <div class="fechas-section">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="section-flex">
+                <div>
+                  <h4 style="padding:0!important">Año de nacimiento: </h4>
+                </div>
+                <div style="padding:0 15px"><span>1952</span></div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="section-flex">
+                <div>
+                  <h4 style="padding:0!important">Lugar de nacimiento: </h4>
+                </div>
+                <div style="padding:0 15px"><span>Cambridge</span></div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="section-flex">
+                <div>
+                  <h4 style="padding:0!important">Año de fallecimiento: </h4>
+                </div>
+                <div style="padding:0 15px"><span>2001</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="datos-section">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="section-flex">
+                <div>
+                  <h4 style="padding:0!important">Categoría profesional:</h4>
+                </div>
+                <div style="padding:0 15px"><span>
+                     
+                    Guionistas, </span><span>
+                     
+                    Escritores, </span><span>
+                     
+                    Dramaturgos, </span><span>
+                     
+                    Actores, </span><span>
+                     
+                    Novelistas, </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="section-flex">
+                <div>
+                  <h4 style="padding:0!important">Campo de actividad: </h4>
+                </div>
+                <div style="padding:0 15px"><span>
+                     
+                    Ciencia ficción, </span><span>
+                     
+                    Sátira, </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="section-flex">
+                <div>
+                  <h4 style="padding:0!important">Organismo o grupo relacionado: </h4>
+                </div>
+                <div style="padding:0 15px"><span>Footlights</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="section-flex">
+                <div>
+                  <h4 style="padding:0!important">Enlaces relacionados:</h4>
+                </div>
+                <div style="padding:0 15px">
+                  <ul class="list-unstyled">
+                    <li><a href="[object Object]" target="_blank">[object Object]</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div style="padding:10px 0">
+                <h4 style="padding:0!important">Lengua: <span>Inglés</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-2 hidden-xs">
+            <h2 id="stats-heading">En la BNE</h2>
+          </div>
+        </div>
+        <div style="text-align: justify;background:#e2e0d7;border: 1px solid #ccc;padding: 15px;" class="row">
+            <div class="col-xs-3 hidden-xs clickable"><a href="#obras" class="item-link"></a>
+              <svg class="stats">
+                <g>
+                  <circle class="stats-circle-1"></circle>
+                  <text class="stats-text-1">
+                    <tspan>Autor de</tspan>
+                  </text>
+                  <text class="stats-text-1-1">
+                    <tspan>11 </tspan>
+                  </text>
+                  <text class="stats-text-1-2">
+                    <tspan>Obras</tspan>
+                  </text>
+                </g>
+              </svg>
+            </div>
+            <div class="col-xs-3 hidden-xs clickable"><a href="#participaciones" class="item-link"></a>
+              <svg class="stats">
+                <g>
+                  <circle class="stats-circle-3"></circle>
+                  <text class="stats-text-3">
+                    <tspan>Participa en</tspan>
+                  </text>
+                  <text class="stats-text-3-1">
+                    <tspan>1 </tspan>
+                  </text>
+                  <text class="stats-text-3-2">
+                    <tspan>Edición</tspan>
+                  </text>
+                </g>
+              </svg>
+            </div>
+        </div>
+      </section>
+      <section id="obras" class="container">
+        <form action="/find/resultados/" method="get">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;" class="page-header orange">
+            <div style="display:flex; align-items:baseline;">
+              <h3>Sus obras </h3><a href="/find/resultados/?advanced=1&amp;resourceType=&amp;language=&amp;seltab=0&amp;type=C1003&amp;P3002,P3014,P3028=&amp;orden3=&amp;OP3003,OP3006,P1011=[[&quot;http://datos.bne.es/resource/XX1149955&quot;,&quot;Adams, Douglas&quot;]]&amp;OP3008=&amp;cleanPublicationDatea=&amp;cleanPublicationDateb=&amp;P3016,P3022=&amp;P3041,P3009,P3013,P3039=&amp;P3003=&amp;P3001=&amp;P3024=&amp;P3006,cleanPublicationDate="><span style="padding: 10px;"> (Ver todas las ediciones)</span></a>
+            </div>
+            <div class="holder pagination ajax"></div>
+          </div>
+          <div style="text-align: justify;background:#e2e0d7;border: 1px solid #ccc;padding: 15px;">
+            <!--include search/facets_materials-->
+            <ul id="itemContainer" class="media-list row">
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX1848678" class="item-link">Hitch-hiker's guide to the galaxy</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(9 ediciones)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX1848682" class="item-link">Life, the universe and everything</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(6 ediciones)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX4723510" class="item-link">The restaurant at the end of the universe</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(1 edición)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX2187085" class="item-link">Dirk Gently's holistic detective agency</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(1 edición)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX1848688" class="item-link">El restaurante del fin del mundo</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(2 ediciones)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX5507426" class="item-link">Last chance to see</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(1 edición)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX1848686" class="item-link">Mostly harmless</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(4 ediciones)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX1848689" class="item-link">So long, and thanks for all the fish</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(3 ediciones)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX5738979" class="item-link">The hitchhiker's trilogy</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(2 ediciones)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/XX1848684" class="item-link">The long dark tea-time of the soul</a></h5>
+                      <p>Adams, Douglas</p>
+                      <p></p>
+                      <p></p>
+                      <p>
+                      </p>
+                        <p class="info-thumbnail">(1 edición)
+                        </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Obra</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+              <li class="search-li col-xs-12 col-sm-6 col-md-4">
+                <div style="height:160px" class="search-item">
+                    <div class="media-body">
+                      <h5><a href="/resource/a7187134" class="item-link">El restaurant del final de l'univers</a></h5>
+                      <p></p>
+                      <p>[2022],©2022</p>
+                      <p></p>
+                      <p>
+                      </p>
+                      <div class="pull-left type-badge bg-red">
+                        <div class="text-center">Libro</div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </form>
+        <div style="padding: 15px;" class="holder pagination ajax"></div>
+      </section>
+      <section id="participaciones" class="container">
+        <div class="page-header red2">
+          <h3>Obras en las que participa</h3>
+        </div>
+        <ul id="itemContainer-is-contributor" style="text-align: justify;background:#e2e0d7;border: 1px solid #ccc;padding: 15px;" class="media-list row">
+          <li class="search-li col-xs-12 col-sm-6 col-md-4">
+            <div class="search-item clickable">
+                <div class="media-body">
+                  <h5><a href="/resource/a6282460" class="item-link">Dirk Gently, Agencia de Investigaciones ...</a></h5>
+                  <p></p>
+                  <p>2017</p>
+                  <p></p>
+                  <p>
+                  </p>
+                  <div class="pull-left type-badge bg-red">
+                    <div class="text-center">Libro</div>
+                  </div>
+                </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+        <section id="otros" class="container">
+          <div class="page-header">
+            <h3>Enlaces<a onclick="document.getElementById('enlaces').style.display = (document.getElementById('enlaces').style.display == 'none') ? 'block' : 'none'; document.getElementById('imagenEnlace').src =(document.getElementById('enlaces').style.display == 'none') ? '/img/arrow-down.png' : '/img/arrow-up.png'" style="width: 15px" title="Desplegar/Replegar"><img id='imagenEnlace' src='/img/arrow-down.png' style='width: 15px'></a></h3>
+          </div>
+          <div id="enlaces" style="display:none">
+            <table style="text-align: justify;background:#e2e0d7;border: 1px solid #ccc;padding: 15px;" class="table table-condensed table-responsive">
+              <tr>
+                <td class="label-row"><strong>Enlaces relacionados</strong></td>
+                <td>
+                  <p><a href="http://es.wikipedia.org/wiki/Douglas_Adams" target="_blank">http://es.wikipedia.org/wiki/Douglas_Adams</a></p>
+                </td>
+              </tr>
+              <tr>
+                <td><strong></strong></td>
+                <td><a href="http://www.wikidata.org/entity/Q42" target="_blank"><a href="http://www.wikidata.org/entity/Q42" target="">http://www.wikidata.org/entity/Q42</a></a></td>
+              </tr>
+              <tr>
+                <td><strong>VIAF</strong></td>
+                <td><a href="http://viaf.org/viaf/113230702/" target="_blank"><a href="http://viaf.org/viaf/113230702/" target="">http://viaf.org/viaf/113230702/</a></a></td>
+              </tr>
+              <tr>
+                <td><strong>ISNI  </strong></td>
+                <td><a href="https://isni.org/isni/0000000080456315" target="_blank"><a href="https://isni.org/isni/0000000080456315" target="">https://isni.org/isni/0000000080456315</a></a></td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      <section id="otros" class="container">
+        <div class="page-header">
+          <h3>Más información <a onclick="document.getElementById('masInformacion').style.display = (document.getElementById('masInformacion').style.display == 'none') ? 'block' : 'none'; document.getElementById('imagenInfo').src =(document.getElementById('masInformacion').style.display == 'none') ? '/img/arrow-down.png' : '/img/arrow-up.png'" style="width: 15px" title="Desplegar/Replegar"><img id='imagenInfo' src='/img/arrow-down.png' style='width: 15px'>	</a></h3>
+        </div>
+        <div id="masInformacion" style="display:none">
+          <table style="text-align: justify;background:#e2e0d7;border: 1px solid #ccc;padding: 15px;" class="table table-condensed table-responsive">
+                <tr>
+                  <td class="label-row"><strong>Nota de fuente</strong></td>
+                  <td>
+                    <p>Name authorities, 1977-1982---(Douglas, Adams) 	
+                    </p>
+                    <p>El Mundo, 16-5-2001---(Douglas Adams; n. 1952, Cambridge, m. 12-5-2001, Santa Bárbara (California); escritor de obras humorísticas de ciencia ficción) 	
+                    </p>
+                    <p>Guía del autoestopista galáctico, 1987---port. (Douglas Adams) 	
+                    </p>
+                  </td>
+                </tr>
+            <!--+draw_table({resource: author, heading: ['P5012','P5008', 'OP5006', 'OP5009', 'P1007', 'P1002', 'P1003']})-->
+          </table>
+        </div>
+      </section>
+      <section id="otros" class="container">
+        <div class="page-header">
+          <!--h3 Descarga en otros formatos-->
+          <h3>Descarga en otros formatos </h3>
+        </div>
+        <div style="text-align: justify;background:#e2e0d7;border: 1px solid #ccc;padding: 15px;" class="download-links">
+          <!--a.label.label-primary(href=author['@id'].replace('http://datos.bne.es/resource', '/persona')+'.ttl') RDF (Turtle)--><a href="http://datos.bne.es/resource/XX1149955.ttl" class="label label-primary">Obtener el registro en ttl						</a><span></span><a href="http://datos.bne.es/resource/XX1149955.jsonld" class="label label-primary">Obtener el registro en JSON-LD</a><span></span><a href="https://datos.bne.es/resource/XX1149955.rdf" class="label label-primary">Obtener el registro en RDF/XML</a><span></span>
+          <!--a.label.label-primary(href='http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id='+author.id) MARC 21 (Catálogo)--><a href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX1149955" class="label label-primary">Ver en catálogo</a><span></span>
+        </div>
+      </section>
+      <div class="container">
+        <div class="btn-back pull-right clickable"> <a href="#inicio" class="item-link"></a></div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="foot">
+          <div class="foot-acks col-xs-6">
+            <div><img id="brand-bne-foot" src="/img/brand_datos_bne.png" alt="datos.bne.es" class="img-responsive"></div>
+            <div>
+              <h6>Contacto: <a href="#">info.datosenlazados@bne.es</a></h6>
+              <h6>Desarrollado por el <a href="http://www.oeg-upm.net" target="_blank">Ontology Engineering Group </a> en la <a href="http://www.upm.es" target="_blank">Universidad Politécnica de Madrid</a></h6>
+              <h6><a href="https://www.bne.es/es/iniciativas-proyectos/proyecto-datos-enlazados-bne" target="_blank">Acerca de datos.bne.es</a></h6>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="pull-right"><a href="/" target="_self" class="navbar-brand"><img id="logo-bne-foot" src="/img/logoBNEpositivo.jpg" alt="datos.bne.es" style="width: 80px"></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap-->
+    <script type="text/javascript" src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Typeahead settings-->
+    <script type="text/javascript" src="/lib/typeahead.js/dist/typeahead.bundle.min.js"></script>
+    <script type="text/javascript" src="/lib/handlebars/handlebars.min.js"></script>
+    <!-- D3-->
+    <script type="text/javascript" src="/lib/d3/d3.min.js"></script>
+    <!-- jpages-->
+    <script type="text/javascript" src="/lib/jpages.min.js"></script>
+    <!-- respond.js-->
+    <script type="text/javascript" src="/lib/respond.min.js"></script>
+    <!-- Application Init-->
+    <script type="text/javascript" src="/js/bne.js"></script>
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Person","name":"Adams, Douglas (1952-2001)","image":"http://commons.wikimedia.org/wiki/Special:FilePath/Douglas_adams_portrait_cropped.jpg?width=300","birthDate":"1952","deathDate":"2001"}</script>
+    <!--Livereload script rendered-->
+    <script type="text/javascript" src="http://127.0.0.1:35729/livereload.js"></script>
+  </body>
+</html>

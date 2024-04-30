@@ -1,0 +1,305 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- META -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9" /> <!-- Pour Calames -->
+<meta name="description" content="L’application IdRef permet d’interroger les autorités des bases Calames, Sudoc, STAR, STEP et Thèses.fr, d'enrichir et/ou de corriger des notices autorités existantes, de créer, sur authentification, de nouvelles entités." />
+
+<title>
+	Adams, Douglas (1952-2001)</title>
+
+<link rel="shortcut icon" href="img/icon.png" />
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css?v=7" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/header.footer.menu.css?v=2" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/autocomplete.css?v=1" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/recherche.css?v=1" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/general.css?v=1" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/update.notice.css?v=2" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/perenne.css?v=1" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/form.css?v=1" title="style" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/lib/jquery.toast.min.css" title="style" media="screen"/>
+
+
+<!-- JS -->
+<script src="https://outils.abes.fr/cookie-banner/bandeau.js" type="text/javascript" id="cookie-banner-script" data-cookie-banner-url="https://www.idref.fr/donnees_personnelles.jsp"></script>
+
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" type="text/javascript"></script>
+<script>$.noConflict();</script>
+<script src="js/lib-jquery/jquery.cookie.js" type="text/javascript"></script>
+<script src="js/lib-jquery/jquery.base64.js" type="text/javascript"></script>
+<script src="js/lib-jquery/jquery.toast.min.js" type="text/javascript"></script>
+
+<script src="Parametres" type="text/javascript"></script>
+<script src="js/piwik.js?v=1" type="text/javascript"></script>
+<script src="js/connexion.js?v=3" type="text/javascript"></script>
+<script src="js/messages.js?v=1" type="text/javascript"></script>
+<script src="js/app-perenne/references.js?v=3" type="text/javascript"></script>
+<script src="js/app-perenne/merged.js?v=1" type="text/javascript"></script>
+<script src="js/app-perenne/init.js?v=1" type="text/javascript"></script>
+<script src="js/hautdepage.js?v=1" type="text/javascript"></script></head>
+	
+	<body bgcolor="gainsboro" merged="">
+		<header>
+	<div id="tete">
+		<a href="autorites.jsp" id="logo">
+			<img alt="autorites" src="img/logo.png" />
+		</a>
+		<a target="_blank" href="https://paprika.idref.fr" id="paprika" title="Paprika">
+			<img src="img/paprika.png" alt="paprika.idref.fr" />
+			<span style="display:block;">paprika.idref.fr</span>
+		</a>
+		<a target="_blank" href="https://data.idref.fr" id="tsIdRef" title="Triple Store">
+			<img src="img/tsIdRef.png" alt="data.idref.fr" />
+			<span style="display:block;">data.idref.fr</span>
+		</a>
+		<a target="_blank" href="http://documentation.abes.fr/aideidref/accueil/fr/index.html" id="assistance" title="Documentation">
+			<img src="img/aide.png" alt="Documentation" />
+			<span style="display:block;">Documentation</span>
+		</a>
+		<table id="tableLogin" class="table_login">
+			<tr>
+				<td><input id="login" value="" name="login" placeholder="Identifiant" type="text" /></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><input id="password" type="password" value="" name="password" placeholder="Mot de passe" type="password" /></td>
+				<td width="40px">
+					<button class="button"  title="se connecter, réservé aux utilisateurs habilités" type="button" onClick="loginUser()">
+						<i class="fa fa-sign-in"></i>
+					</button>
+				</td>
+			</tr>
+		</table>
+
+		 <table id="tableLogout" class="display-none">
+			<tr>
+				<td>
+					<p>
+						Bonjour <b id="spanBLogin"></b>,
+					</p>
+					<ul>
+						<li>Bienvenue sur IdRef, Identifiants et référentiels pour l'Enseignement supérieur et la Recherche.</li>
+					</ul>
+				</td>
+				<td>
+					<a href="#" class="button" title="se déconnecter" onclick="logoutUser()"><i class="fa fa-sign-out"></i></a>
+				</td>
+			</tr>
+		</table> 
+	</div>
+</header>
+<div id="conteneur">
+        	<div id="MenuHeader">
+		  		<ul>
+					<li class="maxi-1" id="maxi-1-perenne">Adams, Douglas (1952-2001)</li>
+		  		</ul>
+			</div>
+            <div id="modexsl" class="colonne-1">
+				<div class="perenne">
+   <div style="" name="notice" id="Notice">
+      <div class="actions">
+         <div class="action"><a target="_blank" href="https://paprika.idref.fr/?lastname=Adams&amp;firstname=Douglas">
+               <div><img src="img/paprika.png" title="Contrôler dans Paprika" alt="Contrôler dans Paprika"></div>
+               <div>Contrôle Paprika</div></a></div>
+         <div class="action"><a target="_blank" href="https://data.idref.fr/describe/?url=http://www.idref.fr/026677636/id&amp;distinct=1">
+               <div><img src="img/tsIdRef.png" title="Explorer data.idref" alt="Explorer data.idref"></div>
+               <div>data.idref</div></a></div>
+         <div class="action"><a id="copierEAD" onclick="copierPpnClipBoard('<persname @source=&#34;idref&#34; @authfilenumber=&#34;026677636&#34; @normal=&#34;Adams, Douglas (1952-2001)&#34; @role=&#34;&#34;&gt;Adams, Douglas (1952-2001)</persname&gt;')">
+               <div><img src="img/exporter-ead.png" title="Copier ce élément EAD" alt="Copier ce élément EAD"></div>
+               <div>Élément EAD</div></a></div>
+         <div class="action"><a href="javascript:showInfoZotero('Les r%C3%A9f%C3%A9rences bibliographiques de cette notice sont exportables avec Zotero. Une fois le plugin install%C3%A9, cliquez sur l%E2%80%99ic%C3%B4ne \'dossier\' dans la barre de votre navigateur.',null);">
+               <div><img src="img/exporter-zoteroBis.png" title="Export bibliographique" alt="Export bibliographique"></div>
+               <div>Export biblio</div></a></div>
+         <div class="action"><a target="_blank" href="https://www.idref.fr/026677636.xml">
+               <div><img src="img/exporter-xml.png" title="Exporter en XML" alt="Exporter en XML"></div>
+               <div>Export XML</div></a></div>
+         <div class="action"><a target="_blank" href="https://www.idref.fr/026677636.json">
+               <div><img src="img/exporter-json.png" title="Exporter en JSON" alt="Exporter en JSON"></div>
+               <div>Export JSON</div></a></div>
+         <div class="action"><a target="_blank" href="https://www.idref.fr/026677636.rdf">
+               <div><img src="img/exporter-rdf.png" title="Exporter en RDF" alt="Exporter en RDF"></div>
+               <div>Export RDF</div></a></div>
+         <div class="action"><a target="_blank" href="https://www.idref.fr/amelioration.jsp?ppn=026677636&amp;titre=Adams, Douglas (1952-2001)">
+               <div><img src="img/ameliorer.png" title="Améliorer la notice" alt="Améliorer la notice"></div>
+               <div>Améliorer la notice</div></a></div>
+         <div class="action"><a target="_blank" href="https://www.idref.fr/assistance.jsp?ppn=026677636&amp;titre=Adams, Douglas (1952-2001)">
+               <div><img src="img/signaler.png" title="Signaler une erreur" alt="Signaler une erreur"></div>
+               <div>Signaler une erreur</div></a></div>
+      </div>
+      <div id="modexsl" style="margin-top:0px">
+         <div id="editzone">
+            <div class="detail_ppn"><span class="detail_value">
+                  Identifiant pérenne de la notice&nbsp;:&nbsp;<span class="ppn">026677636</span><a id="copierPpn" onclick="copierPpnClipBoard('026677636')"><img src="img/copy-link.png" style="width:15px;" alt="Copier cet identifiant (PPN)" title="Copier cet identifiant (PPN)"></a></span></div>
+            <div class="detail_ppn"><span class="detail_value"><FONT size="2pt">
+                     URI de l'entité :
+                     <a href="http://www.idref.fr/026677636/id" target="_blank">http://www.idref.fr/026677636/id</a></FONT><a id="copierPpn" onclick="copierPpnClipBoard('http://www.idref.fr/026677636/id')"><img src="img/copy-link.png" style="width:10px;" alt="Copier cet URI" title="Copier cet URI"></a></span></div>
+            <div class="detail_recordType"><span>Notice de type</span><span class="DataCoded" id="noticeType">
+                  Personne
+                  </span></div>
+            <div class="detail_bloc_formesRetenue">
+               <div class="detail_titre">
+                  <p>Point d'accès autorisé</p>
+               </div>
+               <div class="detail_vedette"><span class="detail_value"><b>Adams, Douglas (1952-2001)</b></span></div>
+               <div class="detail_nomOrdre"><span class="detail_value"></span></div>
+            </div>
+            <div class="detail_bloc_formesRejetees">
+               <div class="detail_titre">
+                  <p>Variante de point d'accès</p>
+               </div>
+               <div class="detail_variantes"><span class="detail_value"><b>Adams, Douglas Noel</b></span><div class="detail_nameType">[Nom de personne]</div>
+                  <div class="detail_nameType"><span id="ZXXX_5">Nom à l'état civil</span></div>
+               </div>
+            </div>
+            <div class="detail_bloc_informations">
+               <div class="detail_titre">
+                  <p>Information</p>
+               </div>
+               <div class="detail_info"><span> (par souci de protection des données à <a href="https://www.idref.fr/donnees_personnelles.jsp">caractère personnel</a>, le jour et le mois de naissance peuvent ne pas être affichés)</span></div>
+               <div class="detail_langue"><b>Langue d'expression&nbsp;:&nbsp;</b><span class="DataCoded" id="Langues">anglais</span></div>
+               <div class="detail_nationalite"><b>Pays&nbsp;:&nbsp;</b><span class="DataCoded" id="PaysISO3166">Royaume-Uni de Grande-Bretagne et d'Irlande du Nord</span></div>
+               <div class="detail_naissance"><b>Date de naissance&nbsp;:&nbsp;</b><span class="detail_value"> &nbsp;
+                     	                        11&nbsp;/&nbsp;
+                     	                        03&nbsp;/&nbsp;
+                     	                        1952</span></div>
+               <div class="detail_mort"><b>Date de mort&nbsp;:&nbsp;</b><span class="detail_value"> &nbsp;
+                     	                        11&nbsp;/&nbsp;
+                     	                        05&nbsp;/&nbsp;
+                     	                        2001</span></div>
+               <div class="detail_sexe"><b>Genre&nbsp;:&nbsp;</b><span class="DataCoded" id="Z120_sexe">Masculin</span></div>
+            </div>
+            <div class="detail_bloc_identifiants">
+               <div class="detail_titre">
+                  <p>Identifiants externes</p>
+               </div>
+               <div class="detail_idEnCours"></div>
+               <div class="detail_idEnCours"><span class="detail_label"><img class="img-size-xs" src="img/bibliographie-viaf.png"> Identifiant VIAF&nbsp;:&nbsp;</span><span class="detail_value"><a target="_blank" href="http://viaf.org/viaf/113230702">http://viaf.org/viaf/113230702</a></span></div>
+               <div class="detail_idEnCours"></div>
+               <div class="detail_idEnCours"><span class="detail_label"><img class="img-size-xs" src="img/bibliographie-wikipedia.png"> Identifiant Wikipédia&nbsp;:&nbsp;</span><span class="detail_value"><a target="_blank" href="https://fr.wikipedia.org/wiki/Douglas_Adams">https://fr.wikipedia.org/wiki/Douglas_Adams</a></span></div>
+               <div class="detail_idEnCours"><span class="detail_label"><img class="img-size-xs" src="img/bibliographie-bnf.png"> Identifiant ARK BNF&nbsp;:&nbsp;</span><span class="detail_value"><a target="_blank" href="http://catalogue.bnf.fr/ark:/12148/cb11888092r">http://catalogue.bnf.fr/ark:/12148/cb11888092r</a></span></div>
+               <div class="detail_idEnCours"><span class="detail_label"><img class="img-size-xs" src="img/bibliographie-isni.png"> Identifiant ISNI&nbsp;:&nbsp;</span><span class="detail_value"><a target="_blank" href=" http://isni.org/isni/0000000080456315">0000000080456315</a></span></div>
+            </div>
+            <div class="detail_bloc_sources">
+               <div class="detail_titre">
+                  <p>Source</p>
+               </div>
+               <div class="detail_sourceProfit"><span class="detail_value">H2G2. I, Le guide du voyageur galactique / Douglas Adams ; traduit de l'anglais par
+                     Jean Bonnefoy, DL 2005</span></div>
+               <hr width="30%" size="1px" align="left" style="border-top: 1px solid #ccc; margin-top : 10px; margin-bottom : 10px;">
+               <div class="detail_sourceProfit"><span class="detail_value">Internet, https://fr.wikipedia.org/wiki/Douglas_Adams (2017-05-02)</span><span class="detail_value"><br><br><span class="infoTrouvee">Information trouvée&nbsp;:&nbsp;</span>Douglas Noel Adams, né le 11 mars 1952 à Cambridge et mort le 11 mai 2001 (à 49 ans)
+                     à Santa Barbara, est un écrivain et scénariste anglais. Il est surtout connu pour
+                     son œuvre "Le guide du voyageur galactique" ("The hitchhiker's guide to the galaxy"),
+                     une saga de science-fiction humoristique dont il scénarisa le feuilleton radio original
+                     puis écrivit la "trilogie en cinq volumes" de romans.</span></div>
+            </div>
+         </div>
+         <div class="detail_bloc_biblio">
+            <div class="detail_titre"><a name="haut"></a><p id="ref-liees-p"><span id="perenne-references-total">...</span> Références liées&nbsp;:&nbsp;<span id="perenne-references-count">...</span></p>
+            </div>
+            <div id="perenne-references-loader" class="text-center">
+               <h1><i class="fa fa-spinner fa-pulse fa-fw"></i></h1>
+            </div>
+            <div id="perenne-references-roles"></div>
+            <div id="perenne-references-docs"></div>
+         </div>
+      </div>
+   </div>
+</div></div>
+        </div>
+		<div id="LogDiv">
+	<textarea id="log" rows="5" cols="70"></textarea>
+</div>
+<!-- Bouton de retour en haut de page -->
+<button onclick="scrollToTop()" id="scrollBtn" class="chevron" title="Revenir en haut de page"><img src="/img/chevron.png"></button>
+<footer>
+	<div id="pied" class="pied">
+		<div id="infoFooter">
+			<div style="width:30%">
+				<p>IdRef - Identifiants et Référentiels pour l'ESR</p>
+				L'interface publique IdRef permet la consultation des notices d'autorités produites par les établissements membres des réseaux documentaires de l'ESR (Sudoc, Calames, Star). 
+				<br/>
+				IdRef est à la disposition des usagers professionnels habilités à créer/corriger/enrichir les notices d'autorité (authentification requise). 
+				<br/>A partir d'IdRef, une gamme de services (triple store data.id<span style="color:#da1259;">ref</span>.fr, entrepôt OAI-PMH, APIs) est disponible en accès libre pour faciliter la réutilisation des données.
+			</div>
+			<div>
+				<p>Pour les développeurs</p>
+				<ul>
+					<li>
+						<a href="http://documentation.abes.fr/aideidref/accueil/fr/index.html" target="_blank">Documentation IdRef</a>
+					</li>
+					<li>
+						<a href="http://documentation.abes.fr/aideidrefdeveloppeur/index.html" target="_blank">APIs et web services</a>
+					</li>
+					<li>
+						<a href="http://documentation.abes.fr/aideidrefdata/index.html" target="_blank">data.idref.fr</a>
+					</li>
+					<li>
+						<a href="http://documentation.abes.fr/aideidrefoai/index.html" target="_blank">OAI-PMH IdRef</a>
+					</li>
+					<li>
+						<a href="https://github.com/abes-esr/" target="_blank">GitHub Abes</a>
+					</li>
+				</ul>			     
+			</div>
+			<div style="width:20%">
+				<p>Utilisation des données</p>
+				Libre et gratuite sous licence Etalab
+				<ul>
+					<li>
+						<a title="Licence Etalab" href="https://github.com/etalab" target="_blank">
+							GitHub Etalab	
+						</a>
+					</li>
+				</ul>
+				<a title="Licence Etalab" href="https://www.etalab.gouv.fr/licence-ouverte-open-licence" target="_blank">
+                   <img alt="Licence Etalab" src="img/etalab.png" style="width:40px;"/>
+               </a>
+			</div>
+			<div>
+				<p>Assistance</p>
+				<a href="https://stp.abes.fr/node/3?origine=idref" target="_blank">Guichet AbesSTP</a>
+			</div>
+			<div style="vertical-align: top;">
+			   <br/>
+               <a title="Agence bibliographique de l'enseignement supérieur" href="http://www.abes.fr" target="_blank">
+                   <img alt="ABES" src="img/logo-abes.png" style="width: 110px;"/>
+               </a>
+               <br/>
+               <a title="Minist�re de l'enseignement sup�rieur et de la recherche" href="http://www.enseignementsup-recherche.gouv.fr/" target="_blank">
+	                <img  alt="MESRI" src="img/logo-mesri.png" style="margin:20px 0px 0px 20px;width: 80px;"/>
+               </a>
+           </div>
+		</div>
+		<div id="footer">
+			<div style="width:50%">
+			</div>
+			<div>
+				<a href="https://abes.fr/reseaux-idref-orcid/outils-et-services-autorites/plateforme-idref" target="_blank">A propos</a> |
+				<a href="https://abes.fr/reseaux-idref-orcid/le-reseau/etablissements-autorites" target="_blank">Partenaires</a> |
+				<a href="https://abes.fr/pages-donnees-personnelles/idref.html" target="_blank">Données Personnelles</a> |
+				<a href="https://abes.fr/pages-cgu/conditions-generales-utilisation-sites-abes.html" target="_blank">CGU</a> |
+				<a href="https://abes.fr/pages-mentions-legales/idref.html" target="_blank">Mentions Légales</a> |
+				<a href="https://abes.fr/pages-accessibilite/idref.html" target="_blank">Accessibilité numérique</a>
+			</div>
+		</div>
+	</div>
+</footer>
+<script>
+	window.addEventListener('load', function() {
+		var cookieBar = document.querySelector("#cookie-banner");
+		if (cookieBar!=null){
+			cookieBar.style.removeProperty("top");
+			cookieBar.style.position = "fixed";
+			cookieBar.style.height = "50px";
+			cookieBar.style.bottom = "0";
+		}
+	})
+</script>
+
+</body>
+</html>

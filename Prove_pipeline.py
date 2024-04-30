@@ -25,7 +25,7 @@ def is_emoji(s):
 """
 
 ## 1. Get WTR dataset
-reference_text_df = pd.read_csv('InProduction/reference_html_as_sentences_df.csv')
+reference_text_df = pd.read_csv('WD_Textual_References_Dataset/reference_html_as_sentences_df.csv')
 reference_text_df.info()
 def check_column_dist(df, col):
     counts = df[col].value_counts().reset_index()
@@ -43,7 +43,7 @@ sns.barplot(data=check_column_dist(reference_text_df, 'code'), x='per', y='code'
 sns.barplot(data=check_column_dist(reference_text_df, 'reason'), x='per', y='reason', ax=ax[2])
 plt.tight_layout()
 plt.show()
-claim_data_df = pd.read_csv('InProduction/text_reference_claims_df.csv')
+claim_data_df = pd.read_csv('WD_Textual_References_Dataset/text_reference_claims_df.csv')
 claim_data_df.info()
 print('Total counts:')
 print(f'{claim_data_df.claim_id.unique().shape[0]} unique claims')

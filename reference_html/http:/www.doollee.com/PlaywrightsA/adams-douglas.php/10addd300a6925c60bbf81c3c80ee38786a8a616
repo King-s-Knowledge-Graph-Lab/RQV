@@ -1,0 +1,922 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Douglas Adams- Playwright Dramatist</title>
+<meta name="description" content="Douglas Adamss plays including biography, theatres, agent, synopses, cast sizes, production and published dates"/>
+<meta name="keywords" content="Douglas Adams, playwright, dramatist, plays, biography, theatres, agent, synopses, cast sizes, production, published, dates, database, research" />
+<link href="../boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../8-playwright.css" rel="stylesheet" type="text/css">
+<!--
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../respond.min.js"></script>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-6449846-1']);
+_gaq.push(['_setCustomVar', 1, 'User Type', 'Visitor', 2]);
+_gaq.push(['_trackPageview']);
+(function () {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</head>
+<body>
+<div class="gridContainer clearfix">
+  
+  <div id="topLine"><hr size="1"></div>
+  
+  <div id="doollee">
+  
+<a href="../index.php"><img src="../img/banner3.gif" alt="doollee banner" title="doollee" width="200" height="33" /></a><br />
+The Playwrights Database
+<br />
+<a href="../Main%20Pages/2Contacts.php"><img src="../Images/contact-up.gif" alt="contact doollee" title="contact doollee" height="13" width="75" /></a>
+
+</div>
+
+  <div id="search">
+  <div id="header-bottom">
+
+<ul>
+
+<li><strong>Search for a Playwright :</strong>&nbsp;&nbsp;&nbsp;</li>
+<li><a href="../PlaywrightsA/3PlaywrightsAdata.php"> a&nbsp;</a></li>
+<li><a href="../PlaywrightsB/3PlaywrightsBdata.php"> b&nbsp;</a></li>
+<li><a href="../PlaywrightsC/3PlaywrightsCdata.php"> c&nbsp;</a></li>
+<li><a href="../PlaywrightsD/3PlaywrightsDdata.php"> d&nbsp;</a></li>
+<li><a href="../PlaywrightsE/3PlaywrightsEdata.php"> e&nbsp;</a></li>
+<li><a href="../PlaywrightsF/3PlaywrightsFdata.php"> f&nbsp;</a></li>
+<li><a href="../PlaywrightsG/3PlaywrightsGdata.php"> g&nbsp;</a></li>
+<li><a href="../PlaywrightsH/3PlaywrightsHdata.php"> h&nbsp;</a></li>
+<li><a href="../PlaywrightsI/3PlaywrightsIdata.php"> i&nbsp;</a></li>
+<li><a href="../PlaywrightsJ/3PlaywrightsJdata.php"> j&nbsp;</a></li>
+<li><a href="../PlaywrightsK/3PlaywrightsKdata.php"> k&nbsp;</a></li>
+<li><a href="../PlaywrightsL/3PlaywrightsLdata.php"> l&nbsp;</a></li>
+<li><a href="../PlaywrightsM/3PlaywrightsMdata.php"> m&nbsp;</a></li>
+<li><a href="../PlaywrightsN/3PlaywrightsNdata.php"> n&nbsp;</a></li>
+<li><a href="../PlaywrightsO/3PlaywrightsOdata.php"> o&nbsp;</a></li>
+<li><a href="../PlaywrightsP/3PlaywrightsPdata.php"> p&nbsp;</a></li>
+<li><a href="../PlaywrightsQ/3PlaywrightsQdata.php"> q&nbsp;</a></li>
+<li><a href="../PlaywrightsR/3PlaywrightsRdata.php"> r&nbsp;</a></li>
+<li><a href="../PlaywrightsS/3PlaywrightsSdata.php"> s&nbsp;</a></li>
+<li><a href="../PlaywrightsT/3PlaywrightsTdata.php"> t&nbsp;</a></li>
+<li><a href="../PlaywrightsU/3PlaywrightsUdata.php"> u&nbsp;</a></li>
+<li><a href="../PlaywrightsV/3PlaywrightsVdata.php"> v&nbsp;</a></li>
+<li><a href="../PlaywrightsW/3PlaywrightsWdata.php"> w&nbsp;</a></li>
+<li><a href="../PlaywrightsX/3PlaywrightsXdata.php"> x&nbsp;</a></li>
+<li><a href="../PlaywrightsY/3PlaywrightsYdata.php"> y&nbsp;</a></li>
+<li><a href="../PlaywrightsZ/3PlaywrightsZdata.php"> z</a></li>
+
+
+</ul>
+</div> <!-- header-bottom -->
+
+<div id="header-bottom1">
+
+<ul>
+<br />
+<li><strong>Search for a Play :</strong>&nbsp;&nbsp;&nbsp;</li>
+
+<li><a href="../plays/plays-1.php"> 1&nbsp;</a></li>
+<li><a href="../plays/plays-a.php"> a&nbsp;</a></li>
+<li><a href="../plays/plays-b.php"> b&nbsp;</a></li>
+<li><a href="../plays/plays-c.php"> c&nbsp;</a></li>
+<li><a href="../plays/plays-d.php"> d&nbsp;</a></li>
+<li><a href="../plays/plays-e.php"> e&nbsp;</a></li>
+<li><a href="../plays/plays-f.php"> f&nbsp;</a></li>
+<li><a href="../plays/plays-g.php"> g&nbsp;</a></li>
+<li><a href="../plays/plays-h.php"> h&nbsp;</a></li>
+<li><a href="../plays/plays-i.php"> i&nbsp;</a></li>
+<li><a href="../plays/plays-j.php"> j&nbsp;</a></li>
+<li><a href="../plays/plays-k.php"> k&nbsp;</a></li>
+<li><a href="../plays/plays-l.php"> l&nbsp;</a></li>
+<li><a href="../plays/plays-m.php"> m&nbsp;</a></li>
+<li><a href="../plays/plays-n.php"> n&nbsp;</a></li>
+<li><a href="../plays/plays-o.php"> o&nbsp;</a></li>
+<li><a href="../plays/plays-p.php"> p&nbsp;</a></li>
+<li><a href="../plays/plays-q.php"> q&nbsp;</a></li>
+<li><a href="../plays/plays-r.php"> r&nbsp;</a></li>
+<li><a href="../plays/plays-s.php"> s&nbsp;</a></li>
+<li><a href="../plays/plays-t.php"> t&nbsp;</a></li>
+<li><a href="../plays/plays-u.php"> u&nbsp;</a></li>
+<li><a href="../plays/plays-v.php"> v&nbsp;</a></li>
+<li><a href="../plays/plays-w.php"> w&nbsp;</a></li>
+<li><a href="../plays/plays-x.php"> x&nbsp;</a></li>
+<li><a href="../plays/plays-y.php"> y&nbsp;</a></li>
+<li><a href="../plays/plays-z.php"> z</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+
+</ul>
+</div> <!-- header-bottom -->
+  </div>
+  
+  <div id="topLine"><hr size="1"></div>
+  
+  <div id="menu">
+  <ul class="nav">
+<li><a href="../index.php">Home</a></li>
+</ul>
+<ul class="nav1">
+<li><a href="../Main%20Pages/1Playwrights.php">Playwrights</a></li>
+</ul>
+<ul class="nav">
+<li><a href="../Main%20Pages/1Plays.php">Plays</a></li>
+<li><a href="../Main%20Pages/1Characters.php">Characters</a></li>
+<li><a href="../Main%20Pages/1Agents.php">Literary Agents</a></li>
+<li><a href="../Main%20Pages/2Publishers.php">Play Publishers</a></li>
+<li><a href="../Main%20Pages/2Theatres.php">Theatres</a></li>
+<li><a href="../Main%20Pages/GayTheatre.php">Gay/Lesbian</a></li>
+<li><a href="../Main%20Pages/2Links.php">Useful Links</a></li>
+<li><a href="../Main%20Pages/2AboutDoollee.php">About Doollee</a></li>
+<li><a href="../Main%20Pages/2Contacts.php">Submit Info to Doollee</a></li>
+</ul>
+
+<!-- SiteSearch Google -->
+
+<form method="get" action="http://www.google.com/custom" target="_top">
+<table border="0" bgcolor="#ffffff">
+<tr><td nowrap="nowrap" valign="top" align="left" height="22">
+<a href="http://www.google.com/">
+<img src="http://www.google.com/logos/Logo_25wht.gif" border="0" alt="Google" title="Google" align="middle"></img></a>
+<br/>
+<input type="hidden" name="domains" value="www.doollee.com"></input>
+<input type="text" name="q" size="21" maxlength="255" value=""></input>
+</td></tr>
+<tr>
+<td nowrap="nowrap">
+<table>
+<tr>
+<td>
+<input type="radio" name="sitesearch" value="" ></input>
+<font size="-1" color="#000000">web</font>
+</td>
+<td>
+<input type="radio" name="sitesearch" value="www.doollee.com"checked="checked"></input>
+<font size="-1" color="#000000">doollee.com</font>
+</td>
+</tr>
+</table>
+<input type="submit" name="sa" value="Search"></input>
+<input type="hidden" name="client" value="pub-0414017827473152"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1"></input>
+<input type="hidden" name="hl" value="en"></input>
+</td></tr></table>
+</form>
+
+<!-- SiteSearch Google -->
+
+
+
+
+</div> <!-- menu -->
+
+<div id="osborne">
+<br /><br />
+<img src="../Images-playwrights/adams-douglas.gif" alt="Douglas Adams" title="Douglas Adams" width="120" height="120" align="left">
+
+<span class="welcome"><H1>DOUGLAS ADAMS&nbsp;&nbsp;(1952 - 2001)</h1></span>
+
+<strong>Nationality:&nbsp;&nbsp;&nbsp;</strong> 
+English
+<br /><strong>email:&nbsp;&nbsp;&nbsp;</strong> 
+n/a
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>Website:&nbsp;&nbsp;&nbsp;</strong>
+<A href="http://www.douglasadams.com/" target="_blank">Click here</A>
+<br /><br /><strong>Literary Agent:&nbsp;&nbsp;&nbsp;</strong>
+<a href="../Agents/kVictor.php" target="_self">Ed Victor Ltd</a>&nbsp;&nbsp;
+<br /><br /><br />
+
+
+Douglas Noel Adams, author, born March 11 1952; died May 11 2001. <a href="http://www.guardian.co.uk/news/2001/may/15/guardianobituaries.books" target="_blank">Douglas Adams - Guardian Obituary  <FONT color="#FF0080">>>></FONT></a> 
+
+
+</div>
+
+<div id="buyPlaysmain">
+
+<h4>Buy Plays with Doollee</h4>Each page of doollee.com has links to play/book outlets, either directly to the Publisher, through Stageplays.com and Amazon to the second hand and 1st editions of AbeBooks. These links will automatically take you to the relevant area obviating the need for further search.<br />
+<a href="http://www.dpbolvw.net/click-1299172-10395353?url=http%3A%2F%2Fwww.abebooks.co.uk%2Fservlet%2FSearchResults%3Fan%3DDouglas%20adams" target="_blank" >AbeBooks.co.uk</a>
+&nbsp;&nbsp;<A href="http://affiliates.abebooks.com/c/60245/77797/2029?u=http%3A%2F%2Fwww.abebooks.com%2Fservlet%2FSearchResults%3Fan%3DDouglas%2Badams%26sts%3Dt" target="_blank" >AbeBooks.com</a>    
+&nbsp;&nbsp;<a href="http://www.stageplays.com/151-0-3-1.php" target="_blank" >Stageplays.com</a>
+&nbsp;&nbsp;<a href="http://www.amazon.com/gp/search?ie=UTF8&keywords=Douglas%20adams&tag=doollee0e-20&index=books&linkCode=ur2&camp=1789&creative=9325" target="_top" >amazon.com</a><img src="http://www.assoc-amazon.com/e/ir?t=doollee0e-20&amp;l=ur2&amp;o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+&nbsp;&nbsp;<a href="http://www.amazon.co.uk/gp/search?ie=UTF8&keywords=Douglas%20adams&tag=drama0e-21&index=books&linkCode=ur2&camp=1634&creative=6738" target="_top" >amazon.co.uk</a><img src="http://www.assoc-amazon.co.uk/e/ir?t=drama0e-21&amp;l=ur2&amp;o=2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+&nbsp;&nbsp;<a href="http://www.amazon.ca/gp/search?ie=UTF8&keywords=Douglas%20adams&tag=doollee0a-20&index=books-ca&linkCode=ur2&camp=15121&creative=330641" target="_top" >amazon.ca</a><img src="http://www.assoc-amazon.ca/e/ir?t=doollee0a-20&l=ur2&o=15" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<hr size="1">
+whether you are a Playwright who wishes to make their entry definitive, an unlisted Playwright or a User with a tale to tell - we want to hear from you.
+<br />
+<a href="../Main%20Pages/1submission.doc" target="_blank">download WORD submission template</a>
+
+
+
+
+</div>
+
+<div id="topline1"><hr size="1"></div>
+
+<div id="listPlaytitles">
+  
+<span class="welcome"><h2>below is a list of Douglas Adams's plays - click on a Play Title for more information</h2></span>
+<strong>
+
+<a href="#185"target="_self">Hitch-Hiker's Guide To The Galaxy, The</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="topline1"><hr size="1"></div>
+<div id="topline1"><hr size="1"></div>
+<br />
+
+
+<div id="playwrightTable"><a name="185"></a></div><div id="playTable">Hitch-Hiker's Guide To The Galaxy, The</div><div id="LayoutDiv2"><br /></div><div id="synopsisTitle">Synopsis:</div><div id="synopsisName">-</div>  <div id="LayoutDiv1"><br /></div>  <div id="notesTitle">Notes:</div>  <div id="notesName">-</div><div id="LayoutDiv1"><br /></div>  <div id="producedTitle">1st Produced:</div> <div id="producedPlace">Rainbow Theatre, London &nbsp;&nbsp;&nbsp;1980</div>  <div id="LayoutDiv1"><br /></div>  <div id="companyTitle">Organisations:</div>  <div id="companyName">-</div>  <div id="LayoutDiv1"><br /></div>  <div id="publishedTitle">1st Published:</div>  <div id="publishedName">Pan Books, 1985&nbsp;&nbsp;&nbsp;-</div>  <div id="LayoutDiv1"><br /></div>  <div id="musicTitle">Music:</div>  <div id="musicName">-</div>  <div id="LayoutDiv1"><br /></div>  <div id="buyplayTitle">To Buy This Play:</div>  <div id="buyplayName">If Publisher (above) is underlined then the play may be purchased by direct click from the Publisher, otherwise (below) are AbeBooks for secondhand, signed & 1st eds and other Booksellers for new copies</div><div id="LayoutDiv1"><br /></div>  <div id="outletsTitle">Booksellers:</div>  <div id="outletsABE"><a href="http://affiliates.abebooks.com/c/60245/77797/2029?u=http%3A%2F%2Fwww.abebooks.com%2Fservlet%2FSearchResults%3Fan%3DDouglas%2Badams%26sts%3Dt%26tn%3DHitch%2BHiker's%2BGuide%2BTo%2BThe%2BGalaxy" target=_blank">abebooks.com</a>&nbsp;&nbsp;&nbsp;<a href="http://www.dpbolvw.net/click-1299172-10395353?url=http%3A%2F%2Fwww.abebooks.co.uk%2Fservlet%2FSearchResults%3Fan%3DDouglas%20adams%26tn%3DHitch%20Hiker's%20Guide%20To%20The%20Galaxy "target=_blank">abebooks.co.uk</a>&nbsp;&nbsp;&nbsp;<a href="http://www.stageplays.com/151-0-3-1.php" target="_blank" >Stageplays.com</a>&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.com/gp/search?ie=UTF8&keywords=Douglas%20adams%20Hitch%20Hiker's%20Guide%20To%20The%20Galaxy&tag=doollee0e-20&index=books&linkCode=ur2&camp=1789&creative=9325" target="_top" >amazon.com</a>&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.co.uk/gp/search?ie=UTF8&keywords=Douglas%20adams%20Hitch%20Hiker's%20Guide%20To%20The%20Galaxy&tag=drama0e-21&index=books&linkCode=ur2&camp=1634&creative=6738" target="_top" >amazon.co.uk</a>&nbsp;&nbsp;&nbsp;<a href="http://www.amazon.ca/gp/search?ie=UTF8&keywords=Douglas%20adams%20Hitch%20Hiker's%20Guide%20To%20The%20Galaxy&tag=doollee0a-20&index=books-ca&linkCode=ur2&camp=15121&creative=330641" target="_top" >amazon.ca</a></div>  <div id="LayoutDiv1"><br /></div>  <div id="genreTitle">Genre:</div>  <div id="genreName">Radio Script Play/Drama</div>  <div id="LayoutDiv1"><br /></div>  <div id="partsTitle">Parts:</div>  <div id="partsMaletitle">Male:&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspFemale:&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspOther:&nbsp;&nbsp;-</div>  <div id="LayoutDiv1"><br /></div>  <div id="refTitle">Further Reference:</div>  <div id="refname">-</div>  <div id="LayoutDiv3"><br /></div>  <div id="topofPage"><a href="adams-douglas.php"><img src="../img/more-bullet.gif" alt="Top of Page" title="Top of Page" /></a> Top of Page</div>  <div id="LayoutDiv3"><br /></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+  <p>Copyright 2003 - All Rights Reserved</p>
+<ul>
+<li><a href="adams-douglas.php"><span class="top">TOP</span></a> | </li>
+<li><a href="../index.php">home</a> | </li>
+<li><a href="../Main%20Pages/1Playwrights.php">playwrights</a> | </li>
+<li><a href="../Main%20Pages/1Plays.php">plays</a> | </li>
+<li><a href="../Main%20Pages/1Characters.php">characters</a> | </li>
+<li><a href="../Main%20Pages/1Agents.php">agents</a> | </li>
+<li><a href="../Main%20Pages/2Publishers.php">publishers</a> | </li>
+<li><a href="../Main%20Pages/2Theatres.php">theatres</a> | </li>
+<li><a href="../Main%20Pages/GayTheatre.php">gay/lesbian theatre</a> | </li>
+<li><a href="../Main%20Pages/2Links.php">links</a> | </li>
+<li><a href="../Main%20Pages/2AboutDoollee.php">about doollee</a> | </li>
+<li><a href="../Main%20Pages/2Contacts.php">submit info to doollee</a></li>
+</ul>
+</div> <!-- footer -->
+  </div>
+
+
+</div>
+</body>
+</html>
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

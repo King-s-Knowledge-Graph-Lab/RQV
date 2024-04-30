@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+            "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html version="XHTML+RDFa 1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:ri="http://id.loc.gov/ontologies/RecordInfo#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:cs="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <head>
+    <title>Adams, Douglas, 1952-2001 - LC Linked Data Service: Authorities and Vocabularies | Library of Congress</title>
+    <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+    <link rel="dc.relation.isPartOf" href="//www.loc.gov/" title="Library of Congress"/>
+    <meta name="dc.title" content="Adams, Douglas, 1952-2001 - LC Linked Data Service: Authorities and Vocabularies | Library of Congress, from LC Linked Data Service: Authorities and Vocabularies (Library of Congress)"/>
+    <meta name="dc.contributor" content="The Library of Congress"/>
+    <meta name="dc.subject" content="id.loc.gov"/>
+    <meta name="dc.identifier" content="http://id.loc.gov/authorities/names/n80076765"/>
+    <meta name="dc.type" content="webpage"/>
+    <meta name="dc.language" content="eng"/>
+    <link rel="shortcut icon" href="https://www.loc.gov/static/images/fav.ico"/>
+    <link rel="apple-touch-icon" href="https://www.loc.gov/static/images/apple-touch-icon.png"/>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="search" href="/opensearch/" type="application/opensearchdescription+xml" title="Library of Congress Authorities and Vocabularies Search"/>
+    <link rel="apple-touch-icon" href="https://www.loc.gov/static/images/apple-touch-icon.png?35836.31053"/>
+    <meta name="msapplication-config" content="none"/>
+    <link rel="alternate" type="application/atom+xml" title=" Feed" href="/feed/1"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content="Adams, Douglas, 1952-2001 authorities names"/>
+    <link rel="dc.relation.isPartOf" href="//id.loc.gov/" title="Library of Congress Linked Data Service"/>
+    <meta property="dc.identifier" content="http://id.loc.gov/authorities/names/n80076765"/>
+    <meta rel="canonical" href="//id.loc.gov/authorities/names/n80076765"/>
+    <meta name="dc.subject" content="Adams, Douglas, 1952-2001"/>
+    <meta property="dc.type" content="Web page"/>
+    <meta property="dc.language" content="eng"/>
+    <link rel="dc.rights" title="Rights Restriction" href="//www.loc.gov/text-us-government-work/"/>
+    <meta property="dc.rights" content="Text is U.S. Government Work"/>
+    <link rel="alternate" type="application/rdf+xml" href="http://id.loc.gov/authorities/names/n80076765.rdf"/>
+    <link rel="alternate" type="text/plain" href="http://id.loc.gov/authorities/names/n80076765.nt"/>
+    <link rel="alternate" type="application/json" href="http://id.loc.gov/authorities/names/n80076765.json"/>
+    <meta name="keywords" content="Adams, Douglas, 1952-2001 - LC Linked Data Service: Authorities and Vocabularies | Library of Congress , Library of Congress Linked Data Service, id.loc.gov,  linked data, authorities, standards, vocabularies"/>
+    <!-- CSS -->
+    <link type="text/css" media="screen" rel="stylesheet" href="/static/css/2018/styles.css?20190808"/>
+    <link type="text/css" media="print" rel="stylesheet" href="/static/css/2018/loc_print_v2.css"/>
+    <!--[if lte IE 7]><link type="text/css" media="screen" rel="stylesheet" href="/static/css/2012/loc_lte_ie6.css" /><![endif]-->
+    <!-- End CSS -->
+    <script src="//assets.adobedtm.com/dac62e20b491e735c6b56e64c39134d8ee93f9cf/satelliteLib-6b47f831c184878d7338d4683ecf773a17973bb9.js" defer="defer"></script>
+    <script type="text/javascript" src="https://cdn.loc.gov/js/lib/jquery-1.8.2.min.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/2011/jquery-ui-1.10.2.custom.min.js" defer="defer"><!-- empty node--></script>
+    <script type="text/javascript" src="/static/js/loc_expandcollapse.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/jquery.validate.min.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/jquery.form.js" defer="defer"></script>
+    <script type="text/javascript">
+                    
+                    var isBot = ["Applebot", "bingbot", "Googlebot", "http:\\/\\/naver\\.me\\/spd", "https:\\/\\/commoncrawl\\.org\\/", "MauiBot", "Exabot", "http:\\/\\/www\\.opensiteexplorer\\.org\\/dotbot", "TweetmemeBot", "YandexBot", "SemrushBot", "AhrefsBot", "SeznamBot", "RyteBot", "SemanticScholarBot", "Qwantify", "SemanticScholarBot", "scrapy\\.org", "GarlikCrawler", "FemtosearchBot", "ForcePointCrawler", "http:\\/\\/www\\.xforce-security\\.com\\/crawler\\/", "\\+centurybot9@gmail\\.com"];
+                    var botRe = new RegExp(isBot.join('|'), 'i');
+
+                    
+                </script>
+    <script type="text/javascript" src="/static/js/id.js" defer="defer"></script>
+    <script type="text/javascript" src="/static/js/swfobject.js" defer="defer"></script>
+    <script type="text/javascript"></script>
+  </head>
+  <body><a id="skip" href="#skip_menu">skip navigation</a><div id="container"><header>
+	<header class="header" role="banner">
+	  <div class="header-container"><div class="header-row"><div class="header-logo"><a href="https://loc.gov"><img src="https://loc.gov/static/images/logo-loc-new-branding.svg" alt=""/><span>Library of Congress</span></a></div><div class="header-search"><label for="header-search-input" class="test screen-readers-only">Search</label><form role="search" method="get" id="header-search-form" action="https://loc.gov/search/">
+		  <div class="header-search-formats"><select name="in" id="header-search-select" aria-label="search" class="header-search-format-select">
+		      <option value="lds">Linked Data Services</option>
+		      <option value="">Everything at Loc.gov</option>
+		      <option value="original-format:sound recording">Audio Recordings</option>
+		      <option value="original-format:book">Books/Printed Material</option>
+		      <option value="original-format:film, video">Films, Videos</option>
+		      <option value="original-format:legislation">Legislation</option>
+		      <option value="original-format:manuscript/mixed material">Manuscripts/Mixed Material</option>
+		      <option value="original-format:map">Maps</option>
+		      <option value="original-format:notated music">Notated Music</option>
+		      <option value="original-format:newspaper">Newspapers</option>
+		      <option value="original-format:periodical">Periodicals</option>
+		      <option value="original-format:personal narrative">Personal Narratives</option>
+		      <option value="original-format:photo, print, drawing">Photos, Prints, Drawings</option>
+		      <option value="original-format:software, e-resource">Software, E-Resources</option>
+		      <option value="original-format:archived web site">Archived Web Sites</option>
+		      <option value="original-format:web page">Web Pages</option>
+		      <option value="original-format:3d object">3D Objects</option>
+		    </select></div>
+		  <div class="header-search-input-wrapper"><input type="search" title="Search the Library of Congress" placeholder="Search id.loc.gov" name="q" id="header-search-input" class="locsuggest header-search-input" maxlength="250" value="" onfocus="this.select();" accesskey="/" autocomplete="off" role="textbox" aria-multiline="false" aria-autocomplete="list" aria-haspopup="true" aria-owns="Autocomplete_e88f7"/><div id="AutocompleteContainter_e88f7" style="position: absolute; z-index: 9999; width: 100%;"><div class="autocomplete-w1"><span id="Autocomplete_e88f7_status" class="autocomplete-status" role="status" aria-live="polite" style="width: 259px;">Suggestions enabled.</span><div class="autocomplete" id="Autocomplete_e88f7" aria-hidden="true" aria-owner="search" style="display: none; width: 279px; max-height: 300px;"></div></div></div><div class="searchtarget"><input id="search_within_default" type="hidden" name="new" value="true"/></div></div>
+		  <button class="header-search-button button-accent" type="submit" value="submit"><span>Search</span><i class="icon icon-search"></i></button>
+		  <input type="hidden" name="st" value=""/>
+		</form><button class="header-search-toggle"><span>Search toggle</span><i class="icon icon-search"></i></button></div><div class="header-menu" aria-labelledby="header-menu-button"><button class="header-menu-button" id="header-menu-button" aria-controls="header-menu-container"><span>menu </span><i class="icon icon-bars"></i></button><nav class="header-menu-container" id="header-menu-container" aria-labelledby="header-menu-button">
+		  <ul class="">
+		    <li class=""><a href="https://loc.gov/discover/">Discover</a></li>
+		    <li class=""><a href="https://loc.gov/services-and-programs/">Services</a></li>
+		    <li class=""><a href="https://loc.gov/visit/">Visit</a></li>
+		    <li class=""><a href="https://loc.gov/education/">Education</a></li>
+		    <li class=""><a href="https://loc.gov/connect/">Connect</a></li>
+		    <li class=""><a href="https://loc.gov/about/">About</a></li>
+		  </ul>
+		  <ul class="header-menu-tertiary">
+		    <li class=""><a href="http://ask.loc.gov/">Ask a Librarian</a></li>
+		    <li class=""><a href="https://loc.gov/help/">Help</a></li>
+		    <li class=""><a href="https://loc.gov/contact/">Contact</a></li>
+		  </ul>
+		  <ul class="header-menu-external">
+		    <li class=""><a href="https://catalog.loc.gov/">Search Online Catalog</a></li>
+		    <li class=""><a href="http://copyright.gov/">Copyright.gov</a></li>
+		    <li class=""><a href="https://www.congress.gov/">Congress.gov</a></li>
+		  </ul>
+		</nav></div></div></div>
+	</header>
+      </header><div id="crumb_nav"><a href="//www.loc.gov">The Library of Congress</a><span> &gt; </span><a href="/">Linked Data Service</a><span> &gt; </span><span>LC Name Authority File (LCNAF)</span></div><!-- end id:topnav --><div id="content"><div id="main_body_full" class="w_742"><div id="page_head"><span id="skip_menu" style="width: 100%;"><!-- --></span></div><div id="tab1" class="tab_content" about="http://id.loc.gov/authorities/names/n80076765"><div><h1><span property="madsrdf:authoritativeLabel skos:prefLabel" data-copy-hidden="Adams, Douglas, 1952-2001">Adams, Douglas, 1952-2001</span></h1></div><br/><ul class="list-container" about="http://id.loc.gov/authorities/names/n80076765">
+	      <div class="bf-render"><div class="bf-render-left"><li><h3>URI(s)</h3><ul class="std">
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765" data-copy="http://id.loc.gov/authorities/names/n80076765">http://id.loc.gov/authorities/names/n80076765</a></li>
+		    </ul></li><li><h3>Variants</h3><ul class="std">
+		      <li rel="madsrdf:hasVariant skosxl:altLabel"><div about="[_:bn11]" typeof="madsrdf:Variant skosxl:Label madsrdf:PersonalName"><span property="madsrdf:variantLabel skosxl:literalForm">אדאמס, דאגלאס, 1952-2001-</span></div></li>
+		      <li rel="madsrdf:hasVariant skosxl:altLabel"><div about="[_:bn23]" typeof="madsrdf:Variant skosxl:Label madsrdf:PersonalName"><span property="madsrdf:variantLabel skosxl:literalForm">亞當斯, 1952-2001</span></div></li>
+		    </ul></li><li><h3>Additional Information</h3><ul class="std">
+		      <li><a href="http://id.loc.gov/rwo/agents/n80076765">http://id.loc.gov/rwo/agents/n80076765</a></li>
+		    </ul><ul class="std">
+		      <li><h3>Birth Date</h3><ul class="std1">1952-03-11</ul></li>
+		      <li><h3>Death Date</h3><ul class="std1">2001-05-11</ul></li>
+		      <li><h3>Has Affiliation</h3><ul class="std1">
+			  <ul class="std2">
+			    <li>Organization: <a href="http://id.loc.gov/authorities/names/n81008309">St. John's College (University of Cambridge)</a></li>
+			  </ul>
+			</ul></li>
+		      <li><h3>Has Affiliation</h3><ul class="std1">
+			  <ul class="std2">
+			    <li>Organization: <a href="http://id.loc.gov/authorities/names/no98078338">Digital Village (Firm)</a></li>
+			  </ul>
+			</ul></li>
+		      <li><h3>Descriptor</h3><ul class="std1">English</ul></li>
+		      <li><h3>Descriptor</h3><ul class="std1">Britons</ul></li>
+		      <li><h3>Birth Place</h3><ul class="std1">Cambridge (England)</ul></li>
+		      <li><h3>Associated Locale</h3><ul class="std1">Santa Barbara (Calif.)</ul></li>
+		      <li><h3>Associated Locale</h3><ul class="std1">England</ul></li>
+		      <li><h3>Associated Language</h3><ul class="std1">English</ul></li>
+		      <li><h3>Field of Activity</h3><p class="std1"><a href="http://id.loc.gov/authorities/genreForms/gf2014026529">Science fiction</a></p><p class="std1"><a href="http://id.loc.gov/authorities/genreForms/gf2014026377">Humorous fiction</a></p><p class="std1"><a href="http://id.loc.gov/authorities/genreForms/gf2015026020">Novels</a></p><p class="std1"><a href="http://id.loc.gov/authorities/genreForms/gf2014026533">Screenplays</a></p><p class="std1"><a href="http://id.loc.gov/authorities/genreForms/gf2014026499">Radio plays</a></p></li>
+		      <br/>
+		      <li><h3>Occupation</h3><p class="std1"><a href="http://id.loc.gov/authorities/subjects/sh85009793">Authors</a></p><p class="std1"><a href="http://id.loc.gov/authorities/subjects/sh85092863">Novelists</a></p><p class="std1"><a href="http://id.loc.gov/authorities/subjects/sh85118942">Screenwriters</a></p><p class="std1"><a href="http://id.loc.gov/authorities/subjects/sh85110591">Radio writers</a></p><p class="std1"><a href="http://id.loc.gov/authorities/subjects/sh85062949">Humorists</a></p><p class="std1">Computer game writer</p></li>
+		    </ul></li><li><h3>Identified By</h3><ul class="std">
+		      <li><a href="http://www.viaf.org/viaf/113230702">http://www.viaf.org/viaf/113230702</a></li>
+		    </ul><ul class="std"></ul></li><li><h3>Identified By</h3><ul class="std">
+		      <li><a href="http://www.wikidata.org/entity/Q42">http://www.wikidata.org/entity/Q42</a></li>
+		    </ul><ul class="std"></ul></li><li><h3>Identified By</h3><ul class="std">
+		      <li><a href="http://www.bbc.co.uk/things/aa075cb6-75bf-46d8-b0bf-9751d6c04c93#id">http://www.bbc.co.uk/things/aa075cb6-75bf-46d8-b0bf-9751d6c04c93#id</a></li>
+		    </ul><ul class="std"></ul></li><li><h3>Identified By</h3><ul class="std">
+		      <li><a href="http://musicbrainz.org/artist/e9ed318d-8cc5-4cf8-ab77-505e39ab6ea4#_">http://musicbrainz.org/artist/e9ed318d-8cc5-4cf8-ab77-505e39ab6ea4#_</a></li>
+		    </ul><ul class="std"></ul></li><li><h3>Identified By</h3><ul class="std">
+		      <li><a href="https://id.oclc.org/worldcat/entity/E39PBJxhkQGbbdgtx94vJRmrv3">https://id.oclc.org/worldcat/entity/E39PBJxhkQGbbdgtx94vJRmrv3</a></li>
+		    </ul><ul class="std"></ul></li><li><h3>Identified By</h3><ul class="std">
+		      <li><a href="http://dbpedia.org/resource/Douglas_Adams">http://dbpedia.org/resource/Douglas_Adams</a></li>
+		    </ul><ul class="std"></ul></li><li><h3>See Also</h3><ul class="std">
+		      <li rel="madsrdf:see rdfs:seeAlso"><span about="http://id.loc.gov/authorities/names/nr93025732" typeof="madsrdf:PersonalName skos:Concept madsrdf:Authority" href="http://id.loc.gov/authorities/names/nr93025732"><a href="http://id.loc.gov/authorities/names/nr93025732" property="madsrdf:authoritativeLabel skos:prefLabel">Agnew, David</a></span></li>
+		    </ul></li><li><h3>Exact Matching Concepts from Other Schemes</h3><ul class="std">
+		      <li><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGmSURBVDhPlZQ/S0JxFIb9AJH0AcRNaM4a+wCSFjWI+QUCJwkXIQcnQYegLaqpJcfGsMVJIhLEIJEMKqqpKNEkwqd77vldvOp16Fl+57zv4b3eP0cfkzQa8P0NnQ48PsLLC7y+wt2d+s0mPD/D1xfU67Y0HZLPW6olp9Pw+wvDIczPw+mp+q0W+P06c3FhS9Mhn586cH2tfbUKh4daO4h/cGAar5DBQIcuL7VPJPR0OD9Xv983gleIIEOVCuzuws+PEQ2rqxAKmUaZHbK4CLWaEVyId3RkGmV2SCZjGhdnZ+pN4B0iv2ISufrSEiwvw96eERXvkH/iHZJKjb4Lh7U1CIdhexuyWUgmYWXFtqZDbm70votFIxiOj1V3UyrZx3RINKrD8nrdBIOwsaF1rwflstYW4yFbW3pKyM6O1oJ8K6JtbkIup/X7uzHdIScnEIlAoaBDsZgxLPb3VXOQ3oU6sqXywBxk4dbXTWMRCIyHTuCzF25ubrTq9/d61YUF/UuQRZM+Htdn4YGPhwd4e4N2W5WrK+h24elJ1/72VpdN/I8PnRkD/gAxrwbTtyLZggAAAABJRU5ErkJggg==" alt="OCLC - VIAF" class="extra-rdf-icon" title="OCLC - VIAF"/><a property="madsrdf:hasExactExternalAuthority skos:exactMatch" href="http://viaf.org/viaf/sourceID/LC%7Cn++80076765#skos:Concept">http://viaf.org/viaf/sourceID/LC%7Cn++80076765#skos:Concept</a><span> <img src="/static/images/newsite.gif" alt="Offsite link"/></span></li>
+		    </ul></li><li><h3>Closely Matching Concepts from Other Schemes</h3><ul class="std">
+		      <li rel="madsrdf:hasCloseExternalAuthority skos:closeMatch"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGvSURBVDhP3ZLfK0NhGMdPahco/gXhgqSRaJQbktwwboxNauMGF4q1IeXHyG7JjUIMNyQltXYlZUisFqttOmwhzDY7NrbZfJ33waUrd3vq7ft5Op3P+77nOdzFTQT6hRD2z0vAqsn6iVD4FuAHqA/NziJutxPfu+eRTMaJ+3cjuHhMIBUEl94oJjaA86sKetByAoTf7oDAKPWvc3OAx0P87luhZKWzJH8EVw/IlbaguiYNBp0eDUeAT/Cjviob4aQoM5lQK5PhLfqBxoZiyOVydHe2oXbqEO4QwDlc1+A4DoZJI4oKC4j9sTiltEI81fExcTAYpDSb9zA8pCe+EzfgHG4vNb/FeHtznZKTSLClVhMLgkDZoVJCWpgPLkf1t8Cyt0N5ZrNRsvUrsFoPsL5mIr4RmMD5fQWNugdZGenEwR8Rq9LKSuJAIEBpNE6jS6MhvvZ/iAL+GWV1WrSrM7G1vIpWB+AXHtGjzCPBk/gR+xQKxBLi6HrrMKgdxMz4CBSLPJwv4kaXnneMrX3i1FVOLzSLU3hlY/SNUB9hY+R54vDDEiUrrTmeMr/y/wQJfAFHDR4fLMCMFwAAAABJRU5ErkJggg==" alt="National Library of Germany" class="extra-rdf-icon" title="National Library of Germany"/><span about="https://d-nb.info/gnd/119033364" typeof="skos:Concept madsrdf:Authority" href="https://d-nb.info/gnd/119033364"><a href="https://d-nb.info/gnd/119033364" property="madsrdf:authoritativeLabel skos:prefLabel">Adams, Douglas</a><span> <img src="/static/images/newsite.gif" alt="Offsite link"/></span></span></li>
+		      <li rel="madsrdf:hasCloseExternalAuthority skos:closeMatch"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAJNQTFRFAAAAIHm1IHm1IHm1IHm1IHm1IHm1IHm1IHm1IHm1IHm1IHm1IHm1Ppo8Ppo8Ppo8OpZLNpFdPpo8Ppo8Ppo8Ppo8Ppo8IHm1Ppo8e5Iz9YIgg5Ey9YIg9YIg9YIgPpo89YIg9YIg9YIgIHm10oE59YIg9YIg9YIg14E15oQiPpo89YIgoI0t9YIg9YIg9YIg9YIgFSvS3AAAADF0Uk5TABCA3//PYK/vIJ8wQHDf//+vn8+Aj2CP7zBA/+//UECPIJ+/v6/fgN+/EGDvzxAwv/6gdEsAAACoSURBVHicPU5RFoIwDMvGQBBhykARQZkKqIh4/9O5bmo+2jQvTQuAcU8I4Qf4gvnCYcF+c8gjRDwUSytwEcaWxKFYUfdcS1Ip1xtiwqOaSZUXqVQk0OZWJk7OjbAzLC3cRVUCvm+I3FcVrBMIKPRQN019BE5GMBZWNa3W50YjKemzi3ftyN8PSHMbFdxswHDP1MOFtyPV7ll8Z+jpBYy1xh/z9J762dIPwB8J12aqWq4AAAAASUVORK5CYII=" alt="OCLC - FAST (Faceted Application of Subject Terminology)" class="extra-rdf-icon" title="OCLC - FAST (Faceted Application of Subject Terminology)"/><span about="http://id.worldcat.org/fast/56544" typeof="skos:Concept madsrdf:Authority" href="http://id.worldcat.org/fast/56544"><a href="http://id.worldcat.org/fast/56544" property="madsrdf:authoritativeLabel skos:prefLabel">Adams, Douglas, 1952-2001</a><span> <img src="/static/images/newsite.gif" alt="Offsite link"/></span></span></li>
+		      <li rel="madsrdf:hasCloseExternalAuthority skos:closeMatch"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAxQTFRFAAAAmQAAM5lmAGaZqR68jwAAAAR0Uk5TAP///7MtQIgAAAATSURBVHicY2BABaJe9qdII1ABACiKDhE7QuUGAAAAAElFTkSuQmCC" alt="Wikidata" class="extra-rdf-icon" title="Wikidata"/><span about="http://www.wikidata.org/entity/Q42" typeof="skos:Concept madsrdf:Authority" href="http://www.wikidata.org/entity/Q42"><a href="http://www.wikidata.org/entity/Q42" property="madsrdf:authoritativeLabel skos:prefLabel">Douglas Adams</a><span> <img src="/static/images/newsite.gif" alt="Offsite link"/></span></span><span style="margin-left:10px"><i class="icon icon-info-circle" style="color:#343268" title="INFO: Label from public data source Wikidata"></i><span class="extra-rdf-iconxxx" style="margin-left:3px; font-style: oblique;" title="Label from public data source Wikidata">Label from public data source Wikidata</span></span></li>
+		    </ul></li><li><h3>Sources</h3><ul class="std">
+		      <span property="dcterms:source" content="found: His The hitchhiker's guide to the galaxy, 1980, c1979: t.p. (Douglas Adams)"></span>
+		      <li rel="madsrdf:hasSource"><div about="[_:bn176]" typeof="madsrdf:Source"><span property="madsrdf:citationStatus">found</span><span>: </span><span property="madsrdf:citationSource">His The hitchhiker's guide to the galaxy, 1980, c1979:</span><span property="madsrdf:citationNote">t.p. (Douglas Adams)</span></div></li>
+		      <span property="dcterms:source" content="found: Tel. call to pub., 3/31/80 (Douglas Noel Adams, b. 1952, Cambridge, Eng.)"></span>
+		      <li rel="madsrdf:hasSource"><div about="[_:bn184]" typeof="madsrdf:Source"><span property="madsrdf:citationStatus">found</span><span>: </span><span property="madsrdf:citationSource">Tel. call to pub., 3/31/80</span><span property="madsrdf:citationNote">(Douglas Noel Adams, b. 1952, Cambridge, Eng.)</span></div></li>
+		      <span property="dcterms:source" content="found: Doctor Who, a celebration 1983: p. 217 (David Agnew (Douglas Adams and Graham Williams))"></span>
+		      <li rel="madsrdf:hasSource"><div about="[_:bn192]" typeof="madsrdf:Source"><span property="madsrdf:citationStatus">found</span><span>: </span><span property="madsrdf:citationSource">Doctor Who, a celebration 1983:</span><span property="madsrdf:citationNote">p. 217 (David Agnew (Douglas Adams and Graham Williams))</span></div></li>
+		      <span property="dcterms:source" content="found: Washington Post, 13 May 2001: obit. (Douglas Adams, 49, died May 11, 2001, in Santa Barbara, Calif.; born in Cambridge, England and attended Cambridge University; wrote for radio, television, movies, and computer games; founded multimedia company Digital Village)"></span>
+		      <li rel="madsrdf:hasSource"><div about="[_:bn200]" typeof="madsrdf:Source"><span property="madsrdf:citationStatus">found</span><span>: </span><span property="madsrdf:citationSource">Washington Post, 13 May 2001:</span><span property="madsrdf:citationNote">obit. (Douglas Adams, 49, died May 11, 2001, in Santa Barbara, Calif.; born in Cambridge, England and attended Cambridge University; wrote for radio, television, movies, and computer games; founded multimedia company Digital Village)</span></div></li>
+		      <span property="dcterms:source" content="found: Douglas Adams, via WWW, Aug. 6, 2012 (educated at Brentwood School, Essex; B.A., M.A., English Literature, St. John's College, Cambridge; living in Santa Barbara, California with wife and family when he died unexpectedly)"></span>
+		      <li rel="madsrdf:hasSource"><div about="[_:bn208]" typeof="madsrdf:Source"><span property="madsrdf:citationStatus">found</span><span>: </span><span property="madsrdf:citationSource">Douglas Adams, via WWW, Aug. 6, 2012</span><span property="madsrdf:citationNote">(educated at Brentwood School, Essex; B.A., M.A., English Literature, St. John's College, Cambridge; living in Santa Barbara, California with wife and family when he died unexpectedly)</span></div></li>
+		      <span property="dcterms:source" content="found: IMDb, via WWW, Douglas Adams (born 11 March, 1952)"></span>
+		      <li rel="madsrdf:hasSource"><div about="[_:bn216]" typeof="madsrdf:Source"><span property="madsrdf:citationStatus">found</span><span>: </span><span property="madsrdf:citationSource">IMDb, via WWW, Douglas Adams</span><span property="madsrdf:citationNote">(born 11 March, 1952)</span></div></li>
+		      <span property="dcterms:source" content="notfound: City of death, 1998: credits (David Agnew; teleplay) "></span>
+		      <li rel="madsrdf:hasSource"><div about="[_:bn224]" typeof="madsrdf:Source"><span property="madsrdf:citationStatus">notfound</span><span>: </span><span property="madsrdf:citationSource">City of death, 1998: credits (David Agnew; teleplay)</span><span property="madsrdf:citationNote"></span></div></li>
+		    </ul></li><li><h3>LC Classification</h3><ul class="std">
+		      <li property="madsrdf:classification">PR6051.D3352</li>
+		    </ul></li><li><h3>Editorial Notes</h3><ul class="std">
+		      <li property="madsrdf:editorialNote skos:editorialNote"><madsrdf:editorialNote>[URIs added to this record for the PCC URI MARC Pilot. Please do not remove or edit the URIs.]</madsrdf:editorialNote></li>
+		      <li property="madsrdf:editorialNote skos:editorialNote"><madsrdf:editorialNote>[Machine-derived non-Latin script reference project.]</madsrdf:editorialNote></li>
+		      <li property="madsrdf:editorialNote skos:editorialNote"><madsrdf:editorialNote>[Non-Latin script references not evaluated.]</madsrdf:editorialNote></li>
+		    </ul></li><li><h3>Instance Of</h3><ul class="std">
+		      <li><a href="http://www.loc.gov/mads/rdf/v1#PersonalName">MADS/RDF PersonalName</a></li>
+		      <li><a href="http://www.loc.gov/mads/rdf/v1#Authority">MADS/RDF Authority</a></li>
+		      <li><a href="http://www.w3.org/2004/02/skos/core#Concept">SKOS Concept</a><span> <img src="/static/images/newsite.gif" alt="Offsite link"/></span></li>
+		    </ul></li><li><h3>Scheme Membership(s)</h3><ul class="std">
+		      <li><a rel="madsrdf:isMemberOfMADSScheme skos:inScheme" href="http://id.loc.gov/authorities/names">Library of Congress Name Authority File</a></li>
+		    </ul></li><li><h3>Collection Membership(s)</h3><ul class="std">
+		      <li><a rel="madsrdf:isMemberOfMADSCollection" href="http://id.loc.gov/authorities/names/collection_NamesAuthorizedHeadings">Names Collection - Authorized Headings</a></li>
+		      <li><a rel="madsrdf:isMemberOfMADSCollection" href="http://id.loc.gov/authorities/names/collection_LCNAF">LC Names Collection - General Collection</a></li>
+		    </ul></li><li><h3>Change Notes</h3><ul class="std">
+		      <span property="dcterms:created" datatype="xsd:dateTime" content="1980-07-22T00:00:00"></span>
+		      <li rel="madsrdf:adminMetadata"><div about="[_:bn229]" typeof="ri:RecordInfo cs:ChangeSet"><span property="ri:recordChangeDate cs:createdDate" datatype="xsd:dateTime" content="1980-07-22T00:00:00">1980-07-22</span><span>: </span><span property="ri:recordStatus cs:changeReason">new</span></div></li>
+		      <span property="dcterms:modified" datatype="xsd:dateTime" content="2024-03-20T06:45:43"></span>
+		      <li rel="madsrdf:adminMetadata"><div about="[_:bn237]" typeof="ri:RecordInfo cs:ChangeSet"><span property="ri:recordChangeDate cs:createdDate" datatype="xsd:dateTime" content="2024-03-20T06:45:43">2024-03-20</span><span>: </span><span property="ri:recordStatus cs:changeReason">revised</span></div></li>
+		    </ul></li><div></div><li style="list-style: none;"><h3>Alternate Formats</h3><ul class="std">
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.rdf" rel="nofollow">RDF/XML (MADS and SKOS)</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.nt" rel="nofollow">N-Triples (MADS and SKOS)</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.json" rel="nofollow">JSON (MADS/RDF and SKOS/RDF)</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.madsrdf.rdf" rel="nofollow">MADS - RDF/XML</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.madsrdf.nt" rel="nofollow">MADS - N-Triples</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.madsrdf.json" rel="nofollow">MADS/RDF - JSON</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.skos.rdf" rel="nofollow">SKOS - RDF/XML</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.skos.nt" rel="nofollow">SKOS - N-Triples</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.skos.json" rel="nofollow">SKOS - JSON</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.madsxml.xml" rel="nofollow">MADS/XML</a></li>
+		      <li><a href="http://id.loc.gov/authorities/names/n80076765.marcxml.xml" rel="nofollow">MARC/XML</a></li>
+		    </ul></li></div><div class="bf-render-right" style="padding-top:0"><!--<div
+                                            id="knowledge-cards">
+                                            <meta-vane
+                                                lccn="{fn:tokenize(xs:string($rdf/@rdf:about),"/")[fn:last()]}"
+                                                style="position:relative; top:-25px">
+                                            </meta-vane>
+                                        
+                                        </div>
+
+                                        --><div class="bf-render-link-box" id="related-subject-of" style="padding-top:0.1em"><div class="bf-display-field"><dt title="bf:Title">Subject Of Works</dt><dd id="related-resources-status-subjectof">Looking for related works...<i class="icon icon-spinner icon-spin"></i></dd><div id="related-resources-box-subjectof"></div></div></div><div class="bf-render-link-box" id="related-contributor-of" style="padding-top:0.1em"><div class="bf-display-field"><dt title="bf:Title">Contributor To Works</dt><dd id="related-resources-status-contributor">Looking for related works...<i class="icon icon-spinner icon-spin"></i></dd><div id="related-resources-box-contributor"></div></div></div></div></div>
+	    </ul></div><script type="text/javascript" src="/static/js/wiki.js"></script></div></div><footer class="footer" role="contentinfo" style="clear: both;">
+	<div class="footer-container"><div class="footer-social-links-wrapper"><span class="footer-social-title"><a href="https://loc.gov/connect/">Follow Us</a></span><ul class="footer-social-links">
+	      <li class="footer-social-link-email"><a href="//loc.gov/subscribe/" title="Email"><img src="/static/images/share/email.svg" width="32" height="32" alt="Email" loading="lazy"/></a></li>
+	      <li class="footer-social-link-facebook"><a href="https://www.facebook.com/libraryofcongress/" title="Library of Congress Facebook"><img src="/static/images/social-media/facebook.svg" width="32" height="32" alt="Library of Congress Facebook" loading="lazy"/></a></li>
+	      <li class="footer-social-link-twitter"><a href="https://www.twitter.com/librarycongress" title="Library of Congress Twitter"><img src="/static/images/social-media/twitter.svg" width="32" height="32" alt="Library of Congress Twitter" loading="lazy"/></a></li>
+	      <li class="footer-social-link-youtube"><a href="https://www.youtube.com/libraryofcongress/" title="Library on Congress Youtube"><img src="/static/images/social-media/youtube.svg" width="32" height="32" alt="Library of Congress Youtube" loading="lazy"/></a></li>
+	      <li class="footer-social-link-pinterest"><a href="https://www.pinterest.com/LibraryCongress/" title="Library on Congress Pinterest"><img src="/static/images/social-media/pinterest.svg" width="32" height="32" alt="Library of Congress Pinterest" loading="lazy"/></a></li>
+	      <li class="footer-social-link-flickr"><a href="https://www.flickr.com/photos/library_of_congress/" title="Library on Congress Flickr"><img src="/static/images/social-media/flickr.svg" width="32" height="32" alt="Library of Congress Flickr" loading="lazy"/></a></li>
+	      <li class="footer-social-link-instagram"><a href="https://instagram.com/librarycongress/" title="Library on Congress Instagram"><img src="/static/images/social-media/instagram.svg" width="32" height="32" alt="Library of Congress Instagram" loading="lazy"/></a></li>
+	      <li class="footer-social-link-itunes"><a href="https://itunes.apple.com/us/artist/library-of-congress/id1280713133?mt=2" title="Library of Congress iTunes"><img src="/static/images/social-media/itunesU.svg" width="32" height="32" alt="Library of Congress iTunesU" loading="lazy"/></a></li>
+	      <li class="footer-social-link-survey"><a href="https://www.research.net/r/libraryofcongress?site=homepage" title="Take our survey">Take our survey <i class="icon icon-external-link"><span>External</span></i></a></li>
+	    </ul></div><div class="footer-row"><div class="footer-links-wrapper"><ul class="footer-links">
+		<li><a href="https://loc.gov/accessibility/">Accessibility</a></li>
+		<li><a href="https://loc.gov/legal/">Legal</a></li>
+		<li><a href="https://loc.gov/about/office-of-the-inspector-general/">Inspector General</a></li>
+		<li><a href="https://loc.gov/legal/standard-disclaimer-for-external-links/">External Link Disclaimer</a></li>
+		<li><a href="//www.usa.gov/">USA.gov</a></li>
+		<li><a href="https://loc.gov/careers/">Careers</a></li>
+		<li><a href="https://loc.gov/contact/">Contact</a></li>
+		<li><a href="http://www.loc.gov/pressroom/">Media</a></li>
+		<li><a href="http://www.loc.gov/philanthropy/index.php">Donate</a></li>
+		<li><a href="http://library-of-congress-shop.myshopify.com/">Shop</a></li>
+	      </ul></div><div class="intersites-links-wrapper"><ul class="intersites-links">
+		<li class="intersites-link-congress"><a href="//www.congress.gov/"><span>Congress.gov</span></a></li>
+		<li class="intersites-link-copyright"><a href="http://copyright.gov"><span>United States Copyright Office</span></a></li>
+	      </ul></div></div></div>
+      </footer><div class="clear"><!-- blah --></div></div><script type="text/javascript">
+            if(window['_satellite']){_satellite.pageBottom();}
+        </script></body>
+</html>

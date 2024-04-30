@@ -1,0 +1,729 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head id="ctl00_Head1">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5SV2GZL');</script>
+    <!-- End Google Tag Manager -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="0eb92e1f-b515-4908-a5af-1e0658251e99" data-blockingmode="auto"  data-framework="IAB" type="text/javascript"></script><title>
+	Douglas Adams - Highgate East Cemetery, London, UK - Dead Poets&#39; Society Memorials on Waymarking.com
+</title><meta name="description" content="Waymarking.com&#32;is&#32;a&#32;way&#32;to&#32;mark&#32;unique&#32;locations&#32;on&#32;the&#32;planet&#32;and&#32;give&#32;them&#32;a&#32;voice.&#32;While&#32;GPS&#32;technology&#32;allows&#32;us&#32;to&#32;pinpoint&#32;any&#32;location&#32;on&#32;the&#32;planet,&#32;mark&#32;the&#32;location,&#32;and&#32;share&#32;it&#32;with&#32;others,&#32;Waymarking&#32;is&#32;the&#32;toolset&#32;for&#32;categorizing&#32;and&#32;adding&#32;unique&#32;information&#32;for&#32;that&#32;location." /><meta name="keywords" content="waymarking,&#32;waymark,&#32;longitude,&#32;latitude,&#32;utm,&#32;coordinates,&#32;scavenger&#32;hunt,&#32;waymarks,&#32;GPS,&#32;global&#32;positioning&#32;system,&#32;garmin,&#32;magellan,&#32;mapping,&#32;geo,&#32;hiking,&#32;outdoors,&#32;hunt,&#32;cache,&#32;satellite,&#32;navigation,&#32;tracking" /><link rel="icon" href="/images/favicon.ico" type="image/x-icon" /><link rel="shortcut&#32;icon" href="/images/favicon.ico" type="image/x-icon" /><link rel="image_src" href="/preview.png" /><link rel="stylesheet" type="text/css" href="/css/main.css" /><link type="text/css" rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+    <script src="/js/reportAbuse.js" type="text/javascript" language="javascript"></script>
+    
+    
+    
+
+    <script
+        src='https://code.jquery.com/jquery-3.5.1.min.js'
+        integrity='sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0='
+        crossorigin='anonymous'
+        type='text/javascript'></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!--[if IE]>
+		<LINK href="/css/ie_main.css" type=text/css rel=stylesheet>
+		<![endif]-->
+    <!-- startup script here-->
+    <script type="text/javascript">
+        var sdkInstance = "appInsightsSDK"; window[sdkInstance] = "appInsights"; var aiName = window[sdkInstance], aisdk = window[aiName] || function (n) { var o = { config: n, initialize: !0 }, t = document, e = window, i = "script"; setTimeout(function () { var e = t.createElement(i); e.src = n.url || "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js", t.getElementsByTagName(i)[0].parentNode.appendChild(e) }); try { o.cookie = t.cookie } catch (e) { } function a(n) { o[n] = function () { var e = arguments; o.queue.push(function () { o[n].apply(o, e) }) } } o.queue = [], o.version = 2; for (var s = ["Event", "PageView", "Exception", "Trace", "DependencyData", "Metric", "PageViewPerformance"]; s.length;)a("track" + s.pop()); var r = "Track", c = r + "Page"; a("start" + c), a("stop" + c); var u = r + "Event"; if (a("start" + u), a("stop" + u), a("addTelemetryInitializer"), a("setAuthenticatedUserContext"), a("clearAuthenticatedUserContext"), a("flush"), o.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }, !(!0 === n.disableExceptionTracking || n.extensionConfig && n.extensionConfig.ApplicationInsightsAnalytics && !0 === n.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)) { a("_" + (s = "onerror")); var p = e[s]; e[s] = function (e, n, t, i, a) { var r = p && p(e, n, t, i, a); return !0 !== r && o["_" + s]({ message: e, url: n, lineNumber: t, columnNumber: i, error: a }), r }, n.autoExceptionInstrumented = !0 } return o }(
+            {
+                instrumentationKey: "ffbcac6d-9944-4aee-bc14-65b600960905",
+            }
+        );
+        (window[aiName] = aisdk).queue && 0 === aisdk.queue.length && aisdk.trackPageView({});
+        aisdk.setAuthenticatedUserContext(null);
+    </script>
+    
+	<link rel="stylesheet" type="text/css" href="/css/wm.css" />
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5SV2GZL');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+<body id="ctl00_uxBody">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SV2GZL"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <form method="post" action="/waymarks/WMH912_Douglas_Adams_Highgate_East_Cemetery_London_UK" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU0NDExMTAxMA9kFgJmD2QWAgIED2QWAgIBEGRkFgoCAQ9kFghmDxYCHgdWaXNpYmxlZ2QCAQ8PFgIeBFRleHQFFnlvdSBhcmUgbm90IGxvZ2dlZCBpbi5kZAICDw8WAh8AaGRkAgMPDxYEHwEFCFtsb2cgaW5dHgtOYXZpZ2F0ZVVybAVhL2xvZ2luL2RlZmF1bHQuYXNweD9SRVNFVD1ZJnJlZGlyPS93YXltYXJrcy9XTUg5MTJfRG91Z2xhc19BZGFtc19IaWdoZ2F0ZV9FYXN0X0NlbWV0ZXJ5X0xvbmRvbl9VS2RkAgQPZBYEAgUPDxYCHwBoZBYCZg9kFggCAQ8WAh8BBf8BWW91IGhhdmUgb25lIG9yIG1vcmUgc2NhdmVuZ2VyIGh1bnRzIHRoYXQgaGF2ZSB3aWxkY2FyZCByZXF1aXJlbWVudHMgdGhhdCBjYW4gYmUgZnVsbGZpbGxlZCBieSB0aGlzIHdheW1hcmsuIFNlbGVjdCBhIHNjYXZlbmdlciBodW50IGZyb20gdGhlIGRyb3Bkb3duIGJveCBiZWxvdyBhbmQgcHJlc3MgdGhlIHN1Ym1pdCBidXR0b24gdG8gYXNzaWduIHRoaXMgd2F5bWFyayB0byBvbmUgb2YgdGhlIHdpbGRjYXJkIHNsb3RzIGZvciB0aGF0IGh1bnQuZAIDDw8WAh8BBRhTZWxlY3QgYSBzY2F2ZW5nZXIgaHVudDpkZAIFDxBkZBYAZAIHDw8WAh8BBQZTdWJtaXRkZAIJD2QWDAIDDxYCHwFlZAIFD2QWAgIBD2QWCGYPFgIfAQWKAjxkaXYgY2xhc3M9J3dtX3Bob3RvJz48YSBocmVmPScvZ2FsbGVyeS9pbWFnZS5hc3B4P2Y9MSZndWlkPWQ5ZDY4MWFkLWM4OGMtNGM5ZS04NGQ1LTdlNDdjYTVhNjA2NycgaWQ9J3JvbGxpbWdsaW5rJz48aW1nIHNyYz0naHR0cHM6Ly9pbWcuZ2VvY2FjaGluZy5jb20vd2F5bWFya2luZy9kaXNwbGF5LzAxZjVkNzQ1LTY0MDktNDE5My1iN2Y5LTg2YzcxMWFiMjI1NS5KUEcnIG5hbWU9J3JvbGxpbWcnIGRhdGEtY29va2llY29uc2VudD0naWdub3JlJz48L2E+PC9kaXY+ZAIBDw8WAh8CBUEvZ2FsbGVyeS9pbWFnZS5hc3B4P2Y9MSZndWlkPWQ5ZDY4MWFkLWM4OGMtNGM5ZS04NGQ1LTdlNDdjYTVhNjA2N2RkAgMPDxYCHwIFSS9nYWxsZXJ5L2RlZmF1bHQuYXNweD9mPTEmZ3VpZD02MDc0OTI5ZC1kMzQ5LTQ5ZTUtYjNmOC04MzlmNjAzMzQwZjUmZ2lkPTJkZAIEDxYCHwEF9gc8ZGl2IGlkPSd3bV9taW5pcGhvdG9zJz48YSBvbmNsaWNrPSJkb2N1bWVudC5yb2xsaW1nLnNyYz1pbWFnZTAuc3JjO2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyb2xsaW1nbGluaycpLnNldEF0dHJpYnV0ZSgnaHJlZicsICcvZ2FsbGVyeS9pbWFnZS5hc3B4P2Y9MSZndWlkPWQ5ZDY4MWFkLWM4OGMtNGM5ZS04NGQ1LTdlNDdjYTVhNjA2NycpOyIgY2xhc3M9J3dtX21pbmlwaG90byc+PGltZyBzcmM9J2h0dHBzOi8vaW1nLmdlb2NhY2hpbmcuY29tL3dheW1hcmtpbmcvbGFuZHNjYXBlLzAxZjVkNzQ1LTY0MDktNDE5My1iN2Y5LTg2YzcxMWFiMjI1NS5KUEcnIGRhdGEtY29va2llY29uc2VudD0naWdub3JlJz48L2E+PGEgb25jbGljaz0iZG9jdW1lbnQucm9sbGltZy5zcmM9aW1hZ2UyLnNyYztkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncm9sbGltZ2xpbmsnKS5zZXRBdHRyaWJ1dGUoJ2hyZWYnLCAnL2dhbGxlcnkvaW1hZ2UuYXNweD9mPTEmZ3VpZD1jNjgyNjM4NS01OWJlLTRkODUtOTM4ZC0xYmQwOWJmM2I0MDgnKTsiIGNsYXNzPSd3bV9taW5pcGhvdG8nPjxpbWcgc3JjPSdodHRwczovL2ltZy5nZW9jYWNoaW5nLmNvbS93YXltYXJraW5nL2xhbmRzY2FwZS9hNjFmMzNkMi04M2UyLTQ5M2QtOGY4MC02MDE2MDgzNjhlNTMuSlBHJyBkYXRhLWNvb2tpZWNvbnNlbnQ9J2lnbm9yZSc+PC9hPjxhIG9uY2xpY2s9ImRvY3VtZW50LnJvbGxpbWcuc3JjPWltYWdlMy5zcmM7ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3JvbGxpbWdsaW5rJykuc2V0QXR0cmlidXRlKCdocmVmJywgJy9nYWxsZXJ5L2ltYWdlLmFzcHg/Zj0xJmd1aWQ9Y2I5NzIyMTQtN2E1Ni00MzFhLWFkNzEtNTQ2ZjY0NmYyN2I1Jyk7IiBjbGFzcz0nd21fbWluaXBob3RvJz48aW1nIHNyYz0naHR0cHM6Ly9pbWcuZ2VvY2FjaGluZy5jb20vd2F5bWFya2luZy9sYW5kc2NhcGUvZTVlNDY1NjItNTA4Ny00ZTQwLThiMDEtYTVhNDAyNDdmMGU5LkpQRycgZGF0YS1jb29raWVjb25zZW50PSdpZ25vcmUnPjwvYT48L2Rpdj5kAgcPZBYcZg8WAh8BBXQ8ZGl2IGlkPSJ3bV9uYW1lIj48aW1nIHNyYz0nL2ltYWdlcy9jYXRfaWNvbnMvbW9udW1lbnQuZ2lmJz5Eb3VnbGFzIEFkYW1zIC0gSGlnaGdhdGUgRWFzdCBDZW1ldGVyeSwgTG9uZG9uLCBVSzwvZGl2PmQCAg8WAh8BBZMBPGRpdiBpZD0id21fY2F0ZWdvcnkiPmluIDxhIGhyZWY9Jy9jYXQvZGV0YWlscy5hc3B4P2Y9MSZndWlkPTAzYjc0ZmUwLWZhMmYtNGM5Zi1hNzNiLWE5ZDkxMjJjODM2MiZzdD0yJz5EZWFkIFBvZXRzJiMzOTsgU29jaWV0eSBNZW1vcmlhbHM8L2E+PC9kaXY+ZAIEDw8WAh8AaGRkAgYPFgIfAQXUAjxkaXYgaWQ9IndtX3Bvc3RlZGJ5Ij48c3Ryb25nPlBvc3RlZCBieTo8L3N0cm9uZz4gPGEgaHJlZj0nL3VzZXJzL3Byb2ZpbGUuYXNweD9mPTEmZ3VpZD03MGU1MTUxMC04YzZmLTQ0OTUtODE1MS0wNGFmZGIzN2Q0N2QnPjxpbWcgc3JjPScvaW1hZ2VzL2ljb25zL3JlZ191c2VyLmdpZicgYWx0PSdHcm91bmRzcGVhayBSZWd1bGFyIE1lbWJlcicgYm9yZGVyPScwJyBhbGlnbj0nYWJzbWlkZGxlJz48L2E+Jm5ic3A7PGEgaHJlZj0nL3VzZXJzL3Byb2ZpbGUuYXNweD9mPTEmZ3VpZD03MGU1MTUxMC04YzZmLTQ0OTUtODE1MS0wNGFmZGIzN2Q0N2QnPk1hc3RlciBNYXJpbmVyPC9hPjwvYT48L2Rpdj5kAggPFgIfAGhkAgoPDxYCHwBoFgIeB29uQ2xpY2sFXHJldHVybiBjb25maXJtKCdBcmUgeW91IHN1cmUgeW91IHdhbnQgdG8gYWRkIHRoaXMgd2F5bWFyayB0byB5b3VyIGxpc3Qgb2Ygc2F2ZWQgc2VhcmNoZXM/Jyk7ZAIMDxYCHwEFTDxkaXYgaWQ9IndtX2Nvb3JkaW5hdGVzIj48c3Ryb25nPk4gNTHCsCAzMy45ODkgVyAwMDDCsCAwOC43MjI8L3N0cm9uZz48L2Rpdj5kAg4PFgIfAQUtPGRpdiBpZD0id21fdXRtIj4zMFUgRSA2OTc4NDAgTiA1NzE2Njg1PC9kaXY+ZAIQDxYCHwEF6gE8ZGl2IGlkPSd3bV9xdWlja2Rlc2MnPkRvdWdsYXMgQWRhbXMsIGEgd3JpdGVyLCB3YXMgcHJvYmFibHkgYmVzdCBrbm93biBmb3IgVGhlIEhpdGNoaGlrZXJzIEd1aWRlIHRvIHRoZSBHYWxheHkuIEhlIGlzIGJ1cmllZCBpbiBhIGdyYXZlLCB3aXRoIGEgc2ltcGxlIGhlYWRzdG9uZSwgaW4gdGhlIGVhc3QgcGFydCBvZiB0aGUgZmFtb3VzIEhpZ2hnYXRlIENlbWV0ZXJ5IGluIG5vcnRoIExvbmRvbi48L2Rpdj5kAhQPFgIfAQU9PGRpdiBpZD0nd21fY29kZSc+PHN0cm9uZz5XYXltYXJrIENvZGU6PC9zdHJvbmc+IFdNSDkxMjwvZGl2PmQCFg8WAh8BBU08ZGl2IGlkPSJ3bV9sb2NhdGlvbiI+PHN0cm9uZz5Mb2NhdGlvbjo8L3N0cm9uZz4gTG9uZG9uLCBVbml0ZWQgS2luZ2RvbTwvZGl2PmQCGA8WAh8BBUY8ZGl2IGlkPSd3bV9kYXRlbGlzdGVkJz48c3Ryb25nPkRhdGUgUG9zdGVkOjwvc3Ryb25nPiAwNi8wOS8yMDEzPC9kaXY+ZAIaDxYCHwEF2AI8ZGl2IGlkPSJ3bV9hcHByb3ZlZGJ5Ij48c3Ryb25nPlB1Ymxpc2hlZCBCeTo8L3N0cm9uZz48YSBocmVmPScvdXNlcnMvcHJvZmlsZS5hc3B4P2Y9MSZndWlkPWNiMTE0ZTkwLWIxNDktNDkzYy1hZjM3LTlkYTgwM2I4ZmExMCc+PGltZyBzcmM9Jy9pbWFnZXMvaWNvbnMvcHJlbV91c2VyLmdpZicgYWx0PSdHcm91bmRzcGVhayBQcmVtaXVtIE1lbWJlcicgYm9yZGVyPScwJyBhbGlnbj0nYWJzbWlkZGxlJz48L2E+Jm5ic3A7PGEgaHJlZj0nL3VzZXJzL3Byb2ZpbGUuYXNweD9mPTEmZ3VpZD1jYjExNGU5MC1iMTQ5LTQ5M2MtYWYzNy05ZGE4MDNiOGZhMTAnPk1hcmluZSBCaW9sb2dpc3Q8L2E+IDwvZGl2PmQCHA8WAh8BBTE8ZGl2IGlkPSJ3bV92aWV3cyI+PHN0cm9uZz5WaWV3czo8L3N0cm9uZz4mbmJzcDs0ZAIJDxYCHwFlZAIND2QWCmYPFgIfAWVkAgIPFgIfAQWsSjxkaXYgaWQ9d21fbG9uZ2Rlc2M+DQoNCg0KCQ0KCQ0KCQ0KDQoNCjxwPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZjsiPlRoZSBncmF2ZSBpcyBjbG9zZSB0byBvbmUgb2YgdGhlIG1haW4gbWFwcyBhbmQgaXMgaW4gc3F1YXJlICZxdW90O0IxJnF1b3Q7IG9mIHRoZSBFYXN0IENlbWV0ZXJ5IG1hcCAoMjAxMykuIEF0IHNvbWUgcG9pbnQgYSBwb3QgaGFzIGJlZW4gcGxhY2VkIGluIGZyb250IG9mIHRoZSBoZWFkc3RvbmUgYW5kIHdyaXRpbmcgaW1wbGVtZW50cyBoYXZlIGJlZW4gYWRkZWQgLSBwcm9iYWJseSBieSBmYW5zLiBUaGUgcGVucyBhZGQgYSBzcGxhc2ggb2YgY29sb3VyIHRvIGEgZ3JleSBoZWFkc3RvbmUgdGhhdCBpcyBzaW1wbHkgaW5zY3JpYmVkIHdpdGg6PC9zcGFuPjwvcD4NCg0KPGJsb2NrcXVvdGU+DQo8cCBzdHlsZT0idGV4dC1hbGlnbjpjZW50ZXI7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+RG91Z2xhcyBBZGFtczxiciAvPg0KV3JpdGVyPGJyIC8+DQoxOTUyIC0gMjAwMTwvc3Bhbj48L2VtPjwvcD4NCjwvYmxvY2txdW90ZT4NCg0KPHA+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+VGhlIDxhIGhyZWY9Imh0dHA6Ly93d3cuZG91Z2xhc2FkYW1zLnNlL2Jpb2dyYXBoeS8iPkRvdWdsYXMgQWRhbXMgd2Vic2l0ZTwvYT4gY2FycmllcyBhIGJpb2dyYXBoeSBvZiBBZGFtczo8L3NwYW4+PC9wPg0KDQo8YmxvY2txdW90ZT4NCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+QmlydGg8YnIgLz4NCkRvdWdsYXMgTm9lbCBBZGFtcyB3YXMgYm9ybiBvbiBNYXJjaCAxMSwgMTk1MiBpbiBDYW1icmlkZ2UuIEhpcyBtb3RoZXIsIEphbmV0IEFkYW1zLCBib3JuIERvbm92YW4sIHdhcyBhIG51cnNlIGF0IEFkZGVuYnJvb2tlJiMzOTtzIGFuZCBoaXMgZmF0aGVyLCBDaHJpc3RvcGhlciBEb3VnbGFzIEFkYW1zLCB3YXMgYSBwb3N0Z3JhZHVhdGUgdGhlb2xvZ3kgc3R1ZGVudCBhdCBSaWRsZXkgSGFsbC4gSGUgbGF0ZXIgYmVjYW1lIGEgdGVhY2hlciBvZiB0aGVvbG9neSwgYnV0IHRoaXMgd2FzIG9idmlvdXNseSBub3QgaGlzIGZpbmFsIGdvYWwgYW5kIGhlIGJlY2FtZSBhIHByb2JhdGlvbiBvZmZpY2VyIGFuZCBsYXRlciBldmVuIGEgbGVjdHVyZXIgb24gcHJvYmF0aW9uYXJ5IHRoZW9yeSBhbmQgcHJhY3RpY2UuPC9zcGFuPjwvZW0+PC9wPg0KDQo8cCBzdHlsZT0idGV4dC1hbGlnbjpqdXN0aWZ5OyI+PGVtPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZjsiPkZhbWlseTxiciAvPg0KRG91Z2xhcyBwYXJlbnRzIGdvdCBkaXZvcmNlZCB3aGVuIGhlIHdhcyBmaXZlIGFuZCBoZSBtb3ZlZCB0byBCcmVudHdvb2Qgd2l0aCBoaXMgbW90aGVyIGFuZCB0d28geWVhcnMgeW91bmdlciBzaXN0ZXIgU3VlLiBJbiAxOTYyIGhpcyBmYXRoZXIgbWFycmllZCBhZ2FpbiBhbmQgaGFkIGFub3RoZXIgY2hpbGQgaW4gMTk2NSwgYSBoYWxmLXNpc3RlciB0byBEb3VnbGFzLCB3aG8gbm93IHRlYWNoZXMgRW5nbGlzaCBpbiB0aGUgQ2FuYXJpZXMuIEhpcyBtb3RoZXIgbWFycmllZCBSb24gVGhyaWZ0IGluIDE5NjQgYW5kIHRoYXQgcmVzdWx0ZWQgaW4gRG91Z2xhcyYjMzk7IGhhbGYtc2lzdGVyIEphbmUgaW4gMTk2NiBhbmQgaGFsZi1icm90aGVyIEphbWVzIGluIDE5NjguIEphbmUgd2VudCBvbiB0byBiZWNvbWUgYSB6b29sb2dpc3QsIGFuZCBKYW1lcyB3b3JrcyBoZXJlLiBKYW1lcyYjMzk7IHdpZmUgZ2F2ZSBiaXJ0aCB0byB0aGVpciBmaXJzdCBib3JuLCBhIGdpcmwgbmFtZWQgRWxsYSwgaW4gTWF5IDIwMDQuIFJvbiBUaHJpZnQgZGllZCBvZiBjYW5jZXIgaW4gMTk5MS48L3NwYW4+PC9lbT48L3A+DQoNCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+U2Nob29sPGJyIC8+DQpGcm9tIDE5NTkgdW50aWwgMTk3MCBEb3VnbGFzIGF0dGVuZGVkIEJyZW50d29vZCBTY2hvb2wgaW4gRXNzZXgsIGF0IHdoaWNoIHRpbWUgaGUgd2FzIHN0aWxsIG1vcmUgaW50ZXJlc3RlZCBpbiB0aGUgZmllbGQgb2Ygc2NpZW5jZSB0aGFuIGluIHRoZSBhcnRzLiBUaGUgbW9tZW50IGhlIHRob3VnaHQgc2VyaW91c2x5IGFib3V0IHdyaXRpbmcgZm9yIHRoZSBmaXJzdCB0aW1lIHdhcyBhdCB0aGUgYWdlIG9mIHRlbiwgd2hlbiBoZSBnb3QgJnF1b3Q7dGVuIG91dCBvZiB0ZW4mcXVvdDsgZm9yIGEgY29tcG9zaXRpb24gaW4gRnJhbmsgSGFsZm9yZHMgY2xhc3MgLSByZXBvcnRlZGx5IHRoZSBmaXJzdCBhbmQgb25seSB0aW1lIE1yLiBIYWxmb3JkIGhhcyBldmVyIGdpdmVuICZxdW90O3RlbiBvdXQgb2YgdGVuJnF1b3Q7Ljwvc3Bhbj48L2VtPjwvcD4NCg0KPHAgc3R5bGU9InRleHQtYWxpZ246anVzdGlmeTsiPjxlbT48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWY7Ij5CeSBoaXMgZXNzYXkgb24gdGhlIHJldml2YWwgb2YgcmVsaWdpb3VzIHBvZXRyeSBoZSB3b24gaGltc2VsZiBhbiBleGhpYml0aW9uIHRvIHN0dWR5IEVuZ2xpc2ggYXQgQ2FtYnJpZGdlLiBEb3VnbGFzIHdhcyBlYWdlciB0byBnbyB0byBDYW1icmlkZ2UgYXMgaGUgd2FudGVkIHRvIGpvaW4gRm9vdGxpZ2h0cywgYSBjb21lZHkgcmV2dWUgZ3JvdXAgdGhlcmUuIEJ1dCBpbiBoaXMgZmlyc3QgdGVybSBoZSBmb3VuZCB0aGVtICZxdW90O2Fsb29mIGFuZCByYXRoZXIgcGxlYXNlZCB3aXRoIHRoZW1zZWx2ZXMmcXVvdDsgYW5kIGhlIGpvaW5lZCBDVUxFUyAoQ2FtYnJpZGdlIFVuaXZlcnNpdHkgTGlnaHQgRW50ZXJ0YWlubWVudCBTb2NpZXR5KSBpbnN0ZWFkLjwvc3Bhbj48L2VtPjwvcD4NCg0KPHAgc3R5bGU9InRleHQtYWxpZ246anVzdGlmeTsiPjxlbT48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWY7Ij5CZWZvcmUgYW5kIHdoaWxlIGhlIHN0dWRpZWQgYXQgQ2FtYnJpZGdlIGhlIGRlY2lkZWQgdG8gaGl0Y2gtaGlrZSB0byBJc3RhbmJ1bCBhbmQgYWxsIG92ZXIgRXVyb3BlIGFuZCBpbiBvcmRlciB0byBtYWtlIHRoZSBtb25leSBmb3IgaGlzIHRyYXZlbHMgaGUgd29ya2VkIGFzIGEgY2hpY2tlbi1zaGVkIGNsZWFuZXIsIGJhcm4gYnVpbGRlciBhbmQgaG9zcGl0YWwgcG9ydGVyIChpbiB0aGUgWC1yYXkgZGVwYXJ0bWVudCBvZiBZZW92aWwgR2VuZXJhbCBIb3NwaXRhbDsgaGUgd2FzIG5vdCB1bmZhbWlsaWFyIHdpdGggdGhpcyBraW5kIG9mIGpvYiBhcyBoZSBoYWQgd29ya2VkIGluIGEgbWVudGFsIGhvc3BpdGFsIHdoaWxlIGhlIHdhcyBzdGlsbCBhdCBzY2hvb2wpLjwvc3Bhbj48L2VtPjwvcD4NCg0KPHAgc3R5bGU9InRleHQtYWxpZ246anVzdGlmeTsiPjxlbT48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWY7Ij5Gb290bGlnaHRzPGJyIC8+DQpJbiBoaXMgc2Vjb25kIHRlcm0gaGUgam9pbmVkIEZvb3RsaWdodHMgb24gdGhlIHN0cmVuZ3RoIG9mIFNpbW9uIEpvbmVzLCB3aG8gd2FzICZxdW90O2ZyaWVuZGx5IGFuZCBoZWxwZnVsLCBhbGwgdGhlIHRoaW5ncyB0aGUgb3RoZXJzIHdlcmVuJiMzOTt0LCBhIGNvbXBsZXRlbHkgbmljZSBndXkmcXVvdDsuIEJ1dCBhcyBoaXMgaWRlYXMgd2VyZSBub3QgYWNjZXB0ZWQgYnkgdGhlIHJlc3QsIGhlIGVuZGVkIHVwIGZvcm1pbmcgdGhlICYjMzk7Z3VlcmlsbGEmIzM5OyByZXZ1ZSBncm91cCBBZGFtcy1TbWl0aC1BZGFtcyB0b2dldGhlciB3aXRoIEFkYW1zIGFuZCBTbWl0aC4gVGhleSBoaXJlZCBhIHRoZWF0cmUgZm9yIGEgd2VlayBhbmQgd2l0aCB0aGVtIGhlIGhhZCBoaXMgZmlyc3QgY29uc2lkZXJhYmxlIGhpdC4gSW4gc3VtbWVyIDE5NzQgRG91Z2xhcyBsZWZ0IENhbWJyaWRnZSBhbmQgaGFkIGZpbmFsbHkgZGVjaWRlZCB0byBiZWNvbWUgYSB3cml0ZXIgYW5kIHdhcyBjb25maWRlbnQgaGUgd291bGQuPC9zcGFuPjwvZW0+PC9wPg0KDQo8cCBzdHlsZT0idGV4dC1hbGlnbjpqdXN0aWZ5OyI+PGVtPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZjsiPk5vbmUgb2YgaGlzIHNldmVyYWwgZmlyc3QgYXR0ZW1wdHMgYXMgYSBjb21lZHkgd3JpdGVyIGJyb3VnaHQgaGltIHRoZSBncmVhdCBzdWNjZXNzLiBIZSBldmVudHVhbGx5IHdvcmtlZCB0b2dldGhlciB3aXRoIEdyYWhhbSBDaGFwbWFuIChhIG1lbWJlciBvZiBNb250eSBQeXRob24pIGFuZCBKb2huIExsb3lkLCBidXQgbW9zdCBvZiB0aGUgcHJvamVjdHMgbmV2ZXIgc2F3IHRoZSBsaWdodCBvZiBkYXkgYW5kIHRoZSBmZXcgdGhhdCBkaWQgd2VyZSBub3Qgd29ydGggbWVudGlvbmluZy48L3NwYW4+PC9lbT48L3A+DQoNCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+SmFuZSAmYW1wOyBQb2xseTxiciAvPg0KT24gRmVicnVhcnkgNCAxOTc3IGhlIG1ldCBTaW1vbiBCcmV0dCwgd2hvIHRoZW4gd2FzIGRvaW5nIFJhZGlvIDQmcnNxdW87cyAmbHNxdW87VGhlIEJ1cmtpc3MgV2F5JnJzcXVvOy4gVGhleSBhZ3JlZWQgdG8gcHJvZHVjZSBhIHNjaWVuY2UgZmljdGlvbiBjb21lZHkgc2hvdyBvbiByYWRpby4gVGhpcyB3YXMgdGhlIGJpcnRoIG9mIHRoZSBIaXRjaC1oaWtlcnMgR3VpZGUgdG8gdGhlIEdhbGF4eS48L3NwYW4+PC9lbT48L3A+DQoNCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+RG91Z2xhcyBtYXJyaWVkIEphbmUgQmVsc29uIG9uIE5vdmVtYmVyIDI0IDE5OTEgKHRoZXkgaGFkIGJlZW4gaW50cm9kdWNlZCB0byBlYWNoIG90aGVyIGluIHRoZSBlYXJseSA4MDpzIGJ5IGEgbXV0dWFsIGZyaWVuZCkgYW5kIHRoZXkgaGF2ZSBhIGRhdWdodGVyIGJ5IHRoZSBuYW1lIFBvbGx5IEphbmUsIGJvcm4gb24gSnVuZSAyMiwgMTk5NC4gVGhleSBsaXZlZCBpbiBJc2xpbmd0b24sIExvbmRvbiwgVUsgYnV0IGluIDE5OTkgdGhleSBtb3ZlZCB0byBTYW50YSBCYXJiYXJhLCBDYWxpZm9ybmlhLCBVU0EuIEluIDE5OTcgRG91Z2xhcyBoYWQgc2lnbmVkIGEgZGVhbCB3aXRoIERpc25leSB0byBtYWtlIGEgZmVhdHVyZSBtb3ZpZSBvZiBIaXRjaGhpa2VyLCBhbmQgaGUgaW1tZWRpYXRlbHkgc3RhcnRlZCB3b3JraW5nIG9uIHRoZSBzY3JlZW5wbGF5LiBKYXkgUm9hY2gsIG9mIEF1c3RpbiBQb3dlcnMgZmFtZSwgd2FzIHNpZ25lZCBhcyBkaXJlY3Rvci48L3NwYW4+PC9lbT48L3A+DQoNCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+RG91Z2xhcyBjby1mb3VuZGVkIHRoZSBjb21wYW55IFRoZSBEaWdpdGFsIFZpbGxhZ2UsIG5vdyBleHRpbmN0IGFuZCBkaXZpZGVkIGludG8gaDJnMi5jb20gYW5kIFBoYXNlMyBTdHVkaW9zIChXaGljaCBpbiBpdHMgdHVybiBiZWNhbWUgZXh0aW5jdCBpbiBzcHJpbmcgMjAwMikuIFREVjpzIGJ1c2luZXNzIHdhcyB0byBwcm9kdWNlIG5lYXJseSBldmVyeXRoaW5nIHRoYXQgaGFzIHRvIGRvIHdpdGggbWVkaWE7IFRWLCBtb3ZpZXMsIGNvbXB1dGVyIGdhbWVzIGEucy5vLiBEb3VnbGFzIHdhcyBvbmUgb2YgdGhlIGNyZWF0b3JzIG9mIFN0YXJzaGlwIFRpdGFuaWMsIGEgY29tYmluZWQgYm9vayAod3JpdHRlbiBieSBUZXJyeSBKb25lcyBvZiB0aGUgTW9udHkgUHl0aG9uLWJ1bmNoKSBhbmQgY29tcHV0ZXIgZ2FtZS4gRG91Z2xhcyBhbHNvIHdyb3RlIHRoZSBEaXJrIEdlbnRseSBub3ZlbHMgYW5kIGEgbm9uIGZpY3Rpb24gYm9vaywgJnF1b3Q7TGFzdCBjaGFuY2UgdG8gc2VlJnF1b3Q7LCBhYm91dCBlbmRhbmdlcmVkIHNwZWNpZXMgKHdpdGggTWFyayBDYXJ3YXJkaW5lKS48L3NwYW4+PC9lbT48L3A+DQoNCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+RGVhdGg8YnIgLz4NCiZxdW90O0hlIGhhZCBhIG5hcnJvd2luZyBvZiB0aGUgYXJ0ZXJpZXMgaW4gdGhlIGhlYXJ0LCB3aGljaCBpcyBoYXJkIHRvIGRldGVjdCwgYW5kIGFuIGFycmh5dGhtaWMgaGVhcnRiZWF0LCB3aGljaCBpcyB1c3VhbGx5IGJlbmlnbi4gVGhpcyBjb3VsZCBoYXZlIGhhcHBlbmVkIGFueSB0aW1lLCBhbmQgSSYjMzk7bSBnbGFkIGl0IHdhc24mIzM5O3Qgd2hlbiBoZSB3YXMgZHJpdmluZy4mcXVvdDsgLSBEb3VnbGFzJiMzOTsgd2lmZSBKYW5lLjwvc3Bhbj48L2VtPjwvcD4NCg0KPHAgc3R5bGU9InRleHQtYWxpZ246anVzdGlmeTsiPjxlbT48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWY7Ij5PbiB0aGUgbW9ybmluZyBvZiBNYXkgMTEgMjAwMSwgRG91Z2xhcyB3ZW50IHRvIHRoZSBsb2NhbCBneW0gdG8gd29yayBvdXQuIEhlIGhhZCBiZWVuIHdhbGtpbmcgdGhlIHRyZWFkbWlsbCBhbmQgd2VudCBvbiBmb3Igc29tZSBhZXJvYmljcy4gUGV0ZXIsIGhpcyB0cmFpbmVyLCBleGFtaW5lZCBEb3VnbGFzIGFuZCBmb3VuZCBoaXMgaGVhcnQgcmF0ZSBxdWl0ZSBub3JtYWwsIHJvdW5kIDEzMC4gQWZ0ZXIgYWVyb2JpY3MgaXQgd2FzIHRpbWUgZm9yIHNvbWUgZ3ltIHdvcmtvdXQuIEZpcnN0IHVwIHdhcyBzdG9tYWNoIGNydW5jaGVzLCBhbmQgRG91Z2xhcyBsYXkgZG93biBvbiB0aGUgYmVuY2guIFRoZSB0cmFpbmVyIHR1cm5lZCB0byBnZXQgRG91Z2xhcyYjMzk7IHRvd2VsLCBhbmQgd2hlbiBoZSB0dXJuZWQgYmFjayB0byBoYW5kIGl0IG92ZXIsIERvdWdsYXMgcm9sbGVkIG9mZiB0aGUgYmVuY2gsIHN1ZmZlcmluZyBhIG1hc3NpdmUgaGVhcnQgYXR0YWNrLiBBbGwgYXR0ZW1wdHMgdG8gcmV2aXZlIGhpbSB3ZXJlIHVuc3VjY2Vzc2Z1bC4gUGV0ZXIgZ290IG9uIHRoZSBwaG9uZSBhbmQgY2FsbGVkIEphbmUsIHNheWluZyBEb3VnbGFzIGhhZCBmYWludGVkIGFuZCBoYWQgYmVlbiB0YWtlbiB0byB0aGUgaG9zcGl0YWwuPC9zcGFuPjwvZW0+PC9wPg0KDQo8cCBzdHlsZT0idGV4dC1hbGlnbjpqdXN0aWZ5OyI+PGVtPjxzcGFuIHN0eWxlPSJmb250LWZhbWlseTphcmlhbCxoZWx2ZXRpY2Esc2Fucy1zZXJpZjsiPkRvdWdsYXMgd2FzIGRlYWQuIEhlIGxlZnQgaGlzIDYgeWVhciBvbGQgZGF1Z2h0ZXIgUG9sbHksIGhpcyB3aWZlIEphbmUsIGhpcyBtb3RoZXIgSmFuIFRocmlmdCBhbmQgY291bnRsZXNzIG90aGVyIGZhbWlseSBtZW1iZXJzIGFuZCBmcmllbmRzLCBub3QgdG8gbWVudGlvbiB0aG91c2FuZHMgYW5kIHRob3VzYW5kcyBvZiBmYW5zIGFsbCBvdmVyIHRoZSB3b3JsZCwgaW4gc2hvY2sgYW5kIG1vdXJuaW5nLiBCeSB0aGUgdGltZSBvZiBoaXMgZGVhdGggaGUgaGFkIGp1c3QgZmluaXNoZWQgYSBkcmFmdCBvZiB0aGUgc2NyZWVucGxheSB0byBhIGZlYXR1cmUgbW92aWUgb2YgSGl0Y2hoaWtlcnMgR3VpZGUgdG8gdGhlIEdhbGF4eS48L3NwYW4+PC9lbT48L3A+DQoNCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+RG91Z2xhcyB3YXMgY3JlbWF0ZWQgaW4gU2FudGEgQmFyYmFyYSBhbmQgaXMgYnVyaWVkIGluIEhpZ2hnYXRlIENlbWV0ZXJ5IChFYXN0KSwgSGlnaGdhdGUsIExvbmRvbiwgRW5nbGFuZCwgcGxvdDogU3F1YXJlIDc0LCBQbG90IDUyMzc3LiBKYW5lIGFuZCBQb2xseSBoYXZlIG1vdmVkIGJhY2sgdG8gSXNsaW5ndG9uLCBMb25kb24gdG9nZXRoZXIgd2l0aCB0aGVpciBjYXRzLjwvc3Bhbj48L2VtPjwvcD4NCg0KPHAgc3R5bGU9InRleHQtYWxpZ246anVzdGlmeTsiPjxlbT48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWY7Ij5TY2F0dGVyZWQgaW5mb3JtYXRpb248L3NwYW4+PC9lbT48L3A+DQoNCjxwIHN0eWxlPSJ0ZXh0LWFsaWduOmp1c3RpZnk7Ij48ZW0+PHNwYW4gc3R5bGU9ImZvbnQtZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmOyI+SSYjMzk7bSBub3Qgc3VyZSBpZiBEb3VnbGFzIHdhcyBhIHNwb3J0cyBmYW4uIFdlIGFsbCBrbm93IGhlIHdlbnQgdG8gdGhlIGd5bSBldmVyeSBvbmNlIGluIGEgd2hpbGUsIGFuZCBvbmUgdGltZSB0b28gbWFueS4gSSBvbmNlIGFza2VkIGhpbSBpZiBoZSBwbGF5ZWQgZ29sZiBvciBoYWQgdHJpZWQgaXQsIHNpbmNlIGhlIHdhcyBhIFdvZGVob3VzZSBmYW4gYW5kIHNpbmNlIFdvZGVob3VzZSB3cm90ZSBtYW55IGZ1bm55IGdvbGYgcmVsYXRlZCBzdG9yaWVzLiBIZSBzYWlkOjwvc3Bhbj48L2VtPjwvcD4NCg0KPHAgc3R5bGU9InRleHQtYWxpZ246anVzdGlmeTsiPjxlbT48c3BhbiBzdHlsZT0iZm9udC1mYW1pbHk6YXJpYWwsaGVsdmV0aWNhLHNhbnMtc2VyaWY7Ij4mcXVvdDtJIGxvdmUgdGhlIFdvZGVob3VzZSBzdG9yaWVzIGFib3V0IGdvbGYsIGFzIHlvdSBtaWdodCBpbWFnaW5lLiBNeSBvbmUgZXhwZXJpZW5jZSBvZiBpdCB3YXMgbWFueSwgbWFueSB5ZWFycyBhZ28sIHdoZW4gYSBmcmllbmQgb2YgbWluZSBvZmZlcmVkIHRvIGludHJvZHVjZSBtZSB0byB0aGUgc3BvcnQsIGFuZCB3ZSBwbGF5ZWQgYSByb3VuZCBhdCBhIGxvY2FsIGdvbGYgY291cnNlLiBNeSBmcmllbmQgd2FzbiYjMzk7dCBhIGdyZWF0IHBsYXllciwgYnV0IGhlIHdhcyBhIGdvb2Rpc2ggcGxheWVyIGFuZCBoZSB0b29rIGl0IHZlcnkgc2VyaW91c2x5LiBUaGUgaW5ldml0YWJsZSBoYXBwZW5lZCBhbmQgaGUgZm91bmQgaGltc2VsZiBwbGF5aW5nIHJhdGhlciBiYWRseSwgYW5kIGZsdWZmaW5nIGVhc3kgc2hvdHMsIGFzIGEgcmVzdWx0IG9mIHdoaWNoIGhlIGJlY2FtZSByYXRoZXIgdGVuc2UgYW5kIG1vcm9zZS4gSSwgYXMgY29tcGxldGUgYmVnaW5uZXJzIG9mdGVuIGRvLCBoaXQgb25lIG9yIHR3byBsdWNreSBzaG90cy4gQnkgdGhlIGVuZCBvZiB0aGUgZ2FtZSBteSBmcmllbmQgd2FzIHN1Y2ggYSBjbGVuY2hlZCBrbm90IG9mIHNlbGYgaGF0cmVkIHRoYXQgdGhlIHdob2xlIHRoaW5nIHdhcyB1bmJlYXJhYmxlLiBJIHRob3VnaHQgSSYjMzk7ZCBnaXZlIGl0IGEgcmVzdCBmb3IgdHdlbnR5IG9yIHRoaXJ0eSB5ZWFycyB0byB3YWl0IGZvciB0aGUgbWVtb3JpZXMgb2YgdGhhdCBoaWRlb3VzIGRheSB0byB3ZWFyIG9mZiwgYnV0IHRoZXkgaGF2ZW4mIzM5O3QgcmVhbGx5IHN1YnNpZGVkIHlldC4mcXVvdDs8L3NwYW4+PC9lbT48L3A+DQo8L2Jsb2NrcXVvdGU+DQoNCjwvZGl2PmQCBg8WAh8BBdYBPGRpdiBpZD13bV9sb2dpbnN0cnVjdGlvbnM+PHN0cm9uZz5WaXNpdCBJbnN0cnVjdGlvbnM6PC9zdHJvbmc+PGJyIC8+R2l2ZSB0aGUgZGF0ZSBvZiB5b3VyIHZpc2l0IGFuZCBkZXNjcmliZSB5b3VyIGV4cGVyaWVuY2UuICBBZGRpdGlvbmFsIHBob3RvcyBhbmQgaW5mb3JtYXRpb24gYWJvdXQgdGhlIHNpdGUgb3IgcG9ldC9hdXRob3IgYXJlIGFwcHJlY2lhdGVkLjwvZGl2PmQCCA8PFgQeCENzc0NsYXNzBRB3YXltYXJrX3NlYXJjaGVzHgRfIVNCAgJkZAIMDw8WAh8AaGRkAg8PDxYCHwBoZGQCBg9kFgYCAQ9kFgRmD2QWBAIDDw8WBB8BBTQ8aW1nIHNyYz0nL2ltYWdlcy9pY29ucy9mbGFnLmdpZicgYWxpZ249J2Fic21pZGRsZSc+HwBoZGQCBQ9kFgICAQ8QDxYCHwBoZGRkZAICDw8WAh8AaGRkAgMPZBYEZg8PFgIfAQUPV2F5bWFyayBPcHRpb25zZGQCAg8PFgIfAGhkZAIFD2QWAmYPDxYCHwEFDUFkdmVydGlzZW1lbnRkZAIHD2QWOgIDDw8WAh8CBSAvd20vc2VhcmNoLmFzcHg/Zj0xJnN0PTEyNiZ3ZnQ9MmRkAgUPDxYCHwIFHi93bS9zZWFyY2guYXNweD9mPTEmc3Q9MiZ3ZnQ9NGRkAgcPDxYCHwIFIy93bS9zZWFyY2guYXNweD9mPTEmdHA9MyZ3c3Q9NiZzdD0yZGQCCQ8PFgIfAgUeL3dtL3NlYXJjaC5hc3B4P2Y9MSZzdD00JndmdD0yZGQCCw8PFgIfAgUfL3dtL3NlYXJjaC5hc3B4P2Y9MSZ3ZnQ9MyZzdD02NmRkAg0PDxYCHwIFJi93bS9zZWFyY2guYXNweD9mPTEmd3N0PTgmc3Q9MTI4JndmdD02ZGQCDw8PFgIfAgUmL3dtL3NlYXJjaC5hc3B4P2Y9MSZ3c3Q9OCZzdD02NDAmd2Z0PTJkZAIRDw8WAh8CBSEvd20vc2VhcmNoLmFzcHg/Zj0xJnN0PTImYXN0PXRydWVkZAIVDw8WAh8AaGRkAhYPDxYCHwIFHy9jYXQvc2VhcmNoLmFzcHg/Zj0xJmNzdD04JnN0PTJkZAIYDw8WBB8BBQlGYXZvcml0ZXMfAgUqL3N1YnNjcmliZS9kZWZhdWx0LmFzcHg/Zj0xJnN0PTImZmVhdHVyZT0zZGQCGg8PFgYeCEltYWdlVXJsBRsvaW1hZ2VzL2ljb25zL2lzcHJlbWl1bS5naWYeDUFsdGVybmF0ZVRleHQFDHByZW1pdW0gb25seR8AZ2RkAhwPDxYEHwEFC0lnbm9yZSBMaXN0HwIFKi9zdWJzY3JpYmUvZGVmYXVsdC5hc3B4P2Y9MSZzdD0yJmZlYXR1cmU9NGRkAh4PDxYGHwYFGy9pbWFnZXMvaWNvbnMvaXNwcmVtaXVtLmdpZh8HBQxwcmVtaXVtIG9ubHkfAGdkZAIgDw8WAh8CBR8vY2F0L3NlYXJjaC5hc3B4P2Y9MSZjc3Q9MSZzdD0yZGQCIg8PFgIfAgUfL2NhdC9zZWFyY2guYXNweD9mPTEmY3N0PTMmc3Q9MmRkAiQPDxYCHwBoZGQCJQ8PFgQfAQUQUmVxdWlyaW5nIFJldmlldx8CBSovc3Vic2NyaWJlL2RlZmF1bHQuYXNweD9mPTEmc3Q9MiZmZWF0dXJlPTJkZAInDw8WBh8GBRsvaW1hZ2VzL2ljb25zL2lzcHJlbWl1bS5naWYfBwUMcHJlbWl1bSBvbmx5HwBnZGQCKw8PFgIfAgURL215L2xvZ3MuYXNweD9mPTFkZAIvDw8WAh8CBSgvZ3JvdXBzL3NlYXJjaC5hc3B4P2Y9MSZnc3Q9MyZnZnQ9MSZzdD0yZGQCMQ8PFgIfAgUoL2dyb3Vwcy9zZWFyY2guYXNweD9mPTEmZ3N0PTMmZ2Z0PTImc3Q9MmRkAjMPDxYCHwIFKC9ncm91cHMvc2VhcmNoLmFzcHg/Zj0xJmdzdD0zJmdmdD0zJnN0PTJkZAI1Dw8WAh8CBSIvZ3JvdXBzL3NlYXJjaC5hc3B4P2Y9MSZnZnQ9NSZzdD0yZGQCNw8PFgIfAGdkFggCAw8PFgIfAgUZL2h1bnQvbGlzdC5hc3B4P3B0PTUmaHQ9MWRkAgUPDxYCHwIFGS9odW50L2xpc3QuYXNweD9wdD01Jmh0PTRkZAIHDw8WAh8CBRkvaHVudC9saXN0LmFzcHg/cHQ9NSZodD0yZGQCCQ8PFgIfAgUZL2h1bnQvbGlzdC5hc3B4P3B0PTUmaHQ9M2RkAjsPDxYEHwEFEU15IFNhdmVkIFNlYXJjaGVzHwIFFC9teS9vcmlnaW5zLmFzcHg/Zj0xZGQCPQ8PFgQfAQUSRnVsbCBDYXRlZ29yeSBMaXN0HwIFHy9jYXQvY2F0ZWdvcnlkaXJlY3RvcnkuYXNweD9mPTFkZAI/Dw8WAh8AaGRkAkEPDxYCHwBoZGQCCA9kFgxmDw8WAh8CBQEvZGQCAQ8PFgIfAgUjaHR0cHM6Ly93d3cuZ2VvY2FjaGluZy5jb20vY2FyZWVycy9kZAIDDw8WAh8CBTBodHRwczovL3d3dy5nZW9jYWNoaW5nLmNvbS9hYm91dC90ZXJtc29mdXNlLmFzcHhkZAIFDw8WAh8CBTZodHRwczovL3d3dy5nZW9jYWNoaW5nLmNvbS9hY2NvdW50L2RvY3VtZW50cy9kb25vdHNlbGxkZAIGDw8WAh8CBQgvY29udGFjdGRkAgcPDxYCHwIFEC9oZWxwL3N0YXJ0LmFzcHhkZGT7bfc3MOmT58++gO5nZPvL1dnYMA==" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=z1rPDFMG9GSlF6MHtHLVAsSEw5BwO4RvMtal_YWrKs4D5emREa6CkQke5heEeuLRdl1vwluvo9vK0DN6jFb_Xp_PByjg5RdN7gapxrFi4Y3Vb572OGnCmsOUiZG9VTa3J69v15FZj_ZZX98SFa0aZ-yMMIQ1&amp;t=49337fe8" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C5B5F3D6" />
+</div>
+        
+
+        <div id="wrap">
+            
+<div id="header">
+    <!--[if lte IE 6]>
+    <div style="padding:5px;color:#B10022;background-color:#ffffff;zoom:1;text-align:center;margin-bottom:5px">
+        <p><img src="../images/stockholm/16x16/alert.gif" style="vertical-align:middle" />
+        Groundspeak is phasing out support for older browsers. Visit the <a href="http://support.groundspeak.com/index.php?pg=kb.page&id=215" title="View browser support information">Help Center</a> for more information.
+        </p>
+    </div>
+    <![endif]-->
+    <div id="header_logo">
+        <a href="">
+            <img src="/images/logo.gif" /></a></div>
+    <ul id="main_nav">
+        <li id="lnk_shop" title="Shop Geocaching"><a href="http://shop.geocaching.com">shop</a></li>
+        <li id="lnk_forums" title="Waymarking Forums"><a href="https://forums.geocaching.com/GC/index.php?/forum/52-waymarking/">forums</a></li>
+        <li id="lnk_waymarks" title="Waymarks"><a href="/waymarks.aspx">waymarks</a></li>
+        <li id="ctl00_HeaderControl1_lnk_scavenger_hunts" title="Scavenger&#32;Hunts"><a href="/games.aspx">
+            scavenger hunts</a></li>
+        <li id="lnk_groups" title="Groups"><a href="/groups.aspx">groups</a></li>
+        <li id="lnk_categories" title="Categories"><a href="/categories.aspx">categories</a></li>
+        <li id="lnk_mypage" title="Profile"><a href="/users/profile.aspx">profile</a></li>
+        <li id="lnk_home" title="Waymarking Home"><a href="/default.aspx">home</a></li>
+    </ul>
+    <div id="logowrap">
+        <div id="bc_wrap">
+            <p id="breadcrumb">
+                <A href='/default.aspx?f=1' >Home</A>&nbsp;&gt; <A href='/categories.aspx?f=1' >Categories</A>&nbsp;&gt; <A href='/cat/details.aspx?f=1&guid=03b74fe0-fa2f-4c9f-a73b-a9d9122c8362&st=2'>Category</a>&nbsp;&gt; Waymark</p>
+            <p id="login">
+                <span id="ctl00_HeaderControl1_lblLogin">you are not logged in.</span>&nbsp;<a id="ctl00_HeaderControl1_lnkSignInUrl" href="/login/default.aspx?RESET=Y&amp;redir=/waymarks/WMH912_Douglas_Adams_Highgate_East_Cemetery_London_UK">[log in]</a></p>
+            <div class="clear">
+            </div>
+        </div>
+        <!-- end bc_wrap -->
+        <div id="titlediv">
+            <h1 id="title">
+                <span id="titletext">
+                    Douglas Adams - Highgate East Cemetery, London, UK - Dead Poets&#39; Society Memorials on Waymarking.com</span></h1>
+        </div>
+        <!-- end titlediv -->
+    </div>
+    <!-- end logowrap -->
+</div>
+<!--end header-->
+
+            <div id="content">
+                <div class="gutter">
+                    <!--enter center content here-->
+                    
+                    
+                    <input name="__RequestVerificationToken" type="hidden" value="yntF_fk-5i1mlDAWbVR-YVv7G-V1GDjtNcbHJrg-L3R0kU4lGgkLpCljhQmD0E4TNaN53hxgJbiL7m1uOC7QggDSTsE1" />
+                    
+    <div id="ctl00_ContentBody_uxUpsellPanel" class="upsellPanel">
+	
+        
+    
+</div>
+    
+    
+    
+    
+<div class="waymarkcontrol" id="waymarkcontrol">
+    <table cellpadding="0" cellspacing="0" border="0" width="98%">
+        <tr>
+            <td>
+                <div id="ctl00_ContentBody_WaymarkControl1_pnlMessage">
+	
+                    <span id="ctl00_ContentBody_WaymarkControl1_lblMessage"></span>
+                
+</div>
+                
+                <div id="waymark_details">
+                    <div id="ctl00_ContentBody_WaymarkControl1_pnlPhoto">
+	
+                        <div id="photoleft">
+                            <script language=javascript>if (document.images) {image0 = new Image;image0.src='https://img.geocaching.com/waymarking/display/01f5d745-6409-4193-b7f9-86c711ab2255.JPG';image2 = new Image;image2.src='https://img.geocaching.com/waymarking/display/a61f33d2-83e2-493d-8f80-601608368e53.JPG';image3 = new Image;image3.src='https://img.geocaching.com/waymarking/display/e5e46562-5087-4e40-8b01-a5a40247f0e9.JPG';}</script>
+<div class='wm_photo'><a href='/gallery/image.aspx?f=1&guid=d9d681ad-c88c-4c9e-84d5-7e47ca5a6067' id='rollimglink'><img src='https://img.geocaching.com/waymarking/display/01f5d745-6409-4193-b7f9-86c711ab2255.JPG' name='rollimg' data-cookieconsent='ignore'></a></div>
+<p id="wm_gallerylink">
+		<a id="ctl00_ContentBody_WaymarkControl1_PhotoControl1_lnkCamera" href="/gallery/image.aspx?f=1&amp;guid=d9d681ad-c88c-4c9e-84d5-7e47ca5a6067"><img src="../images/camera.gif" alt="HyperLink" /></a>
+		<span id="ctl00_ContentBody_WaymarkControl1_PhotoControl1_lblSpacer"></span>
+			<a id="ctl00_ContentBody_WaymarkControl1_PhotoControl1_lnkGallery" href="/gallery/default.aspx?f=1&amp;guid=6074929d-d349-49e5-b3f8-839f603340f5&amp;gid=2">View waymark gallery</a></p>
+<div id='wm_miniphotos'><a onclick="document.rollimg.src=image0.src;document.getElementById('rollimglink').setAttribute('href', '/gallery/image.aspx?f=1&guid=d9d681ad-c88c-4c9e-84d5-7e47ca5a6067');" class='wm_miniphoto'><img src='https://img.geocaching.com/waymarking/landscape/01f5d745-6409-4193-b7f9-86c711ab2255.JPG' data-cookieconsent='ignore'></a><a onclick="document.rollimg.src=image2.src;document.getElementById('rollimglink').setAttribute('href', '/gallery/image.aspx?f=1&guid=c6826385-59be-4d85-938d-1bd09bf3b408');" class='wm_miniphoto'><img src='https://img.geocaching.com/waymarking/landscape/a61f33d2-83e2-493d-8f80-601608368e53.JPG' data-cookieconsent='ignore'></a><a onclick="document.rollimg.src=image3.src;document.getElementById('rollimglink').setAttribute('href', '/gallery/image.aspx?f=1&guid=cb972214-7a56-431a-ad71-546f646f27b5');" class='wm_miniphoto'><img src='https://img.geocaching.com/waymarking/landscape/e5e46562-5087-4e40-8b01-a5a40247f0e9.JPG' data-cookieconsent='ignore'></a></div>
+
+                        </div>
+                    
+</div>
+                    <div id="detailsright">
+                        <div id="wm_name"><img src='/images/cat_icons/monument.gif'>Douglas Adams - Highgate East Cemetery, London, UK</div>
+<div id="wm_category">in <a href='/cat/details.aspx?f=1&guid=03b74fe0-fa2f-4c9f-a73b-a9d9122c8362&st=2'>Dead Poets&#39; Society Memorials</a></div>
+
+<div id="wm_postedby"><strong>Posted by:</strong> <a href='/users/profile.aspx?f=1&guid=70e51510-8c6f-4495-8151-04afdb37d47d'><img src='/images/icons/reg_user.gif' alt='Groundspeak Regular Member' border='0' align='absmiddle'></a>&nbsp;<a href='/users/profile.aspx?f=1&guid=70e51510-8c6f-4495-8151-04afdb37d47d'>Master Mariner</a></a></div>
+
+<div id="wm_savelocation">
+    </div>
+<div id="wm_coordinates"><strong>N 51° 33.989 W 000° 08.722</strong></div>
+<div id="wm_utm">30U E 697840 N 5716685</div>
+<div id='wm_quickdesc'>Douglas Adams, a writer, was probably best known for The Hitchhikers Guide to the Galaxy. He is buried in a grave, with a simple headstone, in the east part of the famous Highgate Cemetery in north London.</div>
+
+<div id="wm_details">
+    <div id='wm_code'><strong>Waymark Code:</strong> WMH912</div>
+    <div id="wm_location"><strong>Location:</strong> London, United Kingdom</div>
+    <div id='wm_datelisted'><strong>Date Posted:</strong> 06/09/2013</div>
+    <div id="wm_approvedby"><strong>Published By:</strong><a href='/users/profile.aspx?f=1&guid=cb114e90-b149-493c-af37-9da803b8fa10'><img src='/images/icons/prem_user.gif' alt='Groundspeak Premium Member' border='0' align='absmiddle'></a>&nbsp;<a href='/users/profile.aspx?f=1&guid=cb114e90-b149-493c-af37-9da803b8fa10'>Marine Biologist</a> </div>
+    <div id="wm_views"><strong>Views:</strong>&nbsp;4
+</div>
+<script language="javascript">
+    function featuredSwitch(x) {
+        jQuery.ajax({
+            type: "POST",
+            url: "/controls/AjaxService.asmx/FeaturedSwitch",
+            data: "{}",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            async: true,
+            cache: false,
+            success: function (msg) {
+                featuredSwitch_callback(msg);
+            }
+        })
+    }
+
+    // This method will be called after the method has been executed
+    // and the result has been sent to the client.
+
+    function featuredSwitch_callback(msg) {
+        if (msg.d == false) {
+            document.getElementById('lnkFeatured').innerHTML = '<img src=\'../images/icons/featured_gray.gif\' border=0>'
+        }
+        else {
+            document.getElementById('lnkFeatured').innerHTML = '<img src=\'../images/icons/featured.gif\' border=0>'
+        }
+    }
+</script>
+
+                    </div>
+                </div>
+                
+                
+<div class="downloadwrap">
+    <div class="downloadbuttons">
+        <span class="downloadspan">Download this waymark:</span><br />
+        <a id="ctl00_ContentBody_WaymarkControl1_DownloadControl1_btnDownloadGPX" href="javascript:__doPostBack(&#39;ctl00$ContentBody$WaymarkControl1$DownloadControl1$btnDownloadGPX&#39;,&#39;&#39;)"><img src="../images/16X16/download.gif" align=middle border=0>.GPX File</a><br>
+        <a id="ctl00_ContentBody_WaymarkControl1_DownloadControl1_btnDownloadLoc" href="javascript:__doPostBack(&#39;ctl00$ContentBody$WaymarkControl1$DownloadControl1$btnDownloadLoc&#39;,&#39;&#39;)"><img src="../images/16X16/download.gif" align=middle border=0>.LOC File</a><br>
+        <a id="ctl00_ContentBody_WaymarkControl1_DownloadControl1_btnDownloadKML" href="javascript:__doPostBack(&#39;ctl00$ContentBody$WaymarkControl1$DownloadControl1$btnDownloadKML&#39;,&#39;&#39;)"><img src="../images/16X16/download.gif" align=middle border=0>.KML File (Google Earth)</a><br>
+    </div>
+</div>
+
+                <br />
+                
+<div id=wm_longdesc>
+
+
+	
+	
+	
+
+
+<p><span style="font-family:arial,helvetica,sans-serif;">The grave is close to one of the main maps and is in square &quot;B1&quot; of the East Cemetery map (2013). At some point a pot has been placed in front of the headstone and writing implements have been added - probably by fans. The pens add a splash of colour to a grey headstone that is simply inscribed with:</span></p>
+
+<blockquote>
+<p style="text-align:center;"><em><span style="font-family:arial,helvetica,sans-serif;">Douglas Adams<br />
+Writer<br />
+1952 - 2001</span></em></p>
+</blockquote>
+
+<p><span style="font-family:arial,helvetica,sans-serif;">The <a href="http://www.douglasadams.se/biography/">Douglas Adams website</a> carries a biography of Adams:</span></p>
+
+<blockquote>
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Birth<br />
+Douglas Noel Adams was born on March 11, 1952 in Cambridge. His mother, Janet Adams, born Donovan, was a nurse at Addenbrooke&#39;s and his father, Christopher Douglas Adams, was a postgraduate theology student at Ridley Hall. He later became a teacher of theology, but this was obviously not his final goal and he became a probation officer and later even a lecturer on probationary theory and practice.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Family<br />
+Douglas parents got divorced when he was five and he moved to Brentwood with his mother and two years younger sister Sue. In 1962 his father married again and had another child in 1965, a half-sister to Douglas, who now teaches English in the Canaries. His mother married Ron Thrift in 1964 and that resulted in Douglas&#39; half-sister Jane in 1966 and half-brother James in 1968. Jane went on to become a zoologist, and James works here. James&#39; wife gave birth to their first born, a girl named Ella, in May 2004. Ron Thrift died of cancer in 1991.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">School<br />
+From 1959 until 1970 Douglas attended Brentwood School in Essex, at which time he was still more interested in the field of science than in the arts. The moment he thought seriously about writing for the first time was at the age of ten, when he got &quot;ten out of ten&quot; for a composition in Frank Halfords class - reportedly the first and only time Mr. Halford has ever given &quot;ten out of ten&quot;.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">By his essay on the revival of religious poetry he won himself an exhibition to study English at Cambridge. Douglas was eager to go to Cambridge as he wanted to join Footlights, a comedy revue group there. But in his first term he found them &quot;aloof and rather pleased with themselves&quot; and he joined CULES (Cambridge University Light Entertainment Society) instead.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Before and while he studied at Cambridge he decided to hitch-hike to Istanbul and all over Europe and in order to make the money for his travels he worked as a chicken-shed cleaner, barn builder and hospital porter (in the X-ray department of Yeovil General Hospital; he was not unfamiliar with this kind of job as he had worked in a mental hospital while he was still at school).</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Footlights<br />
+In his second term he joined Footlights on the strength of Simon Jones, who was &quot;friendly and helpful, all the things the others weren&#39;t, a completely nice guy&quot;. But as his ideas were not accepted by the rest, he ended up forming the &#39;guerilla&#39; revue group Adams-Smith-Adams together with Adams and Smith. They hired a theatre for a week and with them he had his first considerable hit. In summer 1974 Douglas left Cambridge and had finally decided to become a writer and was confident he would.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">None of his several first attempts as a comedy writer brought him the great success. He eventually worked together with Graham Chapman (a member of Monty Python) and John Lloyd, but most of the projects never saw the light of day and the few that did were not worth mentioning.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Jane &amp; Polly<br />
+On February 4 1977 he met Simon Brett, who then was doing Radio 4&rsquo;s &lsquo;The Burkiss Way&rsquo;. They agreed to produce a science fiction comedy show on radio. This was the birth of the Hitch-hikers Guide to the Galaxy.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Douglas married Jane Belson on November 24 1991 (they had been introduced to each other in the early 80:s by a mutual friend) and they have a daughter by the name Polly Jane, born on June 22, 1994. They lived in Islington, London, UK but in 1999 they moved to Santa Barbara, California, USA. In 1997 Douglas had signed a deal with Disney to make a feature movie of Hitchhiker, and he immediately started working on the screenplay. Jay Roach, of Austin Powers fame, was signed as director.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Douglas co-founded the company The Digital Village, now extinct and divided into h2g2.com and Phase3 Studios (Which in its turn became extinct in spring 2002). TDV:s business was to produce nearly everything that has to do with media; TV, movies, computer games a.s.o. Douglas was one of the creators of Starship Titanic, a combined book (written by Terry Jones of the Monty Python-bunch) and computer game. Douglas also wrote the Dirk Gently novels and a non fiction book, &quot;Last chance to see&quot;, about endangered species (with Mark Carwardine).</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Death<br />
+&quot;He had a narrowing of the arteries in the heart, which is hard to detect, and an arrhythmic heartbeat, which is usually benign. This could have happened any time, and I&#39;m glad it wasn&#39;t when he was driving.&quot; - Douglas&#39; wife Jane.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">On the morning of May 11 2001, Douglas went to the local gym to work out. He had been walking the treadmill and went on for some aerobics. Peter, his trainer, examined Douglas and found his heart rate quite normal, round 130. After aerobics it was time for some gym workout. First up was stomach crunches, and Douglas lay down on the bench. The trainer turned to get Douglas&#39; towel, and when he turned back to hand it over, Douglas rolled off the bench, suffering a massive heart attack. All attempts to revive him were unsuccessful. Peter got on the phone and called Jane, saying Douglas had fainted and had been taken to the hospital.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Douglas was dead. He left his 6 year old daughter Polly, his wife Jane, his mother Jan Thrift and countless other family members and friends, not to mention thousands and thousands of fans all over the world, in shock and mourning. By the time of his death he had just finished a draft of the screenplay to a feature movie of Hitchhikers Guide to the Galaxy.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Douglas was cremated in Santa Barbara and is buried in Highgate Cemetery (East), Highgate, London, England, plot: Square 74, Plot 52377. Jane and Polly have moved back to Islington, London together with their cats.</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">Scattered information</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">I&#39;m not sure if Douglas was a sports fan. We all know he went to the gym every once in a while, and one time too many. I once asked him if he played golf or had tried it, since he was a Wodehouse fan and since Wodehouse wrote many funny golf related stories. He said:</span></em></p>
+
+<p style="text-align:justify;"><em><span style="font-family:arial,helvetica,sans-serif;">&quot;I love the Wodehouse stories about golf, as you might imagine. My one experience of it was many, many years ago, when a friend of mine offered to introduce me to the sport, and we played a round at a local golf course. My friend wasn&#39;t a great player, but he was a goodish player and he took it very seriously. The inevitable happened and he found himself playing rather badly, and fluffing easy shots, as a result of which he became rather tense and morose. I, as complete beginners often do, hit one or two lucky shots. By the end of the game my friend was such a clenched knot of self hatred that the whole thing was unbearable. I thought I&#39;d give it a rest for twenty or thirty years to wait for the memories of that hideous day to wear off, but they haven&#39;t really subsided yet.&quot;</span></em></p>
+</blockquote>
+
+</div>
+<div id="wm_variables">
+	
+<TABLE id="Table1" cellSpacing="0" cellPadding="0" width="100%" border="0">
+	<TR>
+		<TD>
+			<span style="font-weight:bold;">Relevant Web Site: </span><a href='http://en.wikipedia.org/wiki/Douglas_Adams' rel="nofollow">[Web Link]</a><span><br /><img border=0 src='/images/spacer.gif' height=6><br /></span></TD>
+	</TR>
+</TABLE>
+
+</div>
+<div id=wm_loginstructions><strong>Visit Instructions:</strong><br />Give the date of your visit and describe your experience.  Additional photos and information about the site or poet/author are appreciated.</div>
+<table id="ctl00_ContentBody_WaymarkControl1_ExpandedWaymarkDetailsControl1_tblSearches" class="waymark_searches">
+	<tr>
+		<td colspan="2"><strong>Search for...</strong><br /></td>
+	</tr><tr>
+		<td valign="top"><a href='https://www.geocaching.com/seek/gmnearest.aspx?lat=51.566483&lng=-0.145367' target='_blank'>Geocaching.com Google Map</a><br /><a href='https://maps.google.com/maps?q=51.566483+-0.145367' target='_blank'>Google Maps</a><br /><a href='https://www.mapquest.com/maps/map.adp?latitude=51.566483&longitude=-0.145367&zoom=10' target='_blank'>MapQuest</a><br /><a href='https://www.bing.com/maps/default.aspx?v=2&cp=51.566483~-0.145367&lvl=15' target='_blank'>Bing Maps</a><br /></td><td valign="top"><a href='/wm/search.aspx?f=1&lat=51.566483&lon=-0.145367&t=6'>Nearest Waymarks</a><br /><a href='/cat/details.aspx?f=1&guid=03b74fe0-fa2f-4c9f-a73b-a9d9122c8362&lat=51.566483&lon=-0.145367&t=6'>Nearest Dead Poets' Society Memorials</a><br /><a href='https://www.geocaching.com/play/results/?st=51.566483+-0.145367&amp;ot=query&amp;asc=true&amp;sort=distance' target='_blank'>Nearest Geocaches</a><br /></td>
+	</tr><tr>
+		<td colspan="2"><a href="/hunt/add.aspx?loc=51.566483,-0.145367">Create a scavenger hunt using this waymark as the center point</a></td>
+	</tr>
+</table>
+<div id="wm_logs"><strong>Recent Visits/Logs:</strong><br>
+	
+
+<table cellSpacing="0" cellPadding="0" width="100%" border="0">
+	<TBODY>
+		<tr>
+			<td>There are no logs for this waymark yet.</td>
+		</tr>
+		<tr>
+			<td></TD></TR>
+<tr>
+	<td>
+        
+    </td>
+</tr>
+</TBODY></TABLE>
+<BR>
+	</div>
+
+                
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+                </div>
+                <!--end gutter-->
+            </div>
+            <!--end content-->
+            <div id="sidebar">
+                <div class="gutter">
+                    <!--enter side content here-->
+                    
+<div class="whitebox">
+    <div id="gs_waymarkly">
+        <div id="gs_right">
+            <span id="gs_header"><b>iOS user? Try the Waymarkly app!</b></span><br />
+            <span id="gs_description">Includes the ability to log visits, view logs, save and filter offline Waymarks and use beautiful offline maps! Waymarkly is the premiere Waymarking app for iOS.</span>
+            <span id="gs_link">
+                <br />
+                <a target="_blank" href="https://www.waymarkly.com/">Get the Waymarkly app now</a></span>
+        </div>
+    </div>
+</div>
+
+                    <!--end box-->
+                    
+    <div id="ctl00_ContentRightColumn_CategoryFilterControl1_uxGoogleMap">
+	
+    <div class="box">
+        <h3 id="searchbox">Map</h3>
+        <div id="categoryfilter">
+            <span id="ctl00_ContentRightColumn_CategoryFilterControl1_lblMessage"></span>
+            <h5>
+                
+            </h5>
+            
+<link rel="stylesheet" type="text/css" href="/css/leaflet.css" />
+<style>
+    #uxSearchFromHere 
+    {
+        margin: 7px 0 4px 10px;
+    }
+</style>
+
+
+    <div id="map_canvas" class="googlemap">
+    </div>
+
+    <div id="mapinfo">
+    </div>
+
+    <div>
+        <button id="uxSearchFromHere">Search from Here</button>
+    </div>
+
+    <div id="map_info">
+    </div>
+
+
+
+<div id="mapswitch">
+    
+</div>
+
+<script type="text/javascript" data-cookieconsent="ignore">
+
+    var map, marker, bounds;
+
+    function init_map() {
+        map = L.map('map_canvas', { attributionControl: false }).setView([47.648967, -122.348117], 13);
+
+        map.addControl(new L.Control.Attribution({
+            prefix: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+        }));
+
+        L.tileLayer('https://maptiles{s}.geocaching.com/tile/{z}/{x}/{y}.png?token={token}',
+            {
+                token: 'eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3VzZXJkYXRhIjoiNDBjYzI5ZDAtNDdhZC00ZWZjLTkxZjYtYTdlNzk2YmFiOWQ4IiwibGdkIjoiMDA3YjhhZGMtNmI0ZC00ZGVlLWEyOWUtZTY2YTgwZTk2N2Q2Iiwic2NvcGUiOiJtYXB0aWxlIiwibmJmIjoxNzE0NTAxNTk1LCJleHAiOjE3MTQ1MDUxOTUsImlzcyI6Imh0dHBzOi8vb2F1dGguZ2VvY2FjaGluZy5jb20vdG9rZW4iLCJhdWQiOiI0MGNjMjlkMC00N2FkLTRlZmMtOTFmNi1hN2U3OTZiYWI5ZDgifQ.d64JLpT30EzjyUfnw5vIjTvUcgslAo19cj3f22huoew',
+                subdomains: ['01', '02', '03', '04', '05', '06', '07', '08']
+            }).addTo(map);
+
+        bounds = new L.LatLngBounds([]);
+
+        if (typeof mapItems === "function") {
+            mapItems();
+        } else {
+            window.setTimeout(function () { mapItems(); }, 800);
+        }
+
+        window.setTimeout(function () {
+            map.fitBounds(bounds, { maxZoom: 15 });
+        }, 1000);
+    }
+
+    function wrapMarkers(markers) {
+        for (var x = 0, len = markers.length; x < len; x++) {
+            createMarker(markers[x]);
+        }
+    }
+
+    function htmlEntities(str) {
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    function createMarker(item) {
+
+        var marker = L.marker([item.lat, item.lng], {
+            title: item.title,
+            icon: L.icon({
+                iconUrl: 'https://www.waymarking.com/dyn_img/bubble.aspx?path=' + item.icon,
+                iconSize: [37, 33], iconAnchor: [37, 33]
+            })
+        }).addTo(map);
+
+        marker.on("click", function () { showInfoPanel(item.icon, htmlEntities(item.title), item.code, htmlEntities(item.cat), htmlEntities(item.desc)); });
+
+        bounds.extend(L.latLng([item.lat, item.lng]));
+    }
+
+    function showInfoPanel(icon, title, code, category, desc) {
+        jQuery("#mapinfo").html("<table class='googlemap_wmtable'><tr><td class='googlemap_wmtd'><a href='/cat/details.aspx?f=1&guid=" + category + "'><img src='/images/cat_icons/" + icon + ".gif' width='24' border='0' valign='absmiddle'></a></td><td class='googlemap_wmtd'><a href='/waymarks/" + code + "'>" + title + "</a></td></tr><tr><td class='googlemap_wmtd2'></td><td class='googlemap_wmtd2'>" + desc + "</td></tr></table>");
+        jQuery("#mapinfo").show();
+    }
+
+    document.addEventListener("DOMContentLoaded", function (event) {
+        init_map();
+
+        jQuery("#uxSearchFromHere").click(function (e) {
+            e.preventDefault();
+            if (map && searchUrl) {
+                var latLng = map.getCenter();
+
+                var newSearchUrl = new URI(searchUrl);
+
+                newSearchUrl
+                    .removeSearch('sg')
+                    .setSearch('lat', latLng.lat)
+                    .setSearch('lon', latLng.lng);
+
+                window.document.location.href = newSearchUrl.toString();
+            }
+            return false;
+        });
+
+    });
+
+</script>
+
+            
+        </div>
+    </div>
+
+</div>
+
+
+    
+<!--[if IE]><LINK href="../css/ie_main.css" type=text/css rel=stylesheet><![endif]-->
+<div class="box">
+    <h3 id="optionlinklist">
+        <span id="ctl00_ContentRightColumn_DynamicLinksControl1_lblTitle">Waymark Options</span></h3>
+    <div id="dynamiclinks">
+        <ul class='category_linkoptions'><li class='category_linkoption'><img src='/images/16X16/comment.gif'><a class="category_linkoption" href="/logs/default.aspx?f=1&amp;guid=6074929d-d349-49e5-b3f8-839f603340f5&amp;st=2">View Visits/Comments (0)</a></li><li class='category_linkoption'><img src='/images/16X16/file.gif'><a class="category_linkoption" href="/waymarks/wmH912_Douglas_Adams_Highgate_East_Cemetery_London_UK">View Waymark</a></li><li class='category_linkoption'><img src='/images/16X16/images.gif'><a class="category_linkoption" href="/gallery/default.aspx?f=1&amp;guid=6074929d-d349-49e5-b3f8-839f603340f5&amp;gid=2&amp;st=2">View Gallery (3)</a></li></ul>
+    </div>
+    <table cellpadding="0" cellspacing="0" width="100%" border="0">
+        <tr>
+            <td>
+                
+            </td>
+        </tr>
+    </table>
+</div>
+
+    
+<!--[if IE]><LINK href="../css/ie_main.css" type=text/css rel=stylesheet><![endif]-->
+<div class="box">
+    <h3 id="advert_header">
+        <span id="ctl00_ContentRightColumn_SideAdvertControl1_lblTitle">Advertisement</span></h3>
+    <div id="advertising">
+        <div>
+            <script type="text/javascript" src="https://1666210260.rsc.cdn77.org/waymarking/prebid.js"></script>
+            <script type="text/javascript">
+                var adHandler = adHandler || {cmd: []};
+                adHandler.disableConsentManagement = !Cookiebot.regulations.gdprApplies;
+            </script>
+            <script async type="text/javascript" src="https://1666210260.rsc.cdn77.org/waymarking/waymarking.release.js"></script>
+            <div id='waymarking_rhs'></div>
+        </div>
+    </div>
+</div>
+
+                    
+<div class="box">
+    <h3 id="category_lists">
+        Quick Searches</h3>
+    <div class="catlist_options">
+        <span id="ctl00_CategoryListControl1_lblWaymark" class="wmlist_label">Waymark Searches:</span>
+        <ul>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyWaymarks" class="boldcontrols" href="/wm/search.aspx?f=1&amp;st=126&amp;wft=2">My Waymarks</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkFeaturedWM" href="/wm/search.aspx?f=1&amp;st=2&amp;wft=4">Featured Waymarks</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkRecentWM" href="/wm/search.aspx?f=1&amp;tp=3&amp;wst=6&amp;st=2">Newest Waymarks</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkSavedWM" href="/wm/search.aspx?f=1&amp;st=4&amp;wft=2">My Unfinished Waymarks</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyVisited" href="/wm/search.aspx?f=1&amp;wft=3&amp;st=66">Waymarks I've Visited</a></li>
+        </ul>
+        <ul>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkUncategorized" href="/wm/search.aspx?f=1&amp;wst=8&amp;st=128&amp;wft=6">Newest Uncategorized Waymarks</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyUncategorized" href="/wm/search.aspx?f=1&amp;wst=8&amp;st=640&amp;wft=2">My Uncategorized Waymarks</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyAssisted" href="/wm/search.aspx?f=1&amp;st=2&amp;ast=true">My Assisted Waymarks</a></li>
+        </ul>
+        <span id="ctl00_CategoryListControl1_lblCategory" class="catlist_label">Category Searches:</span>
+        <ul>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyCategories" class="boldcontrols" href="/cat/search.aspx?f=1&amp;cst=8&amp;st=2">My Categories</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkFavorites" href="/subscribe/default.aspx?f=1&amp;st=2&amp;feature=3">Favorites</a>
+                <img id="ctl00_CategoryListControl1_imgPrem1" src="/images/icons/ispremium.gif" alt="premium&#32;only" align="absmiddle" /></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkIgnored" href="/subscribe/default.aspx?f=1&amp;st=2&amp;feature=4">Ignore List</a>
+                <img id="ctl00_CategoryListControl1_imgPrem2" src="/images/icons/ispremium.gif" alt="premium&#32;only" align="absmiddle" /></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkLargest" href="/cat/search.aspx?f=1&amp;cst=1&amp;st=2">Largest</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkNewest" href="/cat/search.aspx?f=1&amp;cst=3&amp;st=2">Newest</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkReview" href="/subscribe/default.aspx?f=1&amp;st=2&amp;feature=2">Requiring Review</a>
+                <img id="ctl00_CategoryListControl1_imgPrem3" src="/images/icons/ispremium.gif" alt="premium&#32;only" align="absmiddle" />
+            </li>
+        </ul>
+        <span id="ctl00_CategoryListControl1_lblLogs" class="wmlist_label">Visit Searches:</span>
+        <ul>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyLogs" class="boldcontrols" href="/my/logs.aspx?f=1">My Visits</a></li>
+        </ul>
+        <span id="ctl00_CategoryListControl1_lblGroups" class="wmlist_label">Group Lists:</span>
+        <ul>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyGroups" class="boldcontrols" href="/groups/search.aspx?f=1&amp;gst=3&amp;gft=1&amp;st=2">Groups I Manage</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkMyRegGroups" href="/groups/search.aspx?f=1&amp;gst=3&amp;gft=2&amp;st=2">Groups I Belong To</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkNewestGroups" href="/groups/search.aspx?f=1&amp;gst=3&amp;gft=3&amp;st=2">Newest Groups</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkRecruiting" href="/groups/search.aspx?f=1&amp;gft=5&amp;st=2">Recruiting Groups</a></li>
+        </ul>
+        <div id="ctl00_CategoryListControl1_uxScavengerHuntPanel">
+	
+            <span id="ctl00_CategoryListControl1_uxScavengerHunts" class="wmlist_label">Scavenger Hunts:</span>
+            <ul>
+                <li>
+                    <a id="ctl00_CategoryListControl1_lnkMyHunts" class="boldcontrols" href="/hunt/list.aspx?pt=5&amp;ht=1">My Scavenger Hunts</a></li>
+                <li>
+                    <a id="ctl00_CategoryListControl1_lnkPublicHunts" href="/hunt/list.aspx?pt=5&amp;ht=4">Newest Public Hunts</a></li>
+                <li>
+                    <a id="ctl00_CategoryListControl1_lnkActiveHunts" href="/hunt/list.aspx?pt=5&amp;ht=2">My Active Hunts</a></li>
+                <li>
+                    <a id="ctl00_CategoryListControl1_lnkCompletedHunts" href="/hunt/list.aspx?pt=5&amp;ht=3">My Completed Hunts</a></li>
+            </ul>
+        
+</div>
+        <span id="ctl00_CategoryListControl1_lblMisc" class="wmlist_label">Miscellaneous:</span>
+        <ul>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkOrigins" class="boldcontrols" href="/my/origins.aspx?f=1">My Saved Searches</a></li>
+            <li>
+                <a id="ctl00_CategoryListControl1_lnkFullCategories" href="/cat/categorydirectory.aspx?f=1">Full Category List</a></li>
+            <li>
+                </li>
+        </ul>
+        
+    </div>
+</div>
+<!--end box-->
+
+                    <!--end side content-->
+                </div>
+                <!--end gutter-->
+            </div>
+            <!--end sidebar-->
+            
+<div id='footer'>
+    <p>
+        Copyright (c) 2024 Groundspeak, Inc. All Rights Reserved.
+    </p>
+</div>
+<div id='footerlinks'>
+    <a id="ctl00_FooterControl1_lnkHome" href="/">home</a>
+    &nbsp;|&nbsp;
+    <a id="ctl00_FooterControl1_lnkGroundspeak" href="https://www.geocaching.com/careers/">careers</a>
+    &nbsp;|&nbsp;
+    <a id="ctl00_FooterControl1_lnkNews" href="/news/default.aspx">news</a>
+    &nbsp;|&nbsp;
+    <a id="ctl00_FooterControl1_lnkTermsOfUse" href="https://www.geocaching.com/about/termsofuse.aspx">terms of use</a>
+    &nbsp;|&nbsp;
+    <a id="ctl00_FooterControl1_lnkPrivacyPolicy" href="https://www.geocaching.com/about/privacypolicy.aspx">privacy policy</a>
+    &nbsp;|&nbsp;
+    <a id="ctl00_FooterControl1_lnkContactUs" href="/contact">contact us</a>
+    &nbsp;|&nbsp;
+    <a id="ctl00_FooterControl1_lnkHelp" href="/help/start.aspx">help</a>
+</div>
+<!-- Server: WAYMARK-WEB01 -->
+<!--end footer-->
+        </div>
+        <!--end wrap-->
+        
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var searchUrl = "/wm/search.aspx?f=1\u0026wo=True\u0026st=2";//]]>
+</script>
+<script src='/js/leaflet-src.js' data-cookieconsent='ignore'></script><script src='/js/URI.js'></script>
+<script type="text/javascript">
+//<![CDATA[
+function mapItems() {
+map.panTo([51.566483,-0.145367]);
+var markers = [{lat: 51.566483, lng: -0.145367, title: "Douglas Adams - Highgate East Cemetery, London, UK", icon: "monument", code: "WMH912", cat: "03b74fe0-fa2f-4c9f-a73b-a9d9122c8362", desc: "Douglas Adams, a writer, was probably best known for The Hitchhikers Guide to the Galaxy. He is buried in a grave, with a simple headstone, in the east part of the famous Highgate Cemetery in north London."},];
+wrapMarkers(markers);
+}
+//]]>
+</script>
+</form>
+    <script language="javascript" type="text/plain" data-cookieconsent="statistics">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-2020240-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ?
+                'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+    </script>
+    
+    <script type="text/javascript" src="/js/generic.js"></script>
+    
+<!-- The core Firebase JS SDK is always required and must be listed first-- >
+<!--TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-performance.js"></script>
+<script>
+    const { initializeApp } = require("firebase/app");
+    const { initializeAppCheck, ReCaptchaV3Provider } = require("firebase/app-check");
+
+    const app = initializeApp({
+        // Your firebase configuration object
+    });
+
+    // Pass your reCAPTCHA v3 site key (public key) to activate(). Make sure this
+    // key is the counterpart to the secret key you set in the Firebase console.
+    const appCheck = initializeAppCheck(app, {
+        provider: new ReCaptchaV3Provider('6LcAu_UlAAAAAHdboCh0rp3mjHr1Ual1qy1FTSDO'),
+
+        // Optional argument. If true, the SDK automatically refreshes App Check
+        // tokens as needed.
+        isTokenAutoRefreshEnabled: true
+    });
+
+    // Your web app's Firebase configuration
+    var firebaseConfig = { 
+        apiKey: "AIzaSyBHfGCWidUrDmHDyXAOPQwNZpgSz718f94",
+        authDomain: "waymarking-production.firebaseapp.com",
+        databaseURL: "https://waymarking-production.firebaseio.com",
+        projectId: "waymarking-production",
+        storageBucket: "waymarking-production.appspot.com",
+        messagingSenderId: "20792087256",
+        appId: "1:20792087256:web:3e142ccf5feda5a5ca3dad",
+        measurementId: "G-LH6PJYGK3V"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+
+    var perf = firebase.performance();
+
+    function logEvent(value) {
+        firebase.analytics().logEvent(value);
+    }
+
+</script>
+
+</body>
+</html>

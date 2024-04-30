@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adams, Douglas, 1952-2001 - Social Networks and Archival Context</title>
+
+<link rel="canonical" href="https://snaccooperative.org/view/7093812" />
+
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<!-- Helper Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+
+<!-- Select Upgrades -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2-rc.1/css/select2.min.css" rel="stylesheet" /> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2-rc.1/js/select2.min.js"></script> -->
+<!-- <link rel="stylesheet" href="https://snaccooperative.org/css/select2-bootstrap.min.css"> -->
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+<!-- Tiny MCE text editor -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.6.2/tinymce.min.js" integrity="sha384-fPYbu2VaXTDuM6wPh2f7vikhCeSvDZiBDuXQX8/CVQG5SNOyI1isjcTdIb/gmtdE" crossorigin="anonymous"></script>
+
+<!-- Datatables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+
+<!-- Leaflet JS Javascript and Styles-->
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+<script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+
+<!-- SNAC Styles -->
+<link rel="stylesheet" href="https://snaccooperative.org/css/snac.css?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4">
+<link rel="stylesheet" href="https://snaccooperative.org/css/hrt/icons.css?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4">
+
+<!-- SNAC Javascript -->
+<script src="https://snaccooperative.org/javascript/wikipedia_image.js?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4"></script>
+<script src="https://snaccooperative.org/javascript/select_loaders.js?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4"></script>
+<script src="https://snaccooperative.org/javascript/html2canvas.js?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4"></script>
+<script src="https://snaccooperative.org/javascript/feedback.js?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4"></script>
+<script src="https://snaccooperative.org/javascript/message_current_editor.js?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4"></script>
+<script src="https://snaccooperative.org/javascript/scripts.js?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4"></script>
+
+<script src="https://snaccooperative.org/javascript/tabcollapse.js?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4"></script>
+<style>
+
+@font-face {
+    font-family: "SNACIcons";
+    src: url("https://snaccooperative.org/css/SNACIcons.woff") format("woff");
+}
+
+.si {
+    display: inline-block;
+    font: normal normal normal 14px/1 SNACIcons;
+    font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#relationships .btn {
+    padding-top: 4px!important;
+    padding-bottom: 8px!important;
+}
+
+.wikipedia_thumbnail {
+    text-align: center;
+    padding: 15px;
+    -webkit-border-radius: 4px;
+    /*margin-bottom: 10px;*/
+    position:relative;
+    display: none;
+    background: white;
+
+}
+
+.wikipedia_thumbnail img {
+    z-index:1;
+    padding:4px;
+    padding-bottom:0px;
+    border-radius: 8px;
+    line-height:1.428571429;
+    -webkit-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    display:inline-block;
+    max-height: 250px;
+    max-width: 300px;
+}
+
+.wikipedia_thumbnail div {
+    width:100%;
+    display:block;
+    /*position:absolute;
+    bottom:0px;
+    left:0px;
+    z-index:2;*/
+    margin:0px;
+    padding:5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+}
+
+.wikipedia_thumbnail a {
+    color:#000
+}
+
+.body-tab-pane {
+    min-height: 700px;
+    padding: 20px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1),
+screen and (min--moz-device-pixel-ratio: 1),
+screen and (-o-min-device-pixel-ratio: 100 / 100),
+screen and (min-device-pixel-ratio: 1), screen and (min-resolution: 1dppx) {
+    .sprite-icons-archivegrid,.sprite-icons-cbw,.sprite-icons-dpla,.sprite-icons-fs,.sprite-icons-idlocgov,.sprite-icons-nara,
+    .sprite-icons-viaf,.sprite-icons-wikipedia,.sprite-icons-worldcat,.sprite-icons-nara,.sprite-icons-wikidata,.sprite-icons-numismatic {
+        background-image:url('https://snaccooperative.org/css/hrt/icons.png?_=d4878f4ce077fa0a82d86d6ca6dc81a85faa5fc4');
+        -webkit-background-size:96px 96px;
+        -moz-background-size:96px 96px;
+        background-size:96px 96px
+    }
+}
+
+
+.geoplace-map {
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.dataTables_wrapper label {
+    font-weight: normal;
+}
+
+.panel-heading span:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading span.collapsed:after {
+    content:"\e080";
+}
+.panel-collapsible {
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    #profile-togglebox {
+        display:none
+    }
+}
+
+td i.i-hover {
+    visibility: hidden;
+    cursor: pointer;
+    color: #347ab8;
+}
+
+td:hover i.i-hover {
+    visibility: visible;
+}
+
+.dataTables_filter input {
+    width: 240px;
+}
+
+/*
+.wikipedia_thumbnail_container {
+    text-align: center;
+    border: 1px solid #222222;
+    padding: 15px;
+    -webkit-border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.wikipedia_thumbnail {
+    margin: auto;
+    padding-right:0.2em;
+    position:relative;
+    max-width:300px;
+}
+
+.wikipedia_thumbnail img {
+    z-index:1;
+    padding:4px;
+    line-height:1.428571429;
+    -webkit-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    display:inline-block;
+    max-width:100%;
+    height:auto
+}
+
+.wikipedia_thumbnail figurecaption,.wikipedia_thumbnail div {
+    width:95%;
+    display:block;
+    position:absolute;
+    bottom:5px;
+    left:5px;
+    z-index:2;
+    margin:0;
+    padding:5px;
+    color:#fff;
+    background:rgba(0,0,0,0.4)
+}
+
+.wikipedia_thumbnail a {
+    color:#eee
+}*/
+
+.snac-toolbar {
+    top: 0px;
+}
+.snac-toolbar .container {
+    padding-bottom: 0px!important;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+</style>
+<script>
+
+
+function getSharedResources(icid1, icid2) {
+    var sharedTable = $("#shared-resources-table").DataTable().clear().draw();
+
+    $.ajax({
+        url: snacUrl + "/shared_resources?icid1=" + icid1 + "&icid2=" + icid2
+    }).done(function(data) {
+        var rows = [];
+        var length =  data.resources.length;
+        for (i = 0; i < length; i++) {
+            var resourceHref = "<a href='" + data.resources[i].href + "'>" + data.resources[i].title + "</a> "
+            var resourceInfoIcon = " <a target='_blank' href='" +
+                    snacUrl + "/vocab_administrator/resources/" + data.resources[i].id +
+                    "' title='View in SNAC'> <i class='fa fa-info-circle' style='font-size:large'> </i> </a>"
+
+            var row = [data.resources[i].arcrole_1, resourceHref, resourceInfoIcon, data.resources[i].arcrole_2];
+            rows.push(row);
+        }
+        sharedTable.rows.add(rows).draw()
+
+    })
+}
+
+function loadSharedResourcesModal(target) {
+    // grab info on clicked table row to load the Shared Resources Modal
+    var relatedConstellationName = $(target).closest("td").find("a")[0].innerHTML;
+    $(".compared-constellation-name").html(relatedConstellationName);
+    var iconClasses = "";
+    if ($(target).closest("td").find("i.fa-stack-1x").hasClass("fa-university")) {
+        iconClasses = "fa fa-university";
+    } else if ($(target).closest("td").find("i.fa-stack-1x").hasClass("fa-users")) {
+        iconClasses = "fa fa-users";
+    } else {
+        iconClasses = "fa fa-user";
+    }
+    $("#compared-constellation-icon").removeClass();
+    $("#compared-constellation-icon").addClass(iconClasses);
+};
+
+/**
+ * Prevent automatic scrolling of page to anchor by browser after page load.
+ */
+function preventAnchorScroll() {
+    var scrollToTop = function () {
+        $(window).scrollTop(0);
+    };
+
+    $(window).one('scroll', scrollToTop);
+    $(function () {
+        setTimeout(
+            function () {
+                $(window).off('scroll', scrollToTop);
+            },
+            1000
+        );
+    });
+}
+
+preventAnchorScroll();
+
+
+function holdingsTabActions() {
+    if (! $.fn.DataTable.isDataTable("#holding-repository-table")) {
+        loadHoldings();
+    }
+}
+
+function loadHoldings() {
+    var constellationid = $("#constellationid").val()
+    $("#holding-repository-table").DataTable({
+        "ajax": {
+            "url": snacUrl + "/get_holdings/" + constellationid,
+            "dataType": "json",
+            "dataSrc": "resources"
+        },
+        "columns": [
+            {
+                "data": null,
+                "render": function(data, type, row, meta) {
+                    if (data.href) {
+                        var cell = "<a target='_blank' href='" + data.href +"'class='outbound-repo-link'" +
+                            "data-repo-ic-id='"+constellationid+"'>" + data.title + "</a>";
+                    } else {
+                        var cell = data.title;
+                    }
+                    return cell;
+                }
+            },
+            {
+                "data": "relation_count"
+            },
+            {
+                "data": null,
+                "render": function(data, type, row, meta) {
+                    if (data) {
+                        var cell = "<a href='https://snaccooperative.org/vocab_administrator/resources/" + data.id +
+                            "' title='View in SNAC'> <i class='fa fa-info-circle' style='font-size:large'> </i> </a>";
+                    }
+                    return cell;
+                },
+                "defaultContent": ""
+            }
+        ]
+    })
+}
+
+
+
+
+
+var archivalTable = null;
+var lumpTable = null;
+var holdingsMarkers = {};
+var placesMarkers = {};
+var placesMapView = null;
+var highlightIcon = new L.Icon({
+      iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+      shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+});
+
+var defaultIcon = new L.Icon.Default();
+
+
+function highlightHoldingMarker(id) {
+    if (typeof holdingsMarkers[id] != 'undefined') {
+        holdingsMarkers[id].setIcon(highlightIcon);
+    }
+}
+
+function unHighlightHoldingMarker(id) {
+    if (typeof holdingsMarkers[id] != 'undefined') {
+        if (!holdingsMarkers[id].isPopupOpen())
+            holdingsMarkers[id].setIcon(defaultIcon);
+    }
+}
+
+function resourceTabActions() {
+    if ($(".holdings_location_lat").length == 0) {
+        $("#display-holdings-map-btn").hide();
+        return
+    }
+
+    // hide map if user has manually closed map
+    if ($("#holdings-map-wrapper").hasClass("snac-hidden")) {
+        $("#display-holdings-map-btn").show();
+        return;
+    }
+
+    if ((localStorage.getItem("show_map") === "true")) {
+        displayHoldingsMapInteractive();
+    } else if (!holdingsMapView) {
+            $("#display-holdings-map-btn").show()
+    }
+}
+
+function closeHoldingsMap() {
+    $("#holdings-map-wrapper").hide().addClass("snac-hidden");
+    $("#display-holdings-map-btn").show();
+}
+
+function displayHoldingsMapInteractive() {
+    if ($(".holdings_location_lat").length == 0) {
+        holdingsMapView = true; // just not null!
+        $('#holdingsMap').css("display", "none");
+        return;
+    }
+
+    $("#holdings-map-wrapper").show()
+    $("#holdings-map-wrapper").removeClass("snac-hidden")
+    $("#display-holdings-map-btn").hide()
+
+    if (holdingsMapView != null) {
+        return;
+    }
+
+    // Add a slight delay to the map viewing so that the modal window has time to load
+    setTimeout(function() {
+        holdingsMapView = L.map('holdingsMap').setView([0,0],7);//setView([35.092344, -39.023438], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 15,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                }).addTo(holdingsMapView);
+        var bounds = new L.LatLngBounds();
+
+        $(".holdings_location_name").each(function(i) {
+            var id = $(this).attr('id').replace("holdings_location_name_", "");
+            var icid = $("#holdings_location_id_"+id).val();
+
+            if ($("#holdings_location_lat_"+id).length > 0) {
+                var latitude = $("#holdings_location_lat_"+id).val();
+                var longitude = $("#holdings_location_lon_"+id).val();
+                if (latitude != '' && longitude != '') {
+                    var marker = L.marker([latitude, longitude]).addTo(holdingsMapView).bindPopup($(this).val());
+                    bounds.extend(marker.getLatLng());
+                    /*marker.on('click', function(e) {
+                        //console.log(this);
+                        console.log(this.getPopup().getContent());
+                        archivalTable.columns( 2 ).search( this.getPopup().getContent() )
+                                            .draw();
+                    });*/
+                    marker.on('popupopen', function(e) {
+                        //console.log(this);
+                        // console.log(this.getPopup().getContent());
+                        archivalTable.columns( 2 ).search( this.getPopup().getContent() )
+                                            .draw();
+                        this.setIcon(highlightIcon);
+                    });
+                    marker.on('popupclose', function(e) {
+                        archivalTable.columns( 2 ).search( "" )
+                                            .draw();
+                        this.setIcon(defaultIcon);
+                    });
+                    marker.on('mouseover', function(e) {
+                        this.setIcon(highlightIcon);
+                    });
+                    marker.on('mouseout', function(e) {
+                        if(!this.isPopupOpen())
+                            this.setIcon(defaultIcon);
+                    });
+
+                    holdingsMarkers[icid] = marker;
+                }
+            }
+        });
+        holdingsMapView.fitBounds(bounds, {maxZoom : 7});
+    }, 400);
+}
+
+function displayPlacesMapInteractive() {
+    if (placesMapView != null) {
+        return;
+    }
+
+    if ($(".place_latitude").length == 0) {
+        placesMapView = true; // just not null!
+        $('#placesMap').css("display", "none");
+        return;
+    }
+
+
+    // Add a slight delay to the map viewing so that the modal window has time to load
+    setTimeout(function() {
+        placesMapView = L.map('placesMap').setView([0,0],7);//setView([35.092344, -39.023438], 2);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 15,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                }).addTo(placesMapView);
+        var bounds = new L.LatLngBounds();
+
+        $(".place_name").each(function(i) {
+            var id = $(this).attr('id').replace("place_name_", "");
+
+            if ($("#place_lat_"+id).length > 0) {
+                var latitude = $("#place_lat_"+id).val();
+                var longitude = $("#place_lon_"+id).val();
+                if (latitude != '' && longitude != '') {
+                    var marker = L.marker([latitude, longitude]).addTo(placesMapView).bindPopup($(this).val());
+                    bounds.extend(marker.getLatLng());
+                    marker.on('popupopen', function(e) {
+                        //console.log(this);
+                        // console.log(this.getPopup().getContent());
+                        this.setIcon(highlightIcon);
+                    });
+                    marker.on('popupclose', function(e) {
+                        this.setIcon(defaultIcon);
+                    });
+                    marker.on('mouseover', function(e) {
+                        this.setIcon(highlightIcon);
+                    });
+                    marker.on('mouseout', function(e) {
+                        if(!this.isPopupOpen())
+                            this.setIcon(defaultIcon);
+                    });
+
+                    placesMarkers[id] = marker;
+                }
+            }
+        });
+        placesMapView.fitBounds(bounds, { maxZoom: 7 });
+    }, 400);
+}
+
+function clearRelationFilter() {
+    $("#relation-table").DataTable().columns(0).search("").draw();
+    $("#datatable-column-filters").html("");
+}
+
+$(document).ready(function() {
+    $('#view-nav-tabs a').click(function(e) {
+        if ($(this).parent().hasClass("disabled")) {
+            e.preventDefault();
+            return;
+        }
+        $(this).tab('show');
+    });
+
+    $("#view-nav-tabs a[href='#resources']").on("show.bs.tab", function() {
+        resourceTabActions();
+    })
+
+    $("#view-nav-tabs a[href='#places']").on("show.bs.tab", function() {
+        displayPlacesMapInteractive();
+    })
+
+    $("#view-nav-tabs a[href='#holding-repository']").on("show.bs.tab", function() {
+        holdingsTabActions();
+    })
+
+    // store the currently selected tab in the hash value
+    $("#view-nav-tabs > li > a").on("shown.bs.tab", function(e) {
+        var hash = $(e.target).attr("href")
+        if (history.pushState) {
+            history.replaceState(null, null, hash);
+        } else {
+            window.location.hash = hash;
+        }
+    });
+
+    // on load of the page: switch to the currently selected tab
+    var hash = window.location.hash;
+    if (hash.length) {
+        $("#view-nav-tabs a[href='" + hash + "']").tab("show");
+    } else {
+        // load Resources if no bioghist
+        if (($("#view-nav-tabs a[href='#biography']").parent().hasClass("disabled"))) {
+            $("#view-nav-tabs a[href='#resources']").tab("show");
+        }
+    }
+
+    if (localStorage.getItem("hide_profile") === "true") {
+        $("#profile-toggle").prop("checked", true);
+        toggleProfile();
+    }
+
+    var relationTable = $('#relation-table').DataTable({
+        "searching" : true,
+        "autoWidth": false,
+        "deferRender": true,
+        "columnDefs": [
+            {"visible": false, "targets":2},
+            {"width": "75%", "targets":1}
+        ],
+        responsive: true,
+        "language": {
+            "searchPlaceholder": "Relation or Name"
+        }
+    });
+
+    $("#relation-table").on("click", "td i.i-hover", function(e) {
+        var q = $(e.target).closest("td").text();
+        $("#relation-table").DataTable().columns(0).search(q).draw();
+        var filterButton = "<button type='button' onclick='clearRelationFilter()' class='btn list-group-item-warning'>" +
+            q + "<i class='fa fa-fw fa-times'></i></button>"
+
+        $("#datatable-column-filters").html(filterButton);
+    })
+
+    lumpTable = $('#lump').DataTable({
+        "searching" : true,
+        "autoWidth": false,
+        responsive: true,
+        "language": {
+            "searchPlaceholder": "Title, Role, Repository"
+        }
+    })
+
+    if (lumpTable.data().any()) {
+        $('#bibliographic-collapse').collapse('toggle').prev('div').find("span").toggleClass("collapsed")
+    }
+
+
+    archivalTable = $('#archival').DataTable({
+                    dataSrc: 2,
+                    "autoWidth": false,
+                    "deferRender": true,
+                    "columnDefs": [
+                        {"width": "5%", "targets":0},
+                        {"width": "60%", "targets":1},
+                        {"width": "35%", "targets":2}
+                    ],
+                    responsive: true,
+                    "language": {
+                        "searchPlaceholder": "Title, Role, Repository"
+                    }
+    });
+
+    placesTable = $('#placesTable').DataTable({
+        "searching" : true,
+        "autoWidth": false
+    });
+
+    $('.listtable').DataTable({
+        "searching" : true,
+        responsive: true
+    });
+
+
+    // Relationships Table Filter
+    $('.relation-btn-filter').on('click', function(e) {
+        var $btn = $(e.delegateTarget)
+        var query = $btn.hasClass('active') ? '' : $btn.data('filter')
+        relationTable.columns(2).search(query).draw();
+
+        $(".relation-btn-filter").not(this).each( function() {
+                $(this).removeClass('active')
+            })
+        $btn.toggleClass('active')
+    });
+
+    $('#btn-clear-filter').on('click', function(e) {
+        $(".relation-btn-filter").each( function() {
+            $(this).removeClass('active')
+        })
+    })
+
+    $("#relation-table").on("click", "a[href='#shared-resources-modal']", function() {
+        var icid1 = $("#constellationid").val();
+        var icid2 = $(this).closest('tr').data('id');
+        getSharedResources(icid1, icid2);
+        loadSharedResourcesModal(this);
+    })
+
+    $('#view-nav-tabs').tabCollapse();
+});
+
+</script>
+
+<meta name="viewport" content="initial-scale = 1.0" />
+
+                 <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF5Y3HQ2TH"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-CF5Y3HQ2TH');
+        </script>
+    
+</head>
+
+<body role="document">
+    <script>
+        var snacUrl = "https://snaccooperative.org";
+        var restUrl = "https://api.snaccooperative.org/";
+        var laravelUrl = "https://snaccooperative.org/v2";
+    </script>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand active" href="https://snaccooperative.org"><span class="snac-name-header">snac</span></a><!--<span class="snac-fullname-header"> | social networks and archival context</span>-->
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="https://snaccooperative.org/search"><i class="fa fa-search" aria-hidden="true"></i> Search</a></li>
+                <li><a href="https://snaccooperative.org/browse"><i class="fa fa-address-book" aria-hidden="true"></i> Browse</a></li>
+                <li><a href="https://snaccooperative.org/vocab_administrator/resources"><i class="fa fa-book" aria-hidden="true" aria-label="Resource Descriptions"></i> <span class="navbar-hideable"> Resources</span></a></li>
+                <!--  -->
+            </ul>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://portal.snaccooperative.org/about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-question-circle"></i> <span class="navbar-hideable"> Help</span> <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://snaccooperative.org/api_help"><i class="fa fa-fw fa-list" aria-hidden="true"></i> Rest API Commands</a></li>
+                    <!--  -->
+                        <li role="separator" class="divider"></li>
+                        <li><a href="https://snaccooperative.org/contact"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Contact Us</a></li>
+                    </ul>
+                    </li>
+
+            <!--  -->
+                                                    <li><a href="https://snaccooperative.org/login?r=https%3A%2F%2Fsnaccooperative.org%2Fark%3A%2F99166%2Fw65h7md1"><i class="fa fa-sign-in"></i> Login</a></li>
+                                     <!--   -->
+                </ul>
+            </div>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+    
+
+
+    <div class="container snac" role="main">
+    
+        <div class="name" style="margin-bottom: 15px;">
+            <h1 style="display: inline;">
+                <!--
+                              <span class="fa-stack fa-sm" title="Entity Type: Person">
+                   <i class="fa fa-square fa-stack-2x" style="color: #5CB9A6;"></i>
+                   <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+               </span>
+                               -->
+                 Adams, Douglas, 1952-2001
+            </h1>
+                        <a data-toggle="modal" style="display: inline; position: relative;" data-target="#variant-names" href="#variant-names">Variant names</a>
+                                </div>
+
+
+        <div class="btn-toolbar" style="margin-bottom: 15px;">
+            <div class="btn-group" role="group">
+                <!-- <a href="#" class="btn list-group-item-success"> -->
+                    <!-- <i class="fa fa-fw fa-id-card-o" aria-hidden="true"></i> Basic View</a> -->
+                <a class="btn list-group-item-warning"
+                   href="https://snaccooperative.org/details/7093812/11292418">
+                   <i class="fa fa-fw fa-sliders" aria-hidden="true"></i><span class="snac-minimize"> Detailed View</span></a>
+                
+                <a class="btn list-group-item-history" href="https://snaccooperative.org/history/7093812/11292418">
+                    <i class="fa fa-fw fa-history" aria-hidden="true"></i> <span class="snac-minimize"> Revision History</span>
+                </a>
+                <a class="btn list-group-item-sources" href="https://snaccooperative.org/sources/7093812/11292418">
+                    <i class="fa fa-fw fa-archive" aria-hidden="true"></i> <span class="snac-minimize"> Sources</span>
+                </a>
+                <div class="btn-group">
+                    <div class="dropdown">
+                        <button class="dropdown-toggle btn list-group-item-download" type="button" id="export-btn"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="fa fa-fw fa-download" aria-hidden="true"></i><span class="snac-minimize"> Export</span>
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="export-btn" style="background:#ecdef2;margin-top:36px;">
+                            <li>
+                                <a href="https://snaccooperative.org/download/7093812?type=constellation_json" class="">
+                                    <i class="fa fa-fw fa-file" aria-hidden="true"></i> JSON
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://snaccooperative.org/download/7093812?type=eac-cpf" class="">
+                                    <i class="fa fa-fw fa-file-code-o" aria-hidden="true"></i> EAC-CPF XML
+                                </a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="btn-group" id="profile-togglebox" style="float:right">
+                <input type="checkbox" id="profile-toggle" class="snac-hidden"  aria-hidden="true"/>
+                <label for="profile-toggle" class="toggle-switch" onclick="toggleProfile()" style="float:right;"></label>
+                <div  style="float:right; margin-right:5px;">
+                    <p> <span id=profile-toggle-text>Hide</span> Profile</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="row-main">
+            <div id="content-column" class="col-md-8">
+                <ul class="nav nav-tabs" role="tablist" id="view-nav-tabs">
+
+                    <!-- Build enabled and disabled tabs <li> and <a> -->
+                                        
+                                            <li class="disabled"><a  href="#biography" class="grayedout">Biography</a></li>
+                    
+                    <li><a href="#resources" role="tab" data-toggle="tab" >Resources</a></li>
+
+                                            <li><a  role="tab" data-toggle="tab"
+                     href="#relationships">Relationships</a></li>
+                                            <li><a  role="tab" data-toggle="tab"
+                     href="#places">Places</a></li>
+                                            <li><a  role="tab" data-toggle="tab"
+                     href="#subjects">Subjects</a></li>
+                                            <li><a  role="tab" data-toggle="tab"
+                     href="#occupations">Occupations</a></li>
+                                            <li class="disabled"><a class="grayedout"
+                     href="#activities">Activities</a></li>
+                                    </ul>
+                <div class="tab-content">
+                                        <div class="body-tab-pane tab-pane " id="resources">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <a class="btn list-group-item-success" id="display-holdings-map-btn" style="display:none;margin-bottom:10px;" onclick="displayHoldingsMapInteractive()">
+                                        <i class="fa fa-fw fa-globe" aria-hidden="true"></i> View Collection Locations
+                                    </a>
+                                </div>
+                                <div id="holdings-map-wrapper"  style="display:none;">
+                                    <a href="#" class="list-group-item circle-close" onclick="closeHoldingsMap()" style="z-index:500;border:"><span class="fa fa-2x fa-times" aria-hidden="true"></span></a>
+                                    <div class="geoplace-map" id="holdingsMap">
+                                    </div>
+                                </div>
+                                                                <div id="holdingsList">
+                                                                          <div>
+                                          <input class="holdings_location_id" id="holdings_location_id_1" value="76761841" type="hidden">
+                                          <input class="holdings_location_name" id="holdings_location_name_1" value="Biblioteca Nacional de Mexico" type="hidden">
+                                                                                    <input class="holdings_location_lat" id="holdings_location_lat_1" value="19.3247820" type="hidden">
+                                          <input class="holdings_location_lon" id="holdings_location_lon_1" value="-99.1840940" type="hidden">
+                                                                                </div>
+                                                                          <div>
+                                          <input class="holdings_location_id" id="holdings_location_id_2" value="76775886" type="hidden">
+                                          <input class="holdings_location_name" id="holdings_location_name_2" value="Museum of Performance &amp; Design" type="hidden">
+                                                                                    <input class="holdings_location_lat" id="holdings_location_lat_2" value="37.7791460" type="hidden">
+                                          <input class="holdings_location_lon" id="holdings_location_lon_2" value="-122.4202190" type="hidden">
+                                                                                </div>
+                                                                          <div>
+                                          <input class="holdings_location_id" id="holdings_location_id_3" value="85523075" type="hidden">
+                                          <input class="holdings_location_name" id="holdings_location_name_3" value="Stanford University. Department of Special Collections and University Archives" type="hidden">
+                                                                                    <input class="holdings_location_lat" id="holdings_location_lat_3" value="37.4313698" type="hidden">
+                                          <input class="holdings_location_lon" id="holdings_location_lon_3" value="-122.1689224" type="hidden">
+                                                                                </div>
+                                                                    </div>
+                                                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading panel-collapsible" onClick="$('#archival-collapse').collapse('toggle'); $(this).find('span').toggleClass('collapsed');">
+                                        <span>Archival Resources</span>
+                                    </div>
+                                    <div id="archival-collapse" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                            <table id="archival" class="table table-striped table-hover" data-order='[[ 1, "asc" ]]' style="width:100%">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="20%">Role</th>
+                                                        <th width="40%">Title</th>
+                                                        <th width="40%">Holding Repository</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                                                                                                                                            <tr onMouseOver="highlightHoldingMarker(76761841);"
+                                                                onMouseOut="unHighlightHoldingMarker(76761841);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/651237543" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76761841">
+                                                                    Adams, Douglas. Dirk Gently Agencia Investigaciones Holisticas [archivo de computadora] / Douglas Adams.
+                                                                </a>
+                                                            </td>
+                                                            <td>Biblioteca Nacional de Mexico</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7939875 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76775886);"
+                                                                onMouseOut="unHighlightHoldingMarker(76775886);">
+                                                                                                                    <td>referencedIn</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/430357043" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76775886">
+                                                                    Doug Adams collection, [ca. 1982-ongoing].
+                                                                </a>
+                                                            </td>
+                                                            <td>Museum of Performance &amp; Design</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7494410 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76761841);"
+                                                                onMouseOut="unHighlightHoldingMarker(76761841);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/651237549" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76761841">
+                                                                    Adams, Douglas. Hasta luego y gracias por el pescado [archivo de computadora] / Douglas Adams.
+                                                                </a>
+                                                            </td>
+                                                            <td>Biblioteca Nacional de Mexico</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7939877 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76761841);"
+                                                                onMouseOut="unHighlightHoldingMarker(76761841);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/651420509" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76761841">
+                                                                    Adams, Douglas. La vida, el universo y todo lo demás [recurso electrónico] / Douglas Adams.
+                                                                </a>
+                                                            </td>
+                                                            <td>Biblioteca Nacional de Mexico</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7941319 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76761841);"
+                                                                onMouseOut="unHighlightHoldingMarker(76761841);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/651237555" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76761841">
+                                                                    Adams, Douglas. Informe sobre la Tierra [archivo de computadora] / Douglas Adams.
+                                                                </a>
+                                                            </td>
+                                                            <td>Biblioteca Nacional de Mexico</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7939878 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76775886);"
+                                                                onMouseOut="unHighlightHoldingMarker(76775886);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/430354182" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76775886">
+                                                                    Adams, Douglas,. Dream Dancers collection, [ca.1982-ongoing].
+                                                                </a>
+                                                            </td>
+                                                            <td>Museum of Performance &amp; Design</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7493252 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76761841);"
+                                                                onMouseOut="unHighlightHoldingMarker(76761841);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/651237548" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76761841">
+                                                                    Adams, Douglas. Guía del autoestopista galáctico [archivo de computadora] / Douglas Adams.
+                                                                </a>
+                                                            </td>
+                                                            <td>Biblioteca Nacional de Mexico</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7939876 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(85523075);"
+                                                                onMouseOut="unHighlightHoldingMarker(85523075);">
+                                                                                                                    <td>referencedIn</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/754865198" class="outbound-repo-link"
+                                                                    data-repo-ic-id="85523075">
+                                                                    Meretzky, Steve. Steve Meretzky papers relating to computer game design and interactive fiction history, 1981-2009.
+                                                                </a>
+                                                            </td>
+                                                            <td>Stanford University. Department of Special Collections and University Archives</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/8131391 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76761841);"
+                                                                onMouseOut="unHighlightHoldingMarker(76761841);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/651237655" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76761841">
+                                                                    Adams, Douglas. El restaurante del Fin del Mundo [archivo de computadora] / Douglas Adams.
+                                                                </a>
+                                                            </td>
+                                                            <td>Biblioteca Nacional de Mexico</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7939879 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                                                                                                                                                <tr onMouseOver="highlightHoldingMarker(76761841);"
+                                                                onMouseOut="unHighlightHoldingMarker(76761841);">
+                                                                                                                    <td>creatorOf</td>
+                                                            <td>
+                                                                <a href="http://www.worldcat.org/oclc/651223449" class="outbound-repo-link"
+                                                                    data-repo-ic-id="76761841">
+                                                                    Adams, Douglas. Fundamentalmente inofensiva [archivo de computadora] / Douglas Adam.
+                                                                </a>
+                                                            </td>
+                                                            <td>Biblioteca Nacional de Mexico</td>
+                                                            <td>
+                                                                <a target="_blank" style="float:right" href="https://snaccooperative.org/vocab_administrator/resources/7939794 " title="View in SNAC">
+                                                                    <i class="fa fa-info-circle" style="font-size:large"> </i>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                                                                                                                        </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading panel-collapsible" onClick="$('#bibliographic-collapse').collapse('toggle'); $(this).find('span').toggleClass('collapsed');">
+                                        <span class="collapsed">Bibliographic and Digital Archival Resources</span>
+                                    </div>
+                                    <div id="bibliographic-collapse" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <table id="lump" class="table table-striped" data-order='[[ 1, "asc" ]]' style="width:100%">
+                                                <thead>
+                                                    <tr>
+                                                        <th width="20%">Role</th>
+                                                        <th width="40%">Title</th>
+                                                        <th width="40%">Holding Repository</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-tab-pane tab-pane" id="relationships">
+                        <div class="row">
+                            <div class="col-xs-1">
+                                <p style="margin-top:8px;font-size:14px;">Filters:</p>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="btn-toolbar" style="margin-bottom: 15px;" aria-label="Table filter buttons" >
+                                    <div class="btn-group">
+                                        <button class="btn btn-person relation-btn-filter" data-filter="person" type="button" alt="Person Filter" title="Person">
+                                                <i class="fa fa-fw fa-user fa-inverse"></i>
+                                        </button>
+                                        <button class="btn btn-corp relation-btn-filter" data-filter="corporateBody" type="button" alt="Corporate Body Filter" title="Corporate Body">
+                                            <i class="fa fa-fw fa-university fa-inverse"></i>
+                                        </button>
+                                        <button class="btn btn-family relation-btn-filter" data-filter="family" type="button" alt="Family Filter" title="Family">
+                                            <i class="fa fa-fw fa-users fa-inverse"></i>
+                                        </button>
+                                    </div>
+                                    <button class="btn btn-danger relation-btn-filter" data-filter="" id="btn-clear-filter" type="button" alt="Clear Filters" title="Clear Filters">
+                                        <i class="fa fa-fw fa-times fa-inverse"></i>
+                                    </button>
+                                    <div id="datatable-column-filters" class="col-xs-3">
+                                    </div>
+                                    <div class="btn-group pull-right">
+                                        <a class="btn list-group-item-visualize"
+                                           href="https://snaccooperative.org/visualize/connection_graph/7093812/11292418">
+                                           <i class="fa fa-fw fa-asterisk" aria-hidden="true"></i><span class="snac-minimize"> Connection Graph</span></a>
+                                        <a class="btn list-group-item-visualize"
+                                           href="https://snaccooperative.org/visualize/radial_graph/7093812/11292418">
+                                           <i class="fa fa-fw fa-bullseye" aria-hidden="true"></i><span class="snac-minimize"> Radial Graph</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table id="relation-table" class="table table-striped " data-order='[[ 1, "asc" ]]' style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th width="25%">Relation</th>
+                                            <th width="75%">Name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                <tr class="id" data-id="34031455">
+                                            <td>associatedWith <i class="fa fa-filter i-hover"></i></td>
+                                            <td>
+                                                                                                <span class="fa-stack fa-sm" title="Entity Type: Person">
+                                                    <i class="fa fa-square fa-stack-2x" style="color: #5CB9A6;"></i>
+                                                    <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                                                </span>
+                                                                                                <a href="https://snaccooperative.org/view/34031455">Meretzky, Steve.</a>
+                                                <a style="float:right;" data-toggle="modal" data-target"#shared-resources-modal" href="#shared-resources-modal" title="View Shared Resources">
+                                                    <i class="fa fa-book" style="float:right;font-size: medium;margin-left:2px;" aria-hidden="true"></i>
+                                                    <i class="fa fa-exchange" style="float:right;font-size: larger;" aria-label="View Shared Resources"></i>
+                                                </a>
+                                            </td>
+                                            <td>
+                                                                                                    person
+                                                                                            </td>
+                                        </tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-tab-pane tab-pane" id="places">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="geoplace-map" id="placesMap">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table id="placesTable" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th width="05%"></th>
+                                            <th width="75%">Place Name</th>
+                                            <th width="10%">Admin Code</th>
+                                            <th width="10%">Country</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                                                                <tr>
+                                                <td></td>
+                                                <td>Connecticut--Hartford</td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                                                                                                        </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-tab-pane tab-pane" id="subjects">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="listtable" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Subject</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr><td>Ciegos</td></tr>
+                                                                                    <tr><td>Engravers</td></tr>
+                                                                                    <tr><td>Lithographers</td></tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-tab-pane tab-pane" id="occupations">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="listtable" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Occupation</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                    <tr><td>Composers</td></tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-tab-pane tab-pane" id="activities">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="listtable" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Activity</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                                        <!-- <div class="body-tab-pane tab-pane" id="names">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="listtable">
+                                    <thead>
+                                        <tr>
+                                            <th>variant Name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                                                                                                            <tr><td></td></tr>
+                                                                            </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+            </div>
+            <div class="col-md-4" id="profile-sidebar">
+                <div class="row profilehover">
+                    <div class="wikipedia_thumbnail_container">
+                        <div id="profilebar">
+                            <span></span>
+                        </div>
+                        <div class="wikipedia_thumbnail" id="wikipediaImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="well well-md">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <h4 class="text-center" style="margin-top: 0px;">
+                                                        <span class="fa-stack fa-sm" title="Entity Type: Person">
+                                <i class="fa fa-square fa-stack-2x" style="color: #5CB9A6;"></i>
+                                <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                            </span> Person
+                                                    </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                                                    <label class="col-xs-6">Exist Dates:</label>
+                            <div class="col-xs-6">
+                                                            <p>Birth 1952-03-11</p>
+                                                                    <p>Death 2001-05-11</p>
+                                                                                        </div>
+                                            </div>
+                    <div class="row">
+                                            </div>
+                    <div class="row">
+                                                    <label class="col-xs-6">Nationality: </label>
+                            <div class="col-xs-6">
+                                                        <p>Britons</p>
+                                                        </div>
+                                            </div>
+                    <div class="row">
+                                                   <label class="col-xs-6">Languages Used: </label>
+                            <div class="col-xs-6">
+                                                            <p>English</p>
+                                                        </div>
+                                            </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Related Descriptions
+                    </div>
+                    <div class="list-group">
+                                                                                                
+            <a class="list-group-item" href="https://viaf.org/viaf/113230702" target="_blank">
+            <span class="sprite-icon sprite-icons-viaf"></span>Virtual International Authority File
+        </a>
+    
+                                                                                                                        
+            <a class="list-group-item" href="https://www.worldcat.org/identities/lccn-n80076765" target="_blank">
+            <span class="sprite-icon sprite-icons-worldcat"></span>WorldCat Identities
+        </a>
+    
+                                                                                                                        
+            <a class="list-group-item" href="https://id.loc.gov/authorities/n80076765" target="_blank">
+            <span class="sprite-icon sprite-icons-idlocgov"></span>LC/NACO
+        </a>
+    
+                                                                                                                        
+            <a class="list-group-item" href="https://www.wikidata.org/entity/Q42" target="_blank">
+            <span class="sprite-icon sprite-icons-wikidata"></span>Wikidata
+        </a>
+    
+                                                                </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Search Elsewhere
+                    </div>
+                    <div class="list-group">
+                        <a class="list-group-item" href="https://beta.worldcat.org/archivegrid/?p=1&amp;q=Adams,+Douglas,+1952-2001" target="_blank">
+                            <span class="sprite-icon sprite-icons-archivegrid"></span>
+                            ArchiveGrid Search</a>
+                        <a class="list-group-item" href="https://dp.la/search?utf8=%E2%9C%93&amp;q=Adams,+Douglas,+1952-2001" target="_blank">
+                            <span class="sprite-icon sprite-icons-dpla"></span>
+                            DPLA Search</a>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        Information
+                    </div>
+                    <div class="list-group">
+                        <p class="list-group-item"><strong>Permalink:</strong> <a href="http://n2t.net/ark:/99166/w65h7md1">http://n2t.net/ark:/99166/w65h7md1</a></p>
+                        <p class="list-group-item"><strong>Ark ID:</strong> w65h7md1</p>
+                        <p class="list-group-item"><strong>SNAC ID:</strong> 7093812</p>
+                    </div>
+
+                </div>
+
+
+                <div class="modal fade" id="variant-names" tabindex="-1" role="dialog"
+                     aria-hidden="true">
+                   <div class="modal-dialog">
+                      <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-labelledby="myModalLabel"
+                                    aria-hidden="true">×</button>
+                            <h4 class="modal-title" id="myModalLabel">Variant Names</h4>
+                         </div>
+                         <div title="variant forms of name" class="extra-names modal-body">
+                                                                                                                                                          <div>Adams</div>
+                                                                  <div>Adams , Douglas Noël &lt;1952-2001&gt;</div>
+                                                                  <div>Adams, D.</div>
+                                                                  <div>Adams, Douglas Noel</div>
+                                                                  <div>Adams, Douglas Noël 1952-2001</div>
+                                                                  <div>Adams, Douglas auteur de science-fiction 19..-...</div>
+                                                                  <div>Adams, Duglass, 1952-2001</div>
+                                                                  <div>Adamss, Duglass, 1952-2001</div>
+                                                                  <div>Doughlas Adams</div>
+                                                                  <div>Douglous Adams</div>
+                                                                  <div>Dougls Adams</div>
+                                                                  <div>Duglas Adams</div>
+                                                                  <div>Galvanauskas, Evaldas</div>
+                                                                  <div>Read by Douglas Ada</div>
+                                                                  <div>The Hitch-Hiker&#039;s Guide To The Galaxy</div>
+                                                                  <div>Сидорченко, Лариса Валентиновна</div>
+                                                                  <div>אדאמס, דאגלאס, 1952-</div>
+                                                                  <div>אדאמס, דאגלאס, 1952-2001-</div>
+                                                                  <div>אדאמס, דאגלס 1952-2002</div>
+                                                                  <div>אדמס, דאגלס, 1952-2002</div>
+                                                                  <div>אדמס, דוגלס 1952-2002</div>
+                                                                  <div>アダムス, ダグラス</div>
+                                                                  <div>亞當斯, 1952-2001</div>
+                                                            
+                                                     </div>
+                         <div class="modal-footer">
+                            <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+
+
+                <div class="modal fade" id="shared-resources-modal" tabindex="-1" role="dialog" aria-labelledby="shared-resources-modal">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header primary">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title"> Shared Related Resources </h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="input-group well well-sm text-center" style="width: 100%">
+                                    <div class="col-xs-2 text-center">
+                                        <p class="relation-icon">
+                                                                                        <i class="fa fa-user" aria-hidden="true"></i><br/>
+                                                                                    </p>
+                                        <p> Adams, Douglas, 1952-2001 </p>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <p class="relation-icon">
+                                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i><br/>
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <p class="relation-icon">
+                                            <i class="fa fa-book" aria-hidden="true"></i><br/>
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <p class="relation-icon">
+                                            <i class="fa fa-long-arrow-left" aria-hidden="true"></i><br/>
+                                        </p>
+                                    </div>
+                                    <div class="col-xs-2 text-center">
+                                        <p class="relation-icon">
+                                            <i id="compared-constellation-icon" aria-hidden="true"></i><br/>
+                                        </p>
+                                        <p class="compared-constellation-name">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <table id="shared-resources-table" class="table table-striped table-hover dataTable no-footer" style="width:100%;">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width: 150px;"> Adams, Douglas, 1952-2001 </th>
+                                                    <th> Title </th>
+                                                    <th  style="width: 5px;" ></th>
+                                                    <th class="compared-constellation-name" style="width: 150px;"></th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                               <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Constellation Information -->
+    <input id="constellationid" name="constellationid" type="hidden" value="7093812"/>
+    <input id="version" name="version" type="hidden" value="11292418"/>
+    <input id="ark" name="ark" type="hidden" value="http://n2t.net/ark:/99166/w65h7md1"/>
+    <input id="page_type" name="page_type" type="hidden" value="view_page_full"/>
+                                                            <input id="has_wiki_link" type="hidden" value="true"/>
+                    <div class="footer footer-inverse">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-content">
+                    <p class="text-center">
+                        <img src="https://snaccooperative.org/images/paper_dolls_art2.png" alt="SNAC Cooperative Logo"/><br/>
+                    </p>
+                    <h4 class="text-center">Social Networks and Archival Context</h4>
+                    <p class="text-center" style="margin-top: 5px;">
+                        <a href="https://twitter.com/snaccooperative" title="Visit us on Twitter">
+                            <i class="fa fa-2x fa-twitter-square" style="vertical-align: middle" aria-hidden="true"></i></a>
+                        <a href="https://snaccooperative.org/contact" title="Contact us"><span class="fa-stack fa-sm">
+                                  <i class="fa fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-envelope fa-stack-1x" style="color: #000"></i>
+                            </span></a>
+                        <a href="https://portal.snaccooperative.org/terms_and_privacy" title="Terms and Information"><span class="fa-stack fa-sm">
+                                  <i class="fa fa-square fa-stack-2x"></i>
+                                    <i class="fa fa-life-ring fa-stack-1x" style="color: #000"></i>
+                            </span></a>
+                    </p>
+                </div>
+                <div class="col-md-4 footer-content">
+                    <p style="font-size: medium; margin-top: 30px;">SNAC is a discovery service for persons, families, and organizations found within archival collections at cultural heritage institutions.</p>
+                </div>
+                <div class="col-md-4 footer-content">
+                    <div class="row">
+                        <h4 class="">Sponsors</h4>
+                        <p>
+                            <a href="https://www.mellon.org" target="_blank">The Andrew W. Mellon Foundation</a><br>
+                            <a href="https://www.imls.gov" target="_blank">Institute of Museum and Library Services</a><br>
+                            <a href="https://www.neh.gov" target="_blank">National Endowment for the Humanities</a>
+                        </p>
+                        <h4 class="">Hosts</h4>
+                        <p>
+                            <a href="https://library.virginia.edu" target="_blank">University of Virginia Library</a><br>
+                            <a href="https://www.archives.gov" target="_blank">National Archives and Records Administration</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <script>
+        function setCookie(name,value,days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days*24*60*60*1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+        }
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(";");
+            for(var i=0;i < ca.length;i++) {
+                var c = ca[i];
+                while (c.charAt(0)==" ") c = c.substring(1,c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            }
+            return null;
+        }
+        function eraseCookie(name) {
+            document.cookie = name+"=; Max-Age=-99999999;";
+        }
+
+        $(document).ready(function() {
+            if (!getCookie("acceptprivacy"))
+                $("#privacyDisplay").show();
+        });
+    </script>
+    <div id="privacyDisplay" style="display: none; min-height: 30px; width: 100%; position: fixed; bottom: 0px; left: 0px; padding: 10px; background: #111111; color: #ffffff; z-index: 99999;">
+        <div class="row">
+            <div class="col-md-6">
+                We use cookies to understand how you use our site and to improve your experience. By continuing to use our site, you accept our use of cookies, <a href="https://portal.snaccooperative.org/terms_and_privacy">Privacy Policy and Terms of Use</a>.
+            </div>
+            <div class="col-md-6 text-right">
+                <button class="btn btn-info" id="privacyAccept" onClick="setCookie('acceptprivacy', 'true', 90); $('#privacyDisplay').remove();">Accept and Continue</button>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
