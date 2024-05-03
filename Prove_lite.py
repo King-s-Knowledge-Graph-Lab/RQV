@@ -244,3 +244,4 @@ if __name__ == '__main__':
     verbalised_claims_df_final = verbalised_claims_df_final.sample(n=TEST_SIZE, replace=False) #data sampling for easy-test
     sentence_relevance_df = RelevantSentenceSelection(verbalised_claims_df_final, reference_text_df, BATCH_SIZE, N_TOP_SENTENCES)
     result = textEntailment(sentence_relevance_df, SCORE_THRESHOLD)
+    result.to_csv('results.csv', index=False, encoding='utf-8-sig')

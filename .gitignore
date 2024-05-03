@@ -164,4 +164,4 @@ base/
 RQV_env/
 entity_cache.p
 wikidata_claims_refs_parsed.db
-
+results.csv
