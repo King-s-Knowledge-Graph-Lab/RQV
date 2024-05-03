@@ -158,23 +158,10 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-addrec/
 .DS_Store
-wqt_env/
-PDF/
-API_key.txt
-datasets/
 
-verbalisation/
-Prove/SentenceRetrieval/bert_base/
-sentence_retrieval/
-Prove/textual_entailment/models/
-Prove/DataProcessing/WTR_non_filtered_non_annotated.csv
-Prove/SentenceRetrieval/checkpoint/model.best.32.pt
-WD_Textual_References_Dataset/
-InProduction
-Prove/text_extraction/reference_html_as_sentences_df_new.csv
-google-chrome-stable_current_amd64.deb
+base/
+RQV_env/
+entity_cache.p
 wikidata_claims_refs_parsed.db
-extracted_picks.txt
-to_extracted_picks.txt
+

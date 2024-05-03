@@ -1,66 +1,0 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8" /><title></title><meta name="title" content="" /><meta name="keywords" content="" /><meta name="description" content="" /><meta name="robots" content="index,follow" /><link href="//www.fantascienza.com/catalogo/style/style.css?2011081501" rel="stylesheet" type="text/css" media="screen" /><link rel="shortcut icon" href="//www.fantascienza.com/catalogo/img/icona32.png" /><link rel="search" type="application/opensearchdescription+xml" href="//www.fantascienza.com/catalogo/xml/vegetti.xml" title="Catalogo Vegetti" /><script type="text/javascript" src="//code.jquery.com/jquery-1.6.2.min.js"></script><script type="text/javascript" src="//www.fantascienza.com/catalogo/js/jquery-ui-custom.min.js"></script><script type="text/javascript" src="//www.fantascienza.com/catalogo/js/jquery.slideto.min.js"></script><script type="text/javascript" src="//www.fantascienza.com/catalogo/js/ajaxlib.js"></script><script type="text/javascript" src="//www.fantascienza.com/catalogo/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script><script type="text/javascript" src="//www.fantascienza.com/catalogo/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script><link rel="stylesheet" type="text/css" href="//www.fantascienza.com/catalogo/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" /><script type="text/javascript"> var ajaxroot = '//www.fantascienza.com/catalogo'; pageinfo = { nilf: '' }; </script><script type="text/javascript" src="//www.fantascienza.com/catalogo/js/main.js?2011081501"></script><link rel="stylesheet" type="text/css" href="//www.sswa.it/tabloidsupport/jquery/jquery.jgrowl.css" /><link rel="stylesheet" type="text/css" href="/delosnetwork/delosnetwork.css" media="screen" /><script src="/delosnetwork/login.js.php" type="text/javascript"></script><script>  var _paq = window._paq = window._paq || [];  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */  _paq.push(['trackPageView']);  _paq.push(['enableLinkTracking']);  (function() {    var u="//analytics.delosnetwork.it/";    _paq.push(['setTrackerUrl', u+'matomo.php']);    _paq.push(['setSiteId', '1']);    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);  })();</script>
-</head>
-
-<body>
-<div id="delosnetwork"><div id="delosnetwork-container">
-	<div id="delosnetwork-service">
-	<script language="javascript">loginbox();</script>
-	<div id="logindialog"></div>
-	</div>
-	<a href="http://www.delosnetwork.it/" title="Delos Network"><img src="/delosnetwork/delosnetwork.gif" border="0" title="Delos Network" /></a>
-	&nbsp; <a href="http://www.fantascienza.com/">Fantascienza.com</a>
-	&nbsp; <a href="http://www.fantasymagazine.it/">FantasyMagazine</a>
-	&nbsp; <a href="http://www.horrormagazine.it/">HorrorMagazine</a>   
-	&nbsp; <a href="http://www.thrillermagazine.it/">ThrillerMagazine</a>   
-	&nbsp; <a href="http://www.sherlockmagazine.it/">SherlockMagazine</a>   
-	&nbsp; <a href="http://www.DelosStore.it/">DelosStore</a>
-</div></div>
-
-<div id="content">
-
-<div id="header">
-<div id="cerca"><label for="cerca-input">Trova</label>
-<form action="javascript:" method="get" id="cerca-form" onsubmit="esegui_cerca(); return false;">
-<div id="cerca-retro">Autori, titoli, titoli originali, collane, editori</div><input type="text" id="cerca-input" name="cerca" value=""  onfocus="esegui_cerca('focus');" onblur="esegui_cerca('blur');"/></form>
-</div>
-
-<a href="//www.fantascienza.com/catalogo"><img alt="Catalogo della Narrativa Fantastica" src="//www.fantascienza.com/catalogo/img/catalogo-narrativa-fantastica.png"/></a>
-
-<ul id="menu">
-<li><a href="//www.fantascienza.com/catalogo/">Home</a></li>
-<li><a href="//www.fantascienza.com/catalogo/autori/">Autori</a></li>
-<li><a href="//www.fantascienza.com/catalogo/editori/">Editori e collane</a></li>
-</ul>
-
-<ul id="service-menu">
-<li><a href="//www.fantascienza.com/catalogo/info-nilf/">Cos'&egrave; il NILF</a></li>
-<li><a href="//www.fantascienza.com/catalogo/collaborare/">Collaborare</a></li>
-<li><a href="//www.fantascienza.com/catalogo/info/">Informazioni</a></li>
-</ul>
-
-
-</div>
-
-<div id="wrapper">
-
-<div id="main" class="home"><div id="cover"><div id="cover1" class="coversquare">&nbsp;</div><div id="cover2" class="coversquare">&nbsp;</div><div id="cover3" class="coversquare">&nbsp;</div><div id="cover4" class="coversquare">&nbsp;</div><div id="cover5" class="coversquare">&nbsp;</div><div id="cover6" class="coversquare">&nbsp;</div><div id="cover7" class="coversquare">&nbsp;</div><div id="cover8" class="coversquare">&nbsp;</div><div id="cover9" class="coversquare">&nbsp;</div><div id="cover10" class="coversquare">&nbsp;</div><div id="cover11" class="coversquare">&nbsp;</div><div id="cover12" class="coversquare">&nbsp;</div><div id="cover13" class="coversquare">&nbsp;</div><div id="cover14" class="coversquare">&nbsp;</div><div id="cover15" class="coversquare">&nbsp;</div><div id="cover16" class="coversquare">&nbsp;</div><div id="cover17" class="coversquare">&nbsp;</div><div id="cover18" class="coversquare">&nbsp;</div><div id="cover19" class="coversquare">&nbsp;</div><div id="cover20" class="coversquare">&nbsp;</div><div id="cover21" class="coversquare">&nbsp;</div><div id="cover22" class="coversquare">&nbsp;</div><div id="cover23" class="coversquare">&nbsp;</div><div id="cover24" class="coversquare">&nbsp;</div></div><script language="javascript">preparerandomcover();</script><div id="box1" class="box">Tutti gli autori, gli editori, le collane, i romanzi, i racconti, i saggi attinenti ai generi fantastici pubblicati in Italia. Naviga nel catalogo partendo dalla <a href="//www.fantascienza.com/catalogo/autori/">lista degli autori</a> o da quella degli  <a href="//www.fantascienza.com/catalogo/editori/">editori e delle collane</a>, oppure scrivi direttamente nella <a href="#" onclick="$('#cerca input').focus();return false">buca di ricerca</a> in alto a destra nome o titolo che vuoi trovare.</div><div id="box2" class="box">Questo catalogo &egrave; un'opera collettiva della Gilda dei Catalogatori. Il catalogo &egrave; libero, gratuito, a disposizione di tutti. Puoi consultarlo, utilizzarlo, copiare dati e intere bibliografie, per uso personale o professionale. Puoi  <a href="//www.fantascienza.com/catalogo/collaborare/">collaborare</a> se vuoi e se lo farai con continuit&agrave; potrai anche entrare nella Gilda. </div><div id="box3" class="box"><img alt="Ernesto Vegetti" src="//www.fantascienza.com/catalogo/img/vegetti.jpg" class="portrait">Il Catalogo della Letteratura Fantastica &egrave; dedicato alla memoria del grande catalogatore <a href="//www.fantascienza.com/catalogo/autori/NILF15961/ernesto-vegetti/">Ernesto Vegetti</a>, ed &egrave; basato sul suo <a href="http://www.catalogovegetti.com/">Catalogo della Fantascienza, Fantasy e Horror</a>. Ora il nostro non facile compito &egrave; andare avanti.</div><br class="clear" /><div id="box4" class="box"><i>Sito ospitato da</i> <a href="http://www.fantascienza.com/" class="sfcom">Fantascienza.com</a></div><div id="box5" class="box">&nbsp;</div><div id="box6" class="box"><i>Il catalogo originale &egrave; disponibile all'indirizzo</i> <a href="http://www.catalogovegetti.com/">www.catalogovegetti.com</a></div></div>
-
-<div id="right">
-<div id="cerca-container"></div><div id="right-content"><div class="rightbox" style="margin-top: 20px;border: 1px solid #d90; background: #fd8; padding: 15px;"><h3 style="margin-top: 0;text-transform: uppercase">I libri elencati in questo catalogo non sono in vendita</h3><p>Questo sito <b>non &egrave; un negozio</b>: &egrave; un catalogo di tutti i testi di genere fantastico pubblicati in Italia fino al 2011.</p><p>Anche se a volta &egrave; presente l&rsquo;indicazione del prezzo, essa &egrave; solo a titolo <b>documentativo</b>.</p><p>Un certo numero di titoli di collezionismo, arretrati e usati posso essere trovati su <a href="https://www.delosstore.it">Delos Store</a>.</p><p>Ma la maggior parte dei titoli elencati in questo catalogo sono, probabilmente, ormai introvabili.</p></div><div class="rightbox"><h3>Partecipa anche tu!</h3><p>Fai <a rel="logindialog" href="/delosnetwork/login-iframe.php">Login</a> per poter dare voti, scrivere trame e recensioni, e per tenere nota dei libri e delle opere che possiedi o che hai letto.</p></div></div>
-</div>
-
-<br class="clear" />
-</div>
-
-</div>
-
-<div id="footer">
-	<p><a rel="license" href="http://creativecommons.org/licenses/by/3.0/it/"><!--<img alt="Licenza Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/it/80x15.png" />--></a> Quest'opera &egrave; distribuita con <a rel="license" href="http://creativecommons.org/licenses/by/3.0/it/">licenza Creative Commons Attribuzione 3.0 Italia</a>.	 - web design: <a href="http://www.silvio.sosio.net/">Silvio Sosio</a> - <a href="http://www.delosnetwork.it/terms">Termini d'uso</a> - <a href="https://www.iubenda.com/privacy-policy/301122">Privacy</a></p>	 	 <p>Questo sito non fa uso di cookie di profilazione - sono utilizzati solo cookie tecnici</p>	 
-</div>
-
-</body>
-</html>
