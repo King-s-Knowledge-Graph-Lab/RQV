@@ -1,7 +1,9 @@
 # Quick tutorial
 
 ## pip install
-'pip install -r requirements.txt'
+'''
+pip install -r requirements.txt
+'''
 
 ## 'base' folder download below link
 What files contained in the 'base' folder?
