@@ -229,12 +229,18 @@ def textEntailment(sentence_relevance_df, SCORE_THRESHOLD):
     return textual_entailment_df
 
 if __name__ == '__main__':
+    target_QID = 'Q42'
     conn = sqlite3.connect('wikidata_claims_refs_parsed.db')
-    query = f"SELECT * FROM html_text"
+
+    query = query = f"""
+    SELECT html_text.*
+    FROM html_text
+    INNER JOIN claim_text ON html_text.reference_id = claim_text.reference_id
+    WHERE claim_text.entity_id = '{target_QID}'
+"""
     reference_text_df = pd.read_sql_query(query, conn)
-    query = f"SELECT * FROM claim_text"
+    query = f"SELECT * FROM claim_text WHERE entity_id = '{target_QID}'"
     claim_df = pd.read_sql_query(query, conn)
-    conn.close()
     BATCH_SIZE = 256
     N_TOP_SENTENCES = 5
     SCORE_THRESHOLD = 0
@@ -245,3 +251,4 @@ if __name__ == '__main__':
     sentence_relevance_df = RelevantSentenceSelection(verbalised_claims_df_final, reference_text_df, BATCH_SIZE, N_TOP_SENTENCES)
     result = textEntailment(sentence_relevance_df, SCORE_THRESHOLD)
     result.to_csv('results.csv', index=False, encoding='utf-8-sig')
+    conn.close()

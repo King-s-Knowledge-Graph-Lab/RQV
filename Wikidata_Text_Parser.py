@@ -20,8 +20,6 @@ from sentence_splitter import SentenceSplitter, split_text_into_sentences
 class DatabaseExtractor():
     def __init__(self, dbname='wikidata_claims_refs_parsed.db'):
         self.dbname = dbname
-        if os.path.exists(self.dbname):  # .db initializing
-            os.remove(self.dbname) 
         self.prepare_extraction()
         
     def finish_extraction(self):
@@ -35,7 +33,7 @@ class DatabaseExtractor():
             CREATE TABLE IF NOT EXISTS claims(
                 entity_id TEXT,
                 claim_id TEXT,
-                claim_rank TEXT,
+                rank TEXT,
                 property_id TEXT,
                 datatype TEXT,
                 datavalue TEXT,
@@ -76,7 +74,7 @@ class DatabaseExtractor():
             value = claim['mainsnak']['snaktype']
         try:
             self.cursor.execute('''
-            INSERT INTO claims(entity_id, claim_id, claim_rank, property_id, datatype, datavalue)
+            INSERT INTO claims(entity_id, claim_id, rank, property_id, datatype, datavalue)
             VALUES($var,$var,$var,$var,$var,$var)'''.replace('$var','?'), (
                 entity_id,claim['id'],claim['rank'],
                 claim['mainsnak']['property'],claim['mainsnak']['datatype'],value
@@ -642,7 +640,7 @@ def htmlParser(url_set):
 
         print(i, row.url)
         try:
-            response = requests.get(row.url, timeout=20)
+            response = requests.get(row.url, timeout=10)
             if response.status_code == 200:
                 html = response.text
                 text_reference_sampled_df.loc[i, 'html'] = html
@@ -917,20 +915,43 @@ def html2text(html_set):
     return reference_html_df
 
 if __name__ == '__main__':
-    target_QID = 'Q42'
-    claimParser(target_QID) #save results in .db
-    filtered_df = propertyFiltering(target_QID) #update db and return dataframe after filtering
-    url_set = urlParser() #from ref table in .db
-    html_set = htmlParser(url_set) #Original html docs collection
-    claim_text = claim2text(html_set) #Claims generation
-    html_text = html2text(html_set)
-    
-    #Save_df_in_.db
     conn = sqlite3.connect('wikidata_claims_refs_parsed.db')
-    claim_text = claim_text.astype(str)
-    html_text = html_text.astype(str)
-    claim_text.to_sql('claim_text', conn, if_exists='replace', index=False)
-    html_text.to_sql('html_text', conn, if_exists='replace', index=False)
+    target_QID = 'Q42'
+
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='claims'")
+    table_exists = cursor.fetchone()
+
+    if table_exists:
+        cursor.execute("SELECT entity_id FROM claims WHERE entity_id=?", (target_QID,))
+        result = cursor.fetchone()
+        
+        if result:
+            print(f"{target_QID} already exists in the 'claims' table. Skipping execution.")
+        else:
+            claimParser(target_QID) #save results in .db
+            filtered_df = propertyFiltering(target_QID) #update db and return dataframe after filtering
+            url_set = urlParser() #from ref table in .db
+            html_set = htmlParser(url_set) #Original html docs collection
+            claim_text = claim2text(html_set) #Claims generation
+            html_text = html2text(html_set)
+            claim_text = claim_text.astype(str)
+            html_text = html_text.astype(str)
+            claim_text.to_sql('claim_text', conn, if_exists='replace', index=False)
+            html_text.to_sql('html_text', conn, if_exists='replace', index=False)
+    else:
+        claimParser(target_QID) #save results in .db
+        filtered_df = propertyFiltering(target_QID) #update db and return dataframe after filtering
+        url_set = urlParser() #from ref table in .db
+        html_set = htmlParser(url_set) #Original html docs collection
+        claim_text = claim2text(html_set) #Claims generation
+        html_text = html2text(html_set)
+        claim_text = claim_text.astype(str)
+        html_text = html_text.astype(str)
+        claim_text.to_sql('claim_text', conn, if_exists='replace', index=False)
+        html_text.to_sql('html_text', conn, if_exists='replace', index=False)
+
     conn.commit()
     conn.close()
      #augmented_df = textualAugmentation(filtered_df) #textual information augmentation including label, desc, and alias
